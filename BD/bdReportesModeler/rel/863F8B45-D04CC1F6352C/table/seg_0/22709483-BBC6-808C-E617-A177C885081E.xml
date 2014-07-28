@@ -1,0 +1,48 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="22709483-BBC6-808C-E617-A177C885081E" name="tbl_rol">
+<sourceDDLFile>bdReportesMSSQL.sql</sourceDDLFile>
+<createdBy>eavila</createdBy>
+<createdTime>2014-07-28 00:26:44 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>bdReportesModeler</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_rol" id="AD7A718A-1CC1-2DE3-29DA-7984F53A2BAD">
+<createdBy>eavila</createdBy>
+<createdTime>2014-07-28 00:27:37 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>bdReportesModeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT018</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="descripcion" id="E660B077-131D-6BD4-D5C1-6F4605F5DEB2">
+<createdBy>eavila</createdBy>
+<createdTime>2014-07-28 00:27:37 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>bdReportesModeler</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>45</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="2F73161B-2C6E-9443-3210-BD24784767B1" name="tbl_rol_PK">
+<createdBy>eavila</createdBy>
+<createdTime>2014-07-28 00:27:37 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>bdReportesModeler</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="AD7A718A-1CC1-2DE3-29DA-7984F53A2BAD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

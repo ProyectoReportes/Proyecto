@@ -1,0 +1,47 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="D6EA41F6-9849-9560-3E3B-2BDB49BC2768" name="tbl_region">
+<sourceDDLFile>bdReportesMSSQL.sql</sourceDDLFile>
+<createdBy>eavila</createdBy>
+<createdTime>2014-07-28 00:27:40 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>bdReportesModeler</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_region" id="3F18A8D9-EDF5-B61A-3C0B-DFCD86DFD817">
+<createdBy>eavila</createdBy>
+<createdTime>2014-07-28 00:28:18 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>bdReportesModeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT018</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nombre_region" id="4AF08CDD-C32A-B1E0-2FC5-994EEB85F827">
+<createdBy>eavila</createdBy>
+<createdTime>2014-07-28 00:28:18 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>bdReportesModeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>45</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="EA92B091-9FC2-3140-5B41-3368FF2D9F4A" name="tbl_region_PK">
+<createdBy>eavila</createdBy>
+<createdTime>2014-07-28 00:28:18 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>bdReportesModeler</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3F18A8D9-EDF5-B61A-3C0B-DFCD86DFD817"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,101 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<DomainFile class="oracle.dbtools.crest.model.design.DomainFileWrapper" fileName="bdReportesMSSQL_Domains">
+   <domains>
+      <Domain class="oracle.dbtools.crest.model.design.Domain" name="DECIMAL_16_2_0" id="45842A10-5939-1B8F-C9CF-C431B1F29B27">
+         <createdBy>eavila</createdBy>
+         <createdTime>2014-07-28 00:35:27 UTC</createdTime>
+         <generatorID>Generado por el Usuario</generatorID>
+         <ownerDesignName>bdReportesModeler</ownerDesignName>
+         <avTSortOrder>0</avTSortOrder>
+         <dataTypePrecision>16</dataTypePrecision>
+         <dataTypeScale>2</dataTypeScale>
+         <dataTypeSize>0</dataTypeSize>
+         <fileName>bdReportesMSSQL_Domains</fileName>
+         <logicalDatatype>LOGDT026</logicalDatatype>
+      </Domain>
+      <Domain class="oracle.dbtools.crest.model.design.Domain" name="VARCHAR_0_0_40" id="59B07EDB-9D41-A80B-7925-78D49A95D6D8">
+         <createdBy>eavila</createdBy>
+         <createdTime>2014-07-28 00:35:27 UTC</createdTime>
+         <generatorID>Generado por el Usuario</generatorID>
+         <ownerDesignName>bdReportesModeler</ownerDesignName>
+         <avTSortOrder>0</avTSortOrder>
+         <dataTypePrecision>0</dataTypePrecision>
+         <dataTypeScale>0</dataTypeScale>
+         <dataTypeSize>40</dataTypeSize>
+         <fileName>bdReportesMSSQL_Domains</fileName>
+         <logicalDatatype>LOGDT024</logicalDatatype>
+      </Domain>
+      <Domain class="oracle.dbtools.crest.model.design.Domain" name="TINYINT_0_0_0" id="74FDAF12-3677-78B8-9F46-BA88114FFF7A">
+         <createdBy>eavila</createdBy>
+         <createdTime>2014-07-28 00:35:27 UTC</createdTime>
+         <generatorID>Generado por el Usuario</generatorID>
+         <ownerDesignName>bdReportesModeler</ownerDesignName>
+         <avTSortOrder>0</avTSortOrder>
+         <fileName>bdReportesMSSQL_Domains</fileName>
+         <logicalDatatype>LOGDT042</logicalDatatype>
+      </Domain>
+      <Domain class="oracle.dbtools.crest.model.design.Domain" name="SMALLINT_0_0_0" id="7D763DAF-8C43-1A25-8FD1-14A865B7B4A2">
+         <createdBy>eavila</createdBy>
+         <createdTime>2014-07-28 00:35:27 UTC</createdTime>
+         <generatorID>Generado por el Usuario</generatorID>
+         <ownerDesignName>bdReportesModeler</ownerDesignName>
+         <avTSortOrder>0</avTSortOrder>
+         <fileName>bdReportesMSSQL_Domains</fileName>
+         <logicalDatatype>LOGDT018</logicalDatatype>
+      </Domain>
+      <Domain class="oracle.dbtools.crest.model.design.Domain" name="Datetime_0_0_0" id="7EB3DCE2-589A-6549-3218-B92F76AD1132">
+         <createdBy>eavila</createdBy>
+         <createdTime>2014-07-28 00:35:27 UTC</createdTime>
+         <generatorID>Generado por el Usuario</generatorID>
+         <ownerDesignName>bdReportesModeler</ownerDesignName>
+         <avTSortOrder>0</avTSortOrder>
+         <fileName>bdReportesMSSQL_Domains</fileName>
+         <logicalDatatype>LOGDT008</logicalDatatype>
+      </Domain>
+      <Domain class="oracle.dbtools.crest.model.design.Domain" name="VARCHAR_0_0_1" id="BDEC8E6E-D425-46C5-EEF1-BCCC7602E034">
+         <createdBy>eavila</createdBy>
+         <createdTime>2014-07-28 00:35:27 UTC</createdTime>
+         <generatorID>Generado por el Usuario</generatorID>
+         <ownerDesignName>bdReportesModeler</ownerDesignName>
+         <avTSortOrder>0</avTSortOrder>
+         <dataTypePrecision>0</dataTypePrecision>
+         <dataTypeScale>0</dataTypeScale>
+         <dataTypeSize>1</dataTypeSize>
+         <fileName>bdReportesMSSQL_Domains</fileName>
+         <logicalDatatype>LOGDT024</logicalDatatype>
+      </Domain>
+      <Domain class="oracle.dbtools.crest.model.design.Domain" name="BINARY_0_0_0" id="C240435B-F99F-3059-3974-8A43C10C2F96">
+         <createdBy>eavila</createdBy>
+         <createdTime>2014-07-28 00:35:27 UTC</createdTime>
+         <generatorID>Generado por el Usuario</generatorID>
+         <ownerDesignName>bdReportesModeler</ownerDesignName>
+         <avTSortOrder>0</avTSortOrder>
+         <fileName>bdReportesMSSQL_Domains</fileName>
+         <logicalDatatype>LOGDT033</logicalDatatype>
+      </Domain>
+      <Domain class="oracle.dbtools.crest.model.design.Domain" name="VARCHAR_0_0_45" id="E2B3014E-2DF9-8E68-FA9C-E07EA4031E66">
+         <createdBy>eavila</createdBy>
+         <createdTime>2014-07-28 00:35:27 UTC</createdTime>
+         <generatorID>Generado por el Usuario</generatorID>
+         <ownerDesignName>bdReportesModeler</ownerDesignName>
+         <avTSortOrder>0</avTSortOrder>
+         <dataTypePrecision>0</dataTypePrecision>
+         <dataTypeScale>0</dataTypeScale>
+         <dataTypeSize>45</dataTypeSize>
+         <fileName>bdReportesMSSQL_Domains</fileName>
+         <logicalDatatype>LOGDT024</logicalDatatype>
+      </Domain>
+      <Domain class="oracle.dbtools.crest.model.design.Domain" name="VARCHAR_0_0_10" id="E5B19C2D-B7C6-C66C-08C5-F9BD4627A644">
+         <createdBy>eavila</createdBy>
+         <createdTime>2014-07-28 00:35:27 UTC</createdTime>
+         <generatorID>Generado por el Usuario</generatorID>
+         <ownerDesignName>bdReportesModeler</ownerDesignName>
+         <avTSortOrder>0</avTSortOrder>
+         <dataTypePrecision>0</dataTypePrecision>
+         <dataTypeScale>0</dataTypeScale>
+         <dataTypeSize>10</dataTypeSize>
+         <fileName>bdReportesMSSQL_Domains</fileName>
+         <logicalDatatype>LOGDT024</logicalDatatype>
+      </Domain>
+   </domains>
+</DomainFile>

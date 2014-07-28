@@ -1,0 +1,25 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<DataBaseSqlServerv2k class="oracle.dbtools.crest.model.design.storage.sqlserver.v2k.DataBaseSqlServerv2k" name="bdreportes" directorySegmentName="seg_0" id="EEF36452-E9A7-85AC-86AC-F8594897EB05">
+<sourceDDLFile>bdReportesMSSQL.sql</sourceDDLFile>
+<createdBy>eavila</createdBy>
+<createdTime>2014-07-28 00:35:21 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>bdReportesModeler</ownerDesignName>
+<fileGroups>
+<FileGroup class="oracle.dbtools.crest.model.design.storage.sqlserver.v2k.FileGroupSqlServerv2k" name="PRIMARY" id="28D2BAB1-85B3-35BA-FD06-9BB95E902FD5">
+<createdBy>eavila</createdBy>
+<createdTime>2014-07-28 00:35:27 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>bdReportesModeler</ownerDesignName>
+<dataFiles>
+<DataFile class="oracle.dbtools.crest.model.design.storage.sqlserver.v2k.DataFileSqlServerv2k" name="DB1_Data.MDF" id="4D3F1D70-8818-24EF-B4C2-714DD7F287BD">
+<createdBy>eavila</createdBy>
+<createdTime>2014-07-28 00:35:27 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>bdReportesModeler</ownerDesignName>
+<fileName>c:\program files\microsoft sql server\mssql\data\DB1_Data.MDF</fileName>
+</DataFile>
+</dataFiles>
+</FileGroup>
+</fileGroups>
+</DataBaseSqlServerv2k>

@@ -1,0 +1,14 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="bdReportesModeler" id="CD2D6B7F-A7F7-D197-23B2-F2E87CD2F127" version="3.5">
+<createdBy>eavila</createdBy>
+<createdTime>2014-07-27 03:46:46 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>bdReportesModeler</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>CD2D6B7F-A7F7-D197-23B2-F2E87CD2F127</designId>
+<usedDesignStorageDescriptors>
+<designDescr class="oracle.dbtools.crest.model.design.Design$DesignStorageDesc" id="9AA9A9B4-6FA5-235C-8A9B-CAA41E0B7352">
+<designStoragePath>C:\bdReportesMSSQL</designStoragePath>
+</designDescr>
+</usedDesignStorageDescriptors>
+</OSDM_Design>

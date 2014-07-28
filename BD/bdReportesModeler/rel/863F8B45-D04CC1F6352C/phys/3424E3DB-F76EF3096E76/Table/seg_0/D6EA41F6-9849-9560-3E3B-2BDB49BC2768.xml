@@ -1,0 +1,31 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxySqlServerv2k class="oracle.dbtools.crest.model.design.storage.sqlserver.v2k.TableProxySqlServerv2k" name="tbl_region" directorySegmentName="seg_0" id="D6EA41F6-9849-9560-3E3B-2BDB49BC2768">
+<createdBy>eavila</createdBy>
+<createdTime>2014-07-28 00:35:23 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>bdReportesModeler</ownerDesignName>
+<database>EEF36452-E9A7-85AC-86AC-F8594897EB05</database>
+<columnProxies>
+<ColumnProxy class="oracle.dbtools.crest.model.design.storage.sqlserver.v2k.ColumnProxySqlServerv2k" name="id_region" id="1F254D1F-A6A8-5E7F-9500-D8FCE831E5B3">
+<createdBy>eavila</createdBy>
+<createdTime>2014-07-28 00:35:23 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>bdReportesModeler</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy class="oracle.dbtools.crest.model.design.storage.sqlserver.v2k.ColumnProxySqlServerv2k" name="nombre_region" id="8BD86CCA-02B3-5094-74A0-239A24CB7895">
+<createdBy>eavila</createdBy>
+<createdTime>2014-07-28 00:35:23 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>bdReportesModeler</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.sqlserver.v2k.PKProxySqlServerv2k" name="tbl_region_PK" id="250F8890-D777-DD3B-DC0E-B45CF829EB26">
+<createdBy>eavila</createdBy>
+<createdTime>2014-07-28 00:35:23 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>bdReportesModeler</ownerDesignName>
+<clustered>true</clustered>
+</PrimaryKey>
+</primaryKeys>
+</TableProxySqlServerv2k>

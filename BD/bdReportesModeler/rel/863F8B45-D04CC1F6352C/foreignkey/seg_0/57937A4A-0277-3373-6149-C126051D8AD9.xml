@@ -1,0 +1,14 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="57937A4A-0277-3373-6149-C126051D8AD9" name="tbl_oficina_tbl_region_FK">
+<createdBy>eavila</createdBy>
+<createdTime>2014-07-28 00:40:14 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>bdReportesModeler</ownerDesignName>
+<containerWithKeyObject>DFCF33D2-B2B0-44FB-770B-6DFC5A88678D</containerWithKeyObject>
+<deleteRule>NO ACTION</deleteRule>
+<localFKIndex>2F96D442-ADAE-33B3-AD7B-E11678010D02</localFKIndex>
+<keyObject>EA92B091-9FC2-3140-5B41-3368FF2D9F4A</keyObject>
+<mandatory>true</mandatory>
+<transferable>true</transferable>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

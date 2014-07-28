@@ -1,0 +1,167 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="1A3B8F62-84CF-DB19-B337-1ABF8DC0621A" name="tbl_usuarios">
+<sourceDDLFile>bdReportesMSSQL.sql</sourceDDLFile>
+<createdBy>eavila</createdBy>
+<createdTime>2014-07-28 00:19:42 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>bdReportesModeler</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_usuario" id="5EB7BF3D-3DA1-1C5D-81AA-2547AB5FD3A2">
+<createdBy>eavila</createdBy>
+<createdTime>2014-07-28 00:23:47 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>bdReportesModeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>45</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="prnombre" id="33CFB390-80CC-4501-E1CD-356E04702652">
+<createdBy>eavila</createdBy>
+<createdTime>2014-07-28 00:23:47 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>bdReportesModeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="sgnombre" id="F714F571-1A78-F65E-4005-DEC5DD9212D7">
+<createdBy>eavila</createdBy>
+<createdTime>2014-07-28 00:23:47 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>bdReportesModeler</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="prapellido" id="EE57F5FE-BA7B-D182-AF4C-15C067296C03">
+<createdBy>eavila</createdBy>
+<createdTime>2014-07-28 00:23:47 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>bdReportesModeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="sgapellido" id="2304841D-6CC8-9706-9EB4-037B2BC4C94B">
+<createdBy>eavila</createdBy>
+<createdTime>2014-07-28 00:23:47 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>bdReportesModeler</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="clave" id="45B187C5-36DA-1CFC-BA15-8BF29BE47163">
+<sourceDDLFile>bdReportesMSSQL.sql</sourceDDLFile>
+<createdBy>eavila</createdBy>
+<createdTime>2014-07-28 00:23:47 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>bdReportesModeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>0</use>
+<logicalDatatype>LOGDT033</logicalDatatype>
+<domain>C240435B-F99F-3059-3974-8A43C10C2F96</domain>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="fecha_creacion" id="A31C9B24-341E-5FDE-A9AC-62AC2B96F113">
+<createdBy>eavila</createdBy>
+<createdTime>2014-07-28 00:23:47 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>bdReportesModeler</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="fecha_ultimo_ingreso" id="064EB39F-5F71-1285-88A5-EE56E1FE4F19">
+<createdBy>eavila</createdBy>
+<createdTime>2014-07-28 00:23:47 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>bdReportesModeler</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="email" id="2CA4A40A-F7FD-AA34-6ABD-DC7718EF145F">
+<createdBy>eavila</createdBy>
+<createdTime>2014-07-28 00:23:47 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>bdReportesModeler</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="id_departamento" id="65197AAD-BC49-9700-AD04-1541FABE3765">
+<createdBy>eavila</createdBy>
+<createdTime>2014-07-28 00:38:35 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>bdReportesModeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<delegate>32DF7AC5-2CB2-C02D-316B-6E7932720615</delegate>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="48388A93-9B58-9677-AB4F-557C7DEA1A5F" referredColumn="32DF7AC5-2CB2-C02D-316B-6E7932720615"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="D6C50A9A-54B3-5C22-006B-5858E89DA526" name="tbl_usuarios_PK">
+<createdBy>eavila</createdBy>
+<createdTime>2014-07-28 00:23:47 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>bdReportesModeler</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5EB7BF3D-3DA1-1C5D-81AA-2547AB5FD3A2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A65B801F-A941-E665-477A-98451F5E07EC" name="tbl_usuarios_UK0">
+<sourceDDLFile>bdReportesMSSQL.sql</sourceDDLFile>
+<createdBy>eavila</createdBy>
+<createdTime>2014-07-28 00:35:27 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>bdReportesModeler</ownerDesignName>
+<importedID>42381870-7691-5F57-37E7-CDF5807E6625</importedID>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5EB7BF3D-3DA1-1C5D-81AA-2547AB5FD3A2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="8082968E-5C11-54C0-B53F-3D473AA1F214" name="tbl_usuarios_tbl_departamento_FK">
+<createdBy>eavila</createdBy>
+<createdTime>2014-07-28 00:38:35 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>bdReportesModeler</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="65197AAD-BC49-9700-AD04-1541FABE3765"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

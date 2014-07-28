@@ -1,0 +1,45 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxySqlServerv2k class="oracle.dbtools.crest.model.design.storage.sqlserver.v2k.TableProxySqlServerv2k" name="tbl_rol_usuario" directorySegmentName="seg_0" id="B5A74796-46C7-9565-8040-46CFE71E062D">
+<createdBy>eavila</createdBy>
+<createdTime>2014-07-28 00:35:27 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>bdReportesModeler</ownerDesignName>
+<database>EEF36452-E9A7-85AC-86AC-F8594897EB05</database>
+<columnProxies>
+<ColumnProxy class="oracle.dbtools.crest.model.design.storage.sqlserver.v2k.ColumnProxySqlServerv2k" name="id_usuario" id="112B0FC2-63DE-CD82-BEE9-C9A836B9F722">
+<createdBy>eavila</createdBy>
+<createdTime>2014-07-28 00:35:27 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>bdReportesModeler</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy class="oracle.dbtools.crest.model.design.storage.sqlserver.v2k.ColumnProxySqlServerv2k" name="id_rol" id="221B67E0-8B52-FD62-0AB6-329698469E22">
+<createdBy>eavila</createdBy>
+<createdTime>2014-07-28 00:35:27 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>bdReportesModeler</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.sqlserver.v2k.FKProxySqlServerv2k" name="tbl_rol_usuario_tbl_rol_FK" id="8EDF1715-22BC-B50E-9A22-761A8B72ADF5">
+<createdBy>eavila</createdBy>
+<createdTime>2014-07-28 00:39:33 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>bdReportesModeler</ownerDesignName>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.sqlserver.v2k.FKProxySqlServerv2k" name="tbl_rol_usuario_tbl_usuarios_FK" id="A16D4BC7-9FFA-973A-8669-65822FE78F7B">
+<createdBy>eavila</createdBy>
+<createdTime>2014-07-28 00:39:33 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>bdReportesModeler</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.sqlserver.v2k.PKProxySqlServerv2k" name="tbl_rol_usuario_PK" id="54ABCD94-0B1D-7512-8C6F-6CA61B65D21B">
+<createdBy>eavila</createdBy>
+<createdTime>2014-07-28 00:35:27 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>bdReportesModeler</ownerDesignName>
+<clustered>true</clustered>
+</PrimaryKey>
+</primaryKeys>
+</TableProxySqlServerv2k>

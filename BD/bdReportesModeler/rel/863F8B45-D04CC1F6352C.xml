@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<relationalModel class="oracle.dbtools.crest.model.design.relational.RelationalDesign" name="bd_reportes" id="863F8B45-F802-9D79-0C0E-D04CC1F6352C" mainViewID="896375B2-24C1-B4FE-3EBC-948E2C9254BD">
+<createdBy>eavila</createdBy>
+<createdTime>2014-07-27 03:47:36 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>bdReportesModeler</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+<selectedRDBMSSite>3424E3DB-6FE1-14EB-9311-F76EF3096E76</selectedRDBMSSite>
+<importDDLFileStamps>
+<importDDLFileStamp class="oracle.dbtools.crest.imports.DDLFileStamp">
+<fileName>bdReportesMSSQL.sql</fileName>
+<pathName>D:\Documentos\Emil\UNAH\2014\2do Periodo\Ing. Soft\Proyecto\BD</pathName>
+<dbType>4</dbType>
+</importDDLFileStamp>
+</importDDLFileStamps>
+</relationalModel>
