@@ -1,7 +1,7 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<LogicalDesign class="oracle.dbtools.crest.model.design.logical.LogicalDesign" name="Logical" id="E8FF1F43-0EE7-3217-55A2-1C24EBE0DC2E" mainViewID="654B2269-52A5-292E-8BA1-DBE0793966A1">
+<LogicalDesign class="oracle.dbtools.crest.model.design.logical.LogicalDesign" name="Logical" id="2CEA1E2C-7AD4-1DE5-3A5B-297C6A6E83DB" mainViewID="22D6A358-A977-747B-EAF5-3C24E541E05A">
 <createdBy>eavila</createdBy>
-<createdTime>2014-07-27 03:46:46 UTC</createdTime>
+<createdTime>2014-08-05 22:05:37 UTC</createdTime>
 <generatorID>Generado por el Usuario</generatorID>
 <ownerDesignName>bdReportesModeler</ownerDesignName>
 <shouldBeOpen>false</shouldBeOpen>

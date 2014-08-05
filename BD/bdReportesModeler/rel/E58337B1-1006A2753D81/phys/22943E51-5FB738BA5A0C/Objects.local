@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<oracle.dbtools.crest.model.design.storage.sqlserver.v2k8.StorageDesignSqlServerv2k8>
+   <object objectType="Role" objectID="DB_NULLELEMENT_PUBLIC" name="PUBLIC" seqName="seg_0"/>
+   <object objectType="User" objectID="DB_NULLELEMENT_dbo" name="dbo" seqName="seg_0"/>
+   <object objectType="Table" objectID="18B06656-F60E-8435-095F-B5C329216A21" name="tbl_apchck" seqName="seg_0"/>
+   <object objectType="Table" objectID="49358957-9A6F-82F4-C498-F8812770BF47" name="bgbudt" seqName="seg_0"/>
+   <object objectType="Table" objectID="9A8D4919-90BA-BECC-C10F-4C193F3BF4DD" name="tbl_bgbudp" seqName="seg_0"/>
+</oracle.dbtools.crest.model.design.storage.sqlserver.v2k8.StorageDesignSqlServerv2k8>

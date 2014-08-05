@@ -1,0 +1,97 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxySqlServerv2k class="oracle.dbtools.crest.model.design.storage.sqlserver.v2k.TableProxySqlServerv2k" name="tbl_apchck" directorySegmentName="seg_0" id="18B06656-F60E-8435-095F-B5C329216A21">
+<createdBy>eavila</createdBy>
+<createdTime>2014-08-05 22:28:36 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>bdReportesModeler</ownerDesignName>
+<database>DB_NULLELEMENT</database>
+<columnProxies>
+<ColumnProxy class="oracle.dbtools.crest.model.design.storage.sqlserver.v2k.ColumnProxySqlServerv2k" name="lcancel" id="13A718A9-36BD-9661-28CE-C45BF21FC923">
+<createdBy>eavila</createdBy>
+<createdTime>2014-08-05 22:28:36 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>bdReportesModeler</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy class="oracle.dbtools.crest.model.design.storage.sqlserver.v2k.ColumnProxySqlServerv2k" name="lhold" id="1A67007D-29D0-A36F-3829-81B87DA87F14">
+<createdBy>eavila</createdBy>
+<createdTime>2014-08-05 22:28:36 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>bdReportesModeler</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy class="oracle.dbtools.crest.model.design.storage.sqlserver.v2k.ColumnProxySqlServerv2k" name="ctogl" id="1DFD62CA-8FA7-D6AD-0BEB-9DAA380420AC">
+<createdBy>eavila</createdBy>
+<createdTime>2014-08-05 22:28:36 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>bdReportesModeler</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy class="oracle.dbtools.crest.model.design.storage.sqlserver.v2k.ColumnProxySqlServerv2k" name="cvend" id="27AC8241-8BD5-9D96-FE7A-20F1A8964FBC">
+<createdBy>eavila</createdBy>
+<createdTime>2014-08-05 22:28:36 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>bdReportesModeler</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy class="oracle.dbtools.crest.model.design.storage.sqlserver.v2k.ColumnProxySqlServerv2k" name="cchktype" id="4F1710C5-8980-E250-2B2A-0EE65EBC758B">
+<createdBy>eavila</createdBy>
+<createdTime>2014-08-05 22:28:36 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>bdReportesModeler</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy class="oracle.dbtools.crest.model.design.storage.sqlserver.v2k.ColumnProxySqlServerv2k" name="nbchkamt" id="6B28BF60-C82A-7097-E38A-65250DD8DD6F">
+<createdBy>eavila</createdBy>
+<createdTime>2014-08-05 22:28:36 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>bdReportesModeler</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy class="oracle.dbtools.crest.model.design.storage.sqlserver.v2k.ColumnProxySqlServerv2k" name="cbankno" id="724BAC6F-43D5-8EC0-3336-80F94FE3BBF4">
+<createdBy>eavila</createdBy>
+<createdTime>2014-08-05 22:28:36 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>bdReportesModeler</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy class="oracle.dbtools.crest.model.design.storage.sqlserver.v2k.ColumnProxySqlServerv2k" name="cpayto" id="93290580-2B60-259A-ED2D-AA603E867557">
+<createdBy>eavila</createdBy>
+<createdTime>2014-08-05 22:28:36 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>bdReportesModeler</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy class="oracle.dbtools.crest.model.design.storage.sqlserver.v2k.ColumnProxySqlServerv2k" name="nchkamt" id="D464F52C-6CA7-8707-1D08-41BAB43E25A2">
+<createdBy>eavila</createdBy>
+<createdTime>2014-08-05 22:28:36 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>bdReportesModeler</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy class="oracle.dbtools.crest.model.design.storage.sqlserver.v2k.ColumnProxySqlServerv2k" name="cchkno" id="E3C5CAB1-F9D7-738C-E7A5-76BA55D1FDBC">
+<createdBy>eavila</createdBy>
+<createdTime>2014-08-05 22:28:36 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>bdReportesModeler</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy class="oracle.dbtools.crest.model.design.storage.sqlserver.v2k.ColumnProxySqlServerv2k" name="dcheck" id="EAC57416-626F-45B6-8C1D-61E434ADE825">
+<createdBy>eavila</createdBy>
+<createdTime>2014-08-05 22:28:36 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>bdReportesModeler</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy class="oracle.dbtools.crest.model.design.storage.sqlserver.v2k.ColumnProxySqlServerv2k" name="nxchgrate" id="EE87905D-35B3-EF75-1D52-CB06CA0210E3">
+<createdBy>eavila</createdBy>
+<createdTime>2014-08-05 22:28:36 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>bdReportesModeler</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy class="oracle.dbtools.crest.model.design.storage.sqlserver.v2k.ColumnProxySqlServerv2k" name="dcreate" id="FB706C15-D7AC-4350-AE7C-AE7DE6FD238B">
+<createdBy>eavila</createdBy>
+<createdTime>2014-08-05 22:28:36 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>bdReportesModeler</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.sqlserver.v2k.PKProxySqlServerv2k" name="tbl_apchck_PK" id="1D46B76A-5E5F-47F6-8B35-1D076A3C7E7C">
+<createdBy>eavila</createdBy>
+<createdTime>2014-08-05 22:28:36 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>bdReportesModeler</ownerDesignName>
+<clustered>true</clustered>
+</PrimaryKey>
+</primaryKeys>
+</TableProxySqlServerv2k>
