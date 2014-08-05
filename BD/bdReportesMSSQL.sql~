@@ -4,6 +4,8 @@
 --   tipo:      SQL Server 2000
 
 
+
+
 CREATE DATABASE bdreportes;
 USE bdreportes;
 
