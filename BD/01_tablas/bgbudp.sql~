@@ -1,4 +1,4 @@
-CREATE TABLE bgbudp (
+CREATE TABLE dbo.bgbudp (
 	cuid char (15)  NOT NULL ,
 	cbudid char (10)  NOT NULL ,
 	cbudno char (30)  NOT NULL ,
@@ -13,5 +13,5 @@ CREATE TABLE bgbudp (
 	nqtyaccr numeric(16, 4) NOT NULL ,
 	namtmod numeric(16, 2) NOT NULL ,
 	nqtymod numeric(16, 4) NOT NULL 
-)
+) ON vam_user_data
 
