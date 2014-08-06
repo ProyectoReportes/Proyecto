@@ -1,0 +1,15 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<oracle.dbtools.crest.model.design.relational.RelationalDesign>
+   <object objectType="Table" objectID="1A3B8F62-84CF-DB19-B337-1ABF8DC0621A" name="tbl_usuarios" seqName="seg_0"/>
+   <object objectType="Table" objectID="22709483-BBC6-808C-E617-A177C885081E" name="tbl_rol" seqName="seg_0"/>
+   <object objectType="Table" objectID="6B99706D-A193-EC40-F7CC-AE4FA60453AF" name="tbl_departamento" seqName="seg_0"/>
+   <object objectType="Table" objectID="99458D23-9377-BEF8-600E-6FD67A40B3F9" name="tbl_apchck" seqName="seg_0"/>
+   <object objectType="Table" objectID="B5A74796-46C7-9565-8040-46CFE71E062D" name="tbl_rol_usuario" seqName="seg_0"/>
+   <object objectType="Table" objectID="D6EA41F6-9849-9560-3E3B-2BDB49BC2768" name="tbl_region" seqName="seg_0"/>
+   <object objectType="Table" objectID="DFCF33D2-B2B0-44FB-770B-6DFC5A88678D" name="tbl_oficina" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="0626669A-944C-FB55-E8D5-515A0421317B" name="tbl_rol_usuario_tbl_rol_FK" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="48388A93-9B58-9677-AB4F-557C7DEA1A5F" name="tbl_usuarios_tbl_departamento_FK" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="57937A4A-0277-3373-6149-C126051D8AD9" name="tbl_oficina_tbl_region_FK" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="AC1D6C60-A840-3EF8-D8F8-71E7D5750BCC" name="tbl_departamento_tbl_oficina_FK" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="FAC3201B-94B8-BF5B-68FD-0CE4C2ED5EC5" name="tbl_rol_usuario_tbl_usuarios_FK" seqName="seg_0"/>
+</oracle.dbtools.crest.model.design.relational.RelationalDesign>
