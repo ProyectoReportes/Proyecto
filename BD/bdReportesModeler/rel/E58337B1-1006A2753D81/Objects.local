@@ -1,6 +1,6 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
 <oracle.dbtools.crest.model.design.relational.RelationalDesign>
    <object objectType="Table" objectID="18B06656-F60E-8435-095F-B5C329216A21" name="tbl_apchck" seqName="seg_0"/>
-   <object objectType="Table" objectID="9A8D4919-90BA-BECC-C10F-4C193F3BF4DD" name="tbl_bgbudp" seqName="seg_0"/>
    <object objectType="Table" objectID="49358957-9A6F-82F4-C498-F8812770BF47" name="tbl_bgbudt" seqName="seg_0"/>
+   <object objectType="Table" objectID="9A8D4919-90BA-BECC-C10F-4C193F3BF4DD" name="tbl_bgbudp" seqName="seg_0"/>
 </oracle.dbtools.crest.model.design.relational.RelationalDesign>
