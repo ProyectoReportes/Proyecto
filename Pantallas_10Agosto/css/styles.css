@@ -3,6 +3,11 @@
   margin: 0 auto;
 }
  
+  .welcome {
+    float: right;
+    
+ }
+ 
 .form-signin {
   float: right  ;  
   max-width: 200px;
