@@ -1,15 +1,15 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
 <oracle.dbtools.crest.model.design.relational.RelationalDesign>
-   <object objectType="Table" objectID="1D85D1F1-2515-DF76-36A7-B2466965DE97" name="" seqName="seg_0"/>
-   <object objectType="Table" objectID="24D88C58-C348-CB9D-C14E-58B1CE200CA3" name="" seqName="seg_0"/>
-   <object objectType="Table" objectID="8026D10B-B32D-0653-D355-BA06A409E800" name="" seqName="seg_0"/>
-   <object objectType="Table" objectID="88A80E62-9F3D-7B50-18E9-D50E4B12E905" name="" seqName="seg_0"/>
-   <object objectType="Table" objectID="9DF91884-89F3-43A6-1461-4F270EB2DCE3" name="" seqName="seg_0"/>
-   <object objectType="Table" objectID="BEB4C637-9FDE-5C44-F2AE-662DDCCBECE1" name="" seqName="seg_0"/>
-   <object objectType="Table" objectID="EB47C7FE-2FC1-E466-AB1D-335F7DE5562D" name="" seqName="seg_0"/>
-   <object objectType="FKIndexAssociation" objectID="3F9D5E2F-2701-4F6A-D101-7142658CCAC6" name="" seqName="seg_0"/>
-   <object objectType="FKIndexAssociation" objectID="63CBCEB8-F4F6-2A97-1E66-A0109707C297" name="" seqName="seg_0"/>
-   <object objectType="FKIndexAssociation" objectID="9E7E8B50-685E-5137-400C-CBE7BE5B23C1" name="" seqName="seg_0"/>
-   <object objectType="FKIndexAssociation" objectID="B127700D-F729-3B33-0FBA-EBD5EFB6F09F" name="" seqName="seg_0"/>
-   <object objectType="FKIndexAssociation" objectID="B92A84E0-5924-C00F-A513-1EF457EA18FE" name="" seqName="seg_0"/>
+   <object objectType="Table" objectID="88A80E62-9F3D-7B50-18E9-D50E4B12E905" name="tbl_apchck" seqName="seg_0"/>
+   <object objectType="Table" objectID="24D88C58-C348-CB9D-C14E-58B1CE200CA3" name="tbl_departamento" seqName="seg_0"/>
+   <object objectType="Table" objectID="EB47C7FE-2FC1-E466-AB1D-335F7DE5562D" name="tbl_oficina" seqName="seg_0"/>
+   <object objectType="Table" objectID="8026D10B-B32D-0653-D355-BA06A409E800" name="tbl_region" seqName="seg_0"/>
+   <object objectType="Table" objectID="1D85D1F1-2515-DF76-36A7-B2466965DE97" name="tbl_rol" seqName="seg_0"/>
+   <object objectType="Table" objectID="9DF91884-89F3-43A6-1461-4F270EB2DCE3" name="tbl_rol_usuario" seqName="seg_0"/>
+   <object objectType="Table" objectID="BEB4C637-9FDE-5C44-F2AE-662DDCCBECE1" name="tbl_usuarios" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="B92A84E0-5924-C00F-A513-1EF457EA18FE" name="tbl_departamento_tbl_oficina_FK" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="B127700D-F729-3B33-0FBA-EBD5EFB6F09F" name="tbl_oficina_tbl_region_FK" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="9E7E8B50-685E-5137-400C-CBE7BE5B23C1" name="tbl_rol_usuario_tbl_rol_FK" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="63CBCEB8-F4F6-2A97-1E66-A0109707C297" name="tbl_rol_usuario_tbl_usuarios_FK" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="3F9D5E2F-2701-4F6A-D101-7142658CCAC6" name="tbl_usuarios_tbl_departamento_FK" seqName="seg_0"/>
 </oracle.dbtools.crest.model.design.relational.RelationalDesign>

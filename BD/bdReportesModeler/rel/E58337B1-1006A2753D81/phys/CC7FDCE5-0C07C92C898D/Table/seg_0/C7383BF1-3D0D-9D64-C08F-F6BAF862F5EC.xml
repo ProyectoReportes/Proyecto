@@ -1,6 +1,6 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<TableProxyDB2v80 class="oracle.dbtools.crest.model.design.storage.db2.v80.TableProxyDB2v80" name="bgbudt" directorySegmentName="seg_0" id="49358957-9A6F-82F4-C498-F8812770BF47">
-<createdTime>2014-08-05 22:45:22 UTC</createdTime>
+<TableProxyDB2v80 class="oracle.dbtools.crest.model.design.storage.db2.v80.TableProxyDB2v80" name="tbl_bgbudt" directorySegmentName="seg_0" id="C7383BF1-3D0D-9D64-C08F-F6BAF862F5EC">
+<createdTime>2014-08-18 02:40:00 UTC</createdTime>
 <generatorID>Generado por el Usuario</generatorID>
 <ownerDesignName>bdReportesModeler</ownerDesignName>
 <numberOfRows>0</numberOfRows>
@@ -14,18 +14,18 @@
 <partitioned>NO</partitioned>
 <tableAccess>NOT VOLATILE</tableAccess>
 <columnProxies>
-<ColumnProxy class="oracle.dbtools.crest.model.design.storage.db2.v80.ColumnProxyDB2v80" name="namtmod" id="018377CE-99D3-3E86-2013-B3A2ADBAEDDD">
+<ColumnProxy class="oracle.dbtools.crest.model.design.storage.db2.v80.ColumnProxyDB2v80" name="cstmacct" id="033F10D9-AFBB-535E-2D80-10777683BEB8">
 <createdBy>eavila</createdBy>
-<createdTime>2014-08-05 22:49:52 UTC</createdTime>
+<createdTime>2014-08-18 02:40:00 UTC</createdTime>
 <generatorID>Generado por el Usuario</generatorID>
 <ownerDesignName>bdReportesModeler</ownerDesignName>
-<columnIdentity class="oracle.dbtools.crest.model.design.storage.db2.v80.ColumnIdentityDB2v80" name="CI44" id="1C77A6E2-6EDD-CB70-8116-BC36115D7290">
+<columnIdentity class="oracle.dbtools.crest.model.design.storage.db2.v80.ColumnIdentityDB2v80" name="CI84" id="BCAEB6A1-9701-035F-E758-F5496252324C">
 <createdBy>eavila</createdBy>
-<createdTime>2014-08-05 22:49:52 UTC</createdTime>
+<createdTime>2014-08-18 02:40:00 UTC</createdTime>
 <generatorID>Generado por el Usuario</generatorID>
 <ownerDesignName>bdReportesModeler</ownerDesignName>
 <cache>0</cache>
-<column>018377CE-99D3-3E86-2013-B3A2ADBAEDDD</column>
+<column>033F10D9-AFBB-535E-2D80-10777683BEB8</column>
 <cycle>false</cycle>
 <generate>BY DEFAULT</generate>
 <incrementBy>1</incrementBy>
@@ -33,18 +33,18 @@
 <order>YES</order>
 </columnIdentity>
 </ColumnProxy>
-<ColumnProxy class="oracle.dbtools.crest.model.design.storage.db2.v80.ColumnProxyDB2v80" name="nqtyaccr" id="0A977F01-27BC-586A-E714-52B9DA274648">
+<ColumnProxy class="oracle.dbtools.crest.model.design.storage.db2.v80.ColumnProxyDB2v80" name="nqtyaccr" id="0E7C88BA-D14E-546F-4EDA-F5B7607ECF60">
 <createdBy>eavila</createdBy>
-<createdTime>2014-08-05 22:49:52 UTC</createdTime>
+<createdTime>2014-08-18 02:40:00 UTC</createdTime>
 <generatorID>Generado por el Usuario</generatorID>
 <ownerDesignName>bdReportesModeler</ownerDesignName>
-<columnIdentity class="oracle.dbtools.crest.model.design.storage.db2.v80.ColumnIdentityDB2v80" name="CI43" id="2C59F4A2-EB91-1E28-1046-E06D29AF45AD">
+<columnIdentity class="oracle.dbtools.crest.model.design.storage.db2.v80.ColumnIdentityDB2v80" name="CI95" id="66F25814-6456-835C-CBEC-6502479008DC">
 <createdBy>eavila</createdBy>
-<createdTime>2014-08-05 22:49:52 UTC</createdTime>
+<createdTime>2014-08-18 02:40:00 UTC</createdTime>
 <generatorID>Generado por el Usuario</generatorID>
 <ownerDesignName>bdReportesModeler</ownerDesignName>
 <cache>0</cache>
-<column>0A977F01-27BC-586A-E714-52B9DA274648</column>
+<column>0E7C88BA-D14E-546F-4EDA-F5B7607ECF60</column>
 <cycle>false</cycle>
 <generate>BY DEFAULT</generate>
 <incrementBy>1</incrementBy>
@@ -52,18 +52,18 @@
 <order>YES</order>
 </columnIdentity>
 </ColumnProxy>
-<ColumnProxy class="oracle.dbtools.crest.model.design.storage.db2.v80.ColumnProxyDB2v80" name="crsvacct" id="173124FE-9790-2DC6-93BE-014C2EAFCA3A">
+<ColumnProxy class="oracle.dbtools.crest.model.design.storage.db2.v80.ColumnProxyDB2v80" name="namtmod" id="151E9EB8-9F13-2610-52AD-361B6CAD9EE3">
 <createdBy>eavila</createdBy>
-<createdTime>2014-08-05 22:49:52 UTC</createdTime>
+<createdTime>2014-08-18 02:40:00 UTC</createdTime>
 <generatorID>Generado por el Usuario</generatorID>
 <ownerDesignName>bdReportesModeler</ownerDesignName>
-<columnIdentity class="oracle.dbtools.crest.model.design.storage.db2.v80.ColumnIdentityDB2v80" name="CI33" id="B41D107A-EB64-0E00-B2CB-019B6D8989A4">
+<columnIdentity class="oracle.dbtools.crest.model.design.storage.db2.v80.ColumnIdentityDB2v80" name="CI96" id="A32E4777-8C8E-CEBB-BB01-D1B3E2ADA411">
 <createdBy>eavila</createdBy>
-<createdTime>2014-08-05 22:49:52 UTC</createdTime>
+<createdTime>2014-08-18 02:40:00 UTC</createdTime>
 <generatorID>Generado por el Usuario</generatorID>
 <ownerDesignName>bdReportesModeler</ownerDesignName>
 <cache>0</cache>
-<column>173124FE-9790-2DC6-93BE-014C2EAFCA3A</column>
+<column>151E9EB8-9F13-2610-52AD-361B6CAD9EE3</column>
 <cycle>false</cycle>
 <generate>BY DEFAULT</generate>
 <incrementBy>1</incrementBy>
@@ -71,18 +71,18 @@
 <order>YES</order>
 </columnIdentity>
 </ColumnProxy>
-<ColumnProxy class="oracle.dbtools.crest.model.design.storage.db2.v80.ColumnProxyDB2v80" name="cbudid" id="23DB18D2-F54D-CB2E-BE1D-2740E26B50F2">
+<ColumnProxy class="oracle.dbtools.crest.model.design.storage.db2.v80.ColumnProxyDB2v80" name="cuid" id="1FA5FC89-862B-8043-B044-A9D0AB142919">
 <createdBy>eavila</createdBy>
-<createdTime>2014-08-05 22:49:52 UTC</createdTime>
+<createdTime>2014-08-18 02:40:00 UTC</createdTime>
 <generatorID>Generado por el Usuario</generatorID>
 <ownerDesignName>bdReportesModeler</ownerDesignName>
-<columnIdentity class="oracle.dbtools.crest.model.design.storage.db2.v80.ColumnIdentityDB2v80" name="CI29" id="C49541AD-A2C0-DC64-589E-96FF4E5B9EDF">
+<columnIdentity class="oracle.dbtools.crest.model.design.storage.db2.v80.ColumnIdentityDB2v80" name="CI80" id="ED122ABA-8C5F-9B98-4D12-3E7957A69140">
 <createdBy>eavila</createdBy>
-<createdTime>2014-08-05 22:49:52 UTC</createdTime>
+<createdTime>2014-08-18 02:40:00 UTC</createdTime>
 <generatorID>Generado por el Usuario</generatorID>
 <ownerDesignName>bdReportesModeler</ownerDesignName>
 <cache>0</cache>
-<column>23DB18D2-F54D-CB2E-BE1D-2740E26B50F2</column>
+<column>1FA5FC89-862B-8043-B044-A9D0AB142919</column>
 <cycle>false</cycle>
 <generate>BY DEFAULT</generate>
 <incrementBy>1</incrementBy>
@@ -90,18 +90,18 @@
 <order>YES</order>
 </columnIdentity>
 </ColumnProxy>
-<ColumnProxy class="oracle.dbtools.crest.model.design.storage.db2.v80.ColumnProxyDB2v80" name="nqtymod" id="2677D50B-2929-8C8E-6846-BAA99AC29FE1">
+<ColumnProxy class="oracle.dbtools.crest.model.design.storage.db2.v80.ColumnProxyDB2v80" name="nqtymod" id="44698D48-DE16-106E-6023-4F80C9AC55D8">
 <createdBy>eavila</createdBy>
-<createdTime>2014-08-05 22:49:52 UTC</createdTime>
+<createdTime>2014-08-18 02:40:00 UTC</createdTime>
 <generatorID>Generado por el Usuario</generatorID>
 <ownerDesignName>bdReportesModeler</ownerDesignName>
-<columnIdentity class="oracle.dbtools.crest.model.design.storage.db2.v80.ColumnIdentityDB2v80" name="CI45" id="8B6D364B-A97C-14E6-E47A-FA8B89F48374">
+<columnIdentity class="oracle.dbtools.crest.model.design.storage.db2.v80.ColumnIdentityDB2v80" name="CI97" id="D5A48CD9-90D7-F732-6C49-E79EC0D36FC8">
 <createdBy>eavila</createdBy>
-<createdTime>2014-08-05 22:49:52 UTC</createdTime>
+<createdTime>2014-08-18 02:40:00 UTC</createdTime>
 <generatorID>Generado por el Usuario</generatorID>
 <ownerDesignName>bdReportesModeler</ownerDesignName>
 <cache>0</cache>
-<column>2677D50B-2929-8C8E-6846-BAA99AC29FE1</column>
+<column>44698D48-DE16-106E-6023-4F80C9AC55D8</column>
 <cycle>false</cycle>
 <generate>BY DEFAULT</generate>
 <incrementBy>1</incrementBy>
@@ -109,18 +109,18 @@
 <order>YES</order>
 </columnIdentity>
 </ColumnProxy>
-<ColumnProxy class="oracle.dbtools.crest.model.design.storage.db2.v80.ColumnProxyDB2v80" name="cdeptno" id="2A3E6D23-2A61-E0E2-7C0F-37A0ED3A36E5">
+<ColumnProxy class="oracle.dbtools.crest.model.design.storage.db2.v80.ColumnProxyDB2v80" name="tmodrec" id="45F8CD3F-AC05-A8DA-6ED1-F0F4959A4A04">
 <createdBy>eavila</createdBy>
-<createdTime>2014-08-05 22:49:52 UTC</createdTime>
+<createdTime>2014-08-18 02:40:00 UTC</createdTime>
 <generatorID>Generado por el Usuario</generatorID>
 <ownerDesignName>bdReportesModeler</ownerDesignName>
-<columnIdentity class="oracle.dbtools.crest.model.design.storage.db2.v80.ColumnIdentityDB2v80" name="CI36" id="E2A0CA8F-8C39-7138-135C-AE4AD5ED0B50">
+<columnIdentity class="oracle.dbtools.crest.model.design.storage.db2.v80.ColumnIdentityDB2v80" name="CI93" id="C51A4749-3014-366B-378F-003D9D8D4F3C">
 <createdBy>eavila</createdBy>
-<createdTime>2014-08-05 22:49:52 UTC</createdTime>
+<createdTime>2014-08-18 02:40:00 UTC</createdTime>
 <generatorID>Generado por el Usuario</generatorID>
 <ownerDesignName>bdReportesModeler</ownerDesignName>
 <cache>0</cache>
-<column>2A3E6D23-2A61-E0E2-7C0F-37A0ED3A36E5</column>
+<column>45F8CD3F-AC05-A8DA-6ED1-F0F4959A4A04</column>
 <cycle>false</cycle>
 <generate>BY DEFAULT</generate>
 <incrementBy>1</incrementBy>
@@ -128,18 +128,18 @@
 <order>YES</order>
 </columnIdentity>
 </ColumnProxy>
-<ColumnProxy class="oracle.dbtools.crest.model.design.storage.db2.v80.ColumnProxyDB2v80" name="nqtyused" id="2C769F2C-54F3-9FA0-ACEE-26F46DC21B36">
+<ColumnProxy class="oracle.dbtools.crest.model.design.storage.db2.v80.ColumnProxyDB2v80" name="cdesc" id="4986A4C2-BB33-F644-9BE4-90ABBF47338A">
 <createdBy>eavila</createdBy>
-<createdTime>2014-08-05 22:49:52 UTC</createdTime>
+<createdTime>2014-08-18 02:40:00 UTC</createdTime>
 <generatorID>Generado por el Usuario</generatorID>
 <ownerDesignName>bdReportesModeler</ownerDesignName>
-<columnIdentity class="oracle.dbtools.crest.model.design.storage.db2.v80.ColumnIdentityDB2v80" name="CI40" id="FAB090CB-72FA-023A-BD0E-6ACE61F85148">
+<columnIdentity class="oracle.dbtools.crest.model.design.storage.db2.v80.ColumnIdentityDB2v80" name="CI83" id="AA56AB68-CB10-004D-FA52-5D7DD2666D4A">
 <createdBy>eavila</createdBy>
-<createdTime>2014-08-05 22:49:52 UTC</createdTime>
+<createdTime>2014-08-18 02:40:00 UTC</createdTime>
 <generatorID>Generado por el Usuario</generatorID>
 <ownerDesignName>bdReportesModeler</ownerDesignName>
 <cache>0</cache>
-<column>2C769F2C-54F3-9FA0-ACEE-26F46DC21B36</column>
+<column>4986A4C2-BB33-F644-9BE4-90ABBF47338A</column>
 <cycle>false</cycle>
 <generate>BY DEFAULT</generate>
 <incrementBy>1</incrementBy>
@@ -147,18 +147,18 @@
 <order>YES</order>
 </columnIdentity>
 </ColumnProxy>
-<ColumnProxy class="oracle.dbtools.crest.model.design.storage.db2.v80.ColumnProxyDB2v80" name="tmodrec" id="30035B19-E7DC-C5DA-9538-19C3BF3F96D7">
+<ColumnProxy class="oracle.dbtools.crest.model.design.storage.db2.v80.ColumnProxyDB2v80" name="namtused" id="602C0104-141E-40A8-8988-D5BCBD63A11B">
 <createdBy>eavila</createdBy>
-<createdTime>2014-08-05 22:49:52 UTC</createdTime>
+<createdTime>2014-08-18 02:40:00 UTC</createdTime>
 <generatorID>Generado por el Usuario</generatorID>
 <ownerDesignName>bdReportesModeler</ownerDesignName>
-<columnIdentity class="oracle.dbtools.crest.model.design.storage.db2.v80.ColumnIdentityDB2v80" name="CI41" id="8BB50C92-18A6-09E0-28C4-761909B88FEF">
+<columnIdentity class="oracle.dbtools.crest.model.design.storage.db2.v80.ColumnIdentityDB2v80" name="CI90" id="B656CAF0-63BD-C87D-5FDC-50CC7B39078E">
 <createdBy>eavila</createdBy>
-<createdTime>2014-08-05 22:49:52 UTC</createdTime>
+<createdTime>2014-08-18 02:40:00 UTC</createdTime>
 <generatorID>Generado por el Usuario</generatorID>
 <ownerDesignName>bdReportesModeler</ownerDesignName>
 <cache>0</cache>
-<column>30035B19-E7DC-C5DA-9538-19C3BF3F96D7</column>
+<column>602C0104-141E-40A8-8988-D5BCBD63A11B</column>
 <cycle>false</cycle>
 <generate>BY DEFAULT</generate>
 <incrementBy>1</incrementBy>
@@ -166,18 +166,18 @@
 <order>YES</order>
 </columnIdentity>
 </ColumnProxy>
-<ColumnProxy class="oracle.dbtools.crest.model.design.storage.db2.v80.ColumnProxyDB2v80" name="cstmacct" id="57A2814A-174E-CC25-6F2F-6F2CF042344C">
+<ColumnProxy class="oracle.dbtools.crest.model.design.storage.db2.v80.ColumnProxyDB2v80" name="ctypid" id="62059DD9-4635-BC4B-7CE1-A26B1C55FE4E">
 <createdBy>eavila</createdBy>
-<createdTime>2014-08-05 22:49:52 UTC</createdTime>
+<createdTime>2014-08-18 02:40:00 UTC</createdTime>
 <generatorID>Generado por el Usuario</generatorID>
 <ownerDesignName>bdReportesModeler</ownerDesignName>
-<columnIdentity class="oracle.dbtools.crest.model.design.storage.db2.v80.ColumnIdentityDB2v80" name="CI32" id="73E2B223-554C-8B4B-0F60-F60619B76673">
+<columnIdentity class="oracle.dbtools.crest.model.design.storage.db2.v80.ColumnIdentityDB2v80" name="CI87" id="E78233D1-27CA-35EA-7CF2-AAC872580C2D">
 <createdBy>eavila</createdBy>
-<createdTime>2014-08-05 22:49:52 UTC</createdTime>
+<createdTime>2014-08-18 02:40:00 UTC</createdTime>
 <generatorID>Generado por el Usuario</generatorID>
 <ownerDesignName>bdReportesModeler</ownerDesignName>
 <cache>0</cache>
-<column>57A2814A-174E-CC25-6F2F-6F2CF042344C</column>
+<column>62059DD9-4635-BC4B-7CE1-A26B1C55FE4E</column>
 <cycle>false</cycle>
 <generate>BY DEFAULT</generate>
 <incrementBy>1</incrementBy>
@@ -185,18 +185,18 @@
 <order>YES</order>
 </columnIdentity>
 </ColumnProxy>
-<ColumnProxy class="oracle.dbtools.crest.model.design.storage.db2.v80.ColumnProxyDB2v80" name="namtused" id="66F26AB5-37ED-7F87-9947-B507420CDBF7">
+<ColumnProxy class="oracle.dbtools.crest.model.design.storage.db2.v80.ColumnProxyDB2v80" name="cclsid" id="686B4EB0-F317-82B6-15EF-557EB442B69C">
 <createdBy>eavila</createdBy>
-<createdTime>2014-08-05 22:49:52 UTC</createdTime>
+<createdTime>2014-08-18 02:40:00 UTC</createdTime>
 <generatorID>Generado por el Usuario</generatorID>
 <ownerDesignName>bdReportesModeler</ownerDesignName>
-<columnIdentity class="oracle.dbtools.crest.model.design.storage.db2.v80.ColumnIdentityDB2v80" name="CI38" id="A57F3636-B77B-A550-14EB-DDB820BC69F2">
+<columnIdentity class="oracle.dbtools.crest.model.design.storage.db2.v80.ColumnIdentityDB2v80" name="CI86" id="55CED3A9-99A3-F2E5-E4DA-1B16F6663A77">
 <createdBy>eavila</createdBy>
-<createdTime>2014-08-05 22:49:52 UTC</createdTime>
+<createdTime>2014-08-18 02:40:00 UTC</createdTime>
 <generatorID>Generado por el Usuario</generatorID>
 <ownerDesignName>bdReportesModeler</ownerDesignName>
 <cache>0</cache>
-<column>66F26AB5-37ED-7F87-9947-B507420CDBF7</column>
+<column>686B4EB0-F317-82B6-15EF-557EB442B69C</column>
 <cycle>false</cycle>
 <generate>BY DEFAULT</generate>
 <incrementBy>1</incrementBy>
@@ -204,18 +204,18 @@
 <order>YES</order>
 </columnIdentity>
 </ColumnProxy>
-<ColumnProxy class="oracle.dbtools.crest.model.design.storage.db2.v80.ColumnProxyDB2v80" name="nqty" id="7942D58D-81C8-40A2-CE12-4BB7604BF756">
+<ColumnProxy class="oracle.dbtools.crest.model.design.storage.db2.v80.ColumnProxyDB2v80" name="namtaccr" id="6BF12B5A-11D9-1B60-049E-47BDA9357200">
 <createdBy>eavila</createdBy>
-<createdTime>2014-08-05 22:49:52 UTC</createdTime>
+<createdTime>2014-08-18 02:40:00 UTC</createdTime>
 <generatorID>Generado por el Usuario</generatorID>
 <ownerDesignName>bdReportesModeler</ownerDesignName>
-<columnIdentity class="oracle.dbtools.crest.model.design.storage.db2.v80.ColumnIdentityDB2v80" name="CI39" id="5E8D97B4-EBE1-A297-388D-BFFA371DF4C4">
+<columnIdentity class="oracle.dbtools.crest.model.design.storage.db2.v80.ColumnIdentityDB2v80" name="CI94" id="A6B4B23E-B81D-0769-7911-5BCA6CB85C55">
 <createdBy>eavila</createdBy>
-<createdTime>2014-08-05 22:49:52 UTC</createdTime>
+<createdTime>2014-08-18 02:40:00 UTC</createdTime>
 <generatorID>Generado por el Usuario</generatorID>
 <ownerDesignName>bdReportesModeler</ownerDesignName>
 <cache>0</cache>
-<column>7942D58D-81C8-40A2-CE12-4BB7604BF756</column>
+<column>6BF12B5A-11D9-1B60-049E-47BDA9357200</column>
 <cycle>false</cycle>
 <generate>BY DEFAULT</generate>
 <incrementBy>1</incrementBy>
@@ -223,18 +223,18 @@
 <order>YES</order>
 </columnIdentity>
 </ColumnProxy>
-<ColumnProxy class="oracle.dbtools.crest.model.design.storage.db2.v80.ColumnProxyDB2v80" name="ctypid" id="8BB00635-A291-B83B-18CB-1AADE268F3E1">
+<ColumnProxy class="oracle.dbtools.crest.model.design.storage.db2.v80.ColumnProxyDB2v80" name="nqty" id="6DC0B684-E49F-A0F6-4AE7-03AC033F1A64">
 <createdBy>eavila</createdBy>
-<createdTime>2014-08-05 22:49:52 UTC</createdTime>
+<createdTime>2014-08-18 02:40:00 UTC</createdTime>
 <generatorID>Generado por el Usuario</generatorID>
 <ownerDesignName>bdReportesModeler</ownerDesignName>
-<columnIdentity class="oracle.dbtools.crest.model.design.storage.db2.v80.ColumnIdentityDB2v80" name="CI35" id="D661C8D8-6E5D-3A88-C610-F7E47F91381C">
+<columnIdentity class="oracle.dbtools.crest.model.design.storage.db2.v80.ColumnIdentityDB2v80" name="CI91" id="9DEB138A-E26C-374A-1DCD-BF31178BB2DE">
 <createdBy>eavila</createdBy>
-<createdTime>2014-08-05 22:49:52 UTC</createdTime>
+<createdTime>2014-08-18 02:40:00 UTC</createdTime>
 <generatorID>Generado por el Usuario</generatorID>
 <ownerDesignName>bdReportesModeler</ownerDesignName>
 <cache>0</cache>
-<column>8BB00635-A291-B83B-18CB-1AADE268F3E1</column>
+<column>6DC0B684-E49F-A0F6-4AE7-03AC033F1A64</column>
 <cycle>false</cycle>
 <generate>BY DEFAULT</generate>
 <incrementBy>1</incrementBy>
@@ -242,18 +242,18 @@
 <order>YES</order>
 </columnIdentity>
 </ColumnProxy>
-<ColumnProxy class="oracle.dbtools.crest.model.design.storage.db2.v80.ColumnProxyDB2v80" name="cbudno" id="92386AF3-8A77-1831-E968-A37E1A10CE2E">
+<ColumnProxy class="oracle.dbtools.crest.model.design.storage.db2.v80.ColumnProxyDB2v80" name="cbudid" id="734112D8-6B65-DD04-F18D-5BFAF0C5BC23">
 <createdBy>eavila</createdBy>
-<createdTime>2014-08-05 22:49:52 UTC</createdTime>
+<createdTime>2014-08-18 02:40:00 UTC</createdTime>
 <generatorID>Generado por el Usuario</generatorID>
 <ownerDesignName>bdReportesModeler</ownerDesignName>
-<columnIdentity class="oracle.dbtools.crest.model.design.storage.db2.v80.ColumnIdentityDB2v80" name="CI30" id="30562138-CE09-5F9E-5A94-0E23B8B492FC">
+<columnIdentity class="oracle.dbtools.crest.model.design.storage.db2.v80.ColumnIdentityDB2v80" name="CI81" id="C449B6AE-5FA6-42E4-A4B7-E292A5BDC051">
 <createdBy>eavila</createdBy>
-<createdTime>2014-08-05 22:49:52 UTC</createdTime>
+<createdTime>2014-08-18 02:40:00 UTC</createdTime>
 <generatorID>Generado por el Usuario</generatorID>
 <ownerDesignName>bdReportesModeler</ownerDesignName>
 <cache>0</cache>
-<column>92386AF3-8A77-1831-E968-A37E1A10CE2E</column>
+<column>734112D8-6B65-DD04-F18D-5BFAF0C5BC23</column>
 <cycle>false</cycle>
 <generate>BY DEFAULT</generate>
 <incrementBy>1</incrementBy>
@@ -261,18 +261,18 @@
 <order>YES</order>
 </columnIdentity>
 </ColumnProxy>
-<ColumnProxy class="oracle.dbtools.crest.model.design.storage.db2.v80.ColumnProxyDB2v80" name="namtaccr" id="97715AD0-DAC7-57D7-5683-A01C92106946">
+<ColumnProxy class="oracle.dbtools.crest.model.design.storage.db2.v80.ColumnProxyDB2v80" name="nqtyused" id="753E33C4-704A-DE82-F04C-10B75848CFC2">
 <createdBy>eavila</createdBy>
-<createdTime>2014-08-05 22:49:52 UTC</createdTime>
+<createdTime>2014-08-18 02:40:00 UTC</createdTime>
 <generatorID>Generado por el Usuario</generatorID>
 <ownerDesignName>bdReportesModeler</ownerDesignName>
-<columnIdentity class="oracle.dbtools.crest.model.design.storage.db2.v80.ColumnIdentityDB2v80" name="CI42" id="1CE0CEA6-1566-F9A8-D474-CCF26BF4FA16">
+<columnIdentity class="oracle.dbtools.crest.model.design.storage.db2.v80.ColumnIdentityDB2v80" name="CI92" id="B6828E7B-7867-B60D-CA02-5A492D6BAE79">
 <createdBy>eavila</createdBy>
-<createdTime>2014-08-05 22:49:52 UTC</createdTime>
+<createdTime>2014-08-18 02:40:00 UTC</createdTime>
 <generatorID>Generado por el Usuario</generatorID>
 <ownerDesignName>bdReportesModeler</ownerDesignName>
 <cache>0</cache>
-<column>97715AD0-DAC7-57D7-5683-A01C92106946</column>
+<column>753E33C4-704A-DE82-F04C-10B75848CFC2</column>
 <cycle>false</cycle>
 <generate>BY DEFAULT</generate>
 <incrementBy>1</incrementBy>
@@ -280,18 +280,18 @@
 <order>YES</order>
 </columnIdentity>
 </ColumnProxy>
-<ColumnProxy class="oracle.dbtools.crest.model.design.storage.db2.v80.ColumnProxyDB2v80" name="namt" id="A1F587E6-DEA0-189C-CC6A-B2EF1F13CB1F">
+<ColumnProxy class="oracle.dbtools.crest.model.design.storage.db2.v80.ColumnProxyDB2v80" name="cdeptno" id="7D8BC73E-959A-1337-3185-D8CE96E7B004">
 <createdBy>eavila</createdBy>
-<createdTime>2014-08-05 22:49:52 UTC</createdTime>
+<createdTime>2014-08-18 02:40:00 UTC</createdTime>
 <generatorID>Generado por el Usuario</generatorID>
 <ownerDesignName>bdReportesModeler</ownerDesignName>
-<columnIdentity class="oracle.dbtools.crest.model.design.storage.db2.v80.ColumnIdentityDB2v80" name="CI37" id="97F2D518-B835-4DF4-D438-3B2746DAE06C">
+<columnIdentity class="oracle.dbtools.crest.model.design.storage.db2.v80.ColumnIdentityDB2v80" name="CI88" id="CDCE4ED3-FC53-0B2D-7FF7-31831BBA861A">
 <createdBy>eavila</createdBy>
-<createdTime>2014-08-05 22:49:52 UTC</createdTime>
+<createdTime>2014-08-18 02:40:00 UTC</createdTime>
 <generatorID>Generado por el Usuario</generatorID>
 <ownerDesignName>bdReportesModeler</ownerDesignName>
 <cache>0</cache>
-<column>A1F587E6-DEA0-189C-CC6A-B2EF1F13CB1F</column>
+<column>7D8BC73E-959A-1337-3185-D8CE96E7B004</column>
 <cycle>false</cycle>
 <generate>BY DEFAULT</generate>
 <incrementBy>1</incrementBy>
@@ -299,18 +299,18 @@
 <order>YES</order>
 </columnIdentity>
 </ColumnProxy>
-<ColumnProxy class="oracle.dbtools.crest.model.design.storage.db2.v80.ColumnProxyDB2v80" name="cclsid" id="A2C71F4F-2925-A77F-9C6F-EF808CEF2E1B">
+<ColumnProxy class="oracle.dbtools.crest.model.design.storage.db2.v80.ColumnProxyDB2v80" name="crsvacct" id="D12C6A25-49DD-CDE9-9E5B-0280DD84186D">
 <createdBy>eavila</createdBy>
-<createdTime>2014-08-05 22:49:52 UTC</createdTime>
+<createdTime>2014-08-18 02:40:00 UTC</createdTime>
 <generatorID>Generado por el Usuario</generatorID>
 <ownerDesignName>bdReportesModeler</ownerDesignName>
-<columnIdentity class="oracle.dbtools.crest.model.design.storage.db2.v80.ColumnIdentityDB2v80" name="CI34" id="FB5F0C85-030F-18C1-4DE5-278E96D9A9BC">
+<columnIdentity class="oracle.dbtools.crest.model.design.storage.db2.v80.ColumnIdentityDB2v80" name="CI85" id="A44D4D90-FB2F-1533-80F4-55801FBAF096">
 <createdBy>eavila</createdBy>
-<createdTime>2014-08-05 22:49:52 UTC</createdTime>
+<createdTime>2014-08-18 02:40:00 UTC</createdTime>
 <generatorID>Generado por el Usuario</generatorID>
 <ownerDesignName>bdReportesModeler</ownerDesignName>
 <cache>0</cache>
-<column>A2C71F4F-2925-A77F-9C6F-EF808CEF2E1B</column>
+<column>D12C6A25-49DD-CDE9-9E5B-0280DD84186D</column>
 <cycle>false</cycle>
 <generate>BY DEFAULT</generate>
 <incrementBy>1</incrementBy>
@@ -318,18 +318,18 @@
 <order>YES</order>
 </columnIdentity>
 </ColumnProxy>
-<ColumnProxy class="oracle.dbtools.crest.model.design.storage.db2.v80.ColumnProxyDB2v80" name="cdesc" id="BA177CFC-B903-4035-5B05-C56886DE7D7B">
+<ColumnProxy class="oracle.dbtools.crest.model.design.storage.db2.v80.ColumnProxyDB2v80" name="cbudno" id="D31AF907-109B-6258-C9E0-182D231A0737">
 <createdBy>eavila</createdBy>
-<createdTime>2014-08-05 22:49:52 UTC</createdTime>
+<createdTime>2014-08-18 02:40:00 UTC</createdTime>
 <generatorID>Generado por el Usuario</generatorID>
 <ownerDesignName>bdReportesModeler</ownerDesignName>
-<columnIdentity class="oracle.dbtools.crest.model.design.storage.db2.v80.ColumnIdentityDB2v80" name="CI31" id="9FA1813B-312D-A492-AFD6-6D95A084DCB5">
+<columnIdentity class="oracle.dbtools.crest.model.design.storage.db2.v80.ColumnIdentityDB2v80" name="CI82" id="6C0EE934-7CFB-ED99-A80F-26F9F44BEA3D">
 <createdBy>eavila</createdBy>
-<createdTime>2014-08-05 22:49:52 UTC</createdTime>
+<createdTime>2014-08-18 02:40:00 UTC</createdTime>
 <generatorID>Generado por el Usuario</generatorID>
 <ownerDesignName>bdReportesModeler</ownerDesignName>
 <cache>0</cache>
-<column>BA177CFC-B903-4035-5B05-C56886DE7D7B</column>
+<column>D31AF907-109B-6258-C9E0-182D231A0737</column>
 <cycle>false</cycle>
 <generate>BY DEFAULT</generate>
 <incrementBy>1</incrementBy>
@@ -337,18 +337,18 @@
 <order>YES</order>
 </columnIdentity>
 </ColumnProxy>
-<ColumnProxy class="oracle.dbtools.crest.model.design.storage.db2.v80.ColumnProxyDB2v80" name="cuid" id="E420E1EA-2FB9-CB07-CB3C-DF9CBB16C1F6">
+<ColumnProxy class="oracle.dbtools.crest.model.design.storage.db2.v80.ColumnProxyDB2v80" name="namt" id="FA15B17C-9CD8-F3BC-259C-9B1FC746C109">
 <createdBy>eavila</createdBy>
-<createdTime>2014-08-05 22:49:52 UTC</createdTime>
+<createdTime>2014-08-18 02:40:00 UTC</createdTime>
 <generatorID>Generado por el Usuario</generatorID>
 <ownerDesignName>bdReportesModeler</ownerDesignName>
-<columnIdentity class="oracle.dbtools.crest.model.design.storage.db2.v80.ColumnIdentityDB2v80" name="CI28" id="3798F86B-A86B-C8EC-2600-4395E1358841">
+<columnIdentity class="oracle.dbtools.crest.model.design.storage.db2.v80.ColumnIdentityDB2v80" name="CI89" id="1375CB06-B690-0D63-F8C0-8295539A17D1">
 <createdBy>eavila</createdBy>
-<createdTime>2014-08-05 22:49:52 UTC</createdTime>
+<createdTime>2014-08-18 02:40:00 UTC</createdTime>
 <generatorID>Generado por el Usuario</generatorID>
 <ownerDesignName>bdReportesModeler</ownerDesignName>
 <cache>0</cache>
-<column>E420E1EA-2FB9-CB07-CB3C-DF9CBB16C1F6</column>
+<column>FA15B17C-9CD8-F3BC-259C-9B1FC746C109</column>
 <cycle>false</cycle>
 <generate>BY DEFAULT</generate>
 <incrementBy>1</incrementBy>
