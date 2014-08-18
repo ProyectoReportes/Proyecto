@@ -14,6 +14,7 @@ CREATE TABLE tbl_apchck (
 	nxchgrate numeric(16, 6) NOT NULL ,
 	nbchkamt numeric(16, 2) NOT NULL 
 )
+GO
 
 CREATE TABLE tbl_bgbudp (
 	cuid char (15)  NOT NULL ,
@@ -31,6 +32,7 @@ CREATE TABLE tbl_bgbudp (
 	namtmod numeric(16, 2) NOT NULL ,
 	nqtymod numeric(16, 4) NOT NULL 
 )
+GO
 
 CREATE TABLE tbl_bgbudt (
 	cuid char (15)  NOT NULL ,
@@ -52,6 +54,7 @@ CREATE TABLE tbl_bgbudt (
 	namtmod numeric(16, 2) NOT NULL ,
 	nqtymod numeric(16, 4) NOT NULL 
 )
+GO
 
 CREATE TABLE tbl_HRJobs (
 	cJobTitlNO 	VARCHAR (10)  NOT NULL ,
@@ -61,6 +64,7 @@ CREATE TABLE tbl_HRJobs (
 	mnotepad	VARCHAR(250)  NULL ,
 	tmodrec		datetime NOT NULL 
 )
+GO
 
 CREATE TABLE tbl_prempy (
 	cempno char (10)  NOT NULL ,
@@ -153,6 +157,7 @@ CREATE TABLE tbl_prempy (
 	laddtax3 smallint NOT NULL ,
 	ltax11mth smallint NOT NULL 
 )
+GO
 
 CREATE TABLE tbl_prmisd (
 	cuid char (15)  NOT NULL ,
@@ -166,6 +171,7 @@ CREATE TABLE tbl_prmisd (
 	cdesc char (54)  NOT NULL ,
 	ctrsno char (10)  NOT NULL 
 )
+GO
 
 CREATE TABLE tbl_prmisc (
 	cuid char (15)  NOT NULL ,
@@ -200,4 +206,5 @@ CREATE TABLE tbl_prmisc (
 	nBaseGrTax numeric(16, 2) NULL ,
 	cdocno char (10)  NULL ,
 	cdoctyp char (2)  NULL 
-) 
+)
+GO
