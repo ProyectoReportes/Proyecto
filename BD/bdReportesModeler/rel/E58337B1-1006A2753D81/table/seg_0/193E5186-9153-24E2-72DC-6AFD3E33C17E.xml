@@ -1,0 +1,79 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="193E5186-9153-24E2-72DC-6AFD3E33C17E" name="tbl_HRJobs">
+<sourceDDLFile>baseMP-0817mssql.sql</sourceDDLFile>
+<createdBy>eavila</createdBy>
+<createdTime>2014-08-18 02:40:00 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>bdReportesModeler</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="cJobTitlNO" id="E2D0C0C7-91AC-5277-F598-D933FA10F2BA">
+<sourceDDLFile>baseMP-0817mssql.sql</sourceDDLFile>
+<createdBy>eavila</createdBy>
+<createdTime>2014-08-18 02:40:00 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>bdReportesModeler</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>00B616FC-66F7-C32A-8EEF-82D015FC4187</domain>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cDesc" id="A2D5F8F2-327C-F8E6-663A-3687A02459BF">
+<sourceDDLFile>baseMP-0817mssql.sql</sourceDDLFile>
+<createdBy>eavila</createdBy>
+<createdTime>2014-08-18 02:40:00 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>bdReportesModeler</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>BDFC9426-F7B5-2818-3AC7-A513FCDF2094</domain>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nSalary" id="5BF3DCED-D3B6-141E-85AF-618587B29827">
+<sourceDDLFile>baseMP-0817mssql.sql</sourceDDLFile>
+<createdBy>eavila</createdBy>
+<createdTime>2014-08-18 02:40:00 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>bdReportesModeler</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<domain>F78A6409-F722-78B2-ACB5-872335AE2060</domain>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nPorPlus" id="7293576D-D6EC-5F2D-DBD9-4A94778DC4F0">
+<sourceDDLFile>baseMP-0817mssql.sql</sourceDDLFile>
+<createdBy>eavila</createdBy>
+<createdTime>2014-08-18 02:40:00 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>bdReportesModeler</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<domain>F78A6409-F722-78B2-ACB5-872335AE2060</domain>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="mnotepad" id="03B61C88-7542-0E80-FF63-23703726A408">
+<sourceDDLFile>baseMP-0817mssql.sql</sourceDDLFile>
+<createdBy>eavila</createdBy>
+<createdTime>2014-08-18 02:40:00 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>bdReportesModeler</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>3C64F5AC-B53D-12C1-1146-2E5F7DF43400</domain>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="tmodrec" id="B1A11EB8-E383-ED75-0927-20A2D85F3D23">
+<sourceDDLFile>baseMP-0817mssql.sql</sourceDDLFile>
+<createdBy>eavila</createdBy>
+<createdTime>2014-08-18 02:40:00 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>bdReportesModeler</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<domain>CCFC8448-611D-0564-7867-68A140CD8BE0</domain>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+</Table>

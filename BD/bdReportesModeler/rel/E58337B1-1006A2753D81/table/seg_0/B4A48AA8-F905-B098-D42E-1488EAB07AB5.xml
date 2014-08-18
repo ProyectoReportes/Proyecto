@@ -1,0 +1,395 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="B4A48AA8-F905-B098-D42E-1488EAB07AB5" name="tbl_prmisc">
+<sourceDDLFile>baseMP-0817mssql.sql</sourceDDLFile>
+<createdBy>eavila</createdBy>
+<createdTime>2014-08-18 02:40:01 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>bdReportesModeler</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="cuid" id="A9A00C62-8B5C-51A1-53BE-695EB982BA1C">
+<sourceDDLFile>baseMP-0817mssql.sql</sourceDDLFile>
+<createdBy>eavila</createdBy>
+<createdTime>2014-08-18 02:40:01 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>bdReportesModeler</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<domain>F93A4156-ED12-C5D1-CE60-77295CBBBA6A</domain>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cempno" id="4901A412-9196-9EBE-A4AE-A05588A64CE5">
+<sourceDDLFile>baseMP-0817mssql.sql</sourceDDLFile>
+<createdBy>eavila</createdBy>
+<createdTime>2014-08-18 02:40:01 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>bdReportesModeler</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<domain>2639BFAF-369D-CA5A-C730-5489E56B2AB7</domain>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="clname" id="12F37307-BAB3-BE7F-F0BC-2C84975F66FC">
+<sourceDDLFile>baseMP-0817mssql.sql</sourceDDLFile>
+<createdBy>eavila</createdBy>
+<createdTime>2014-08-18 02:40:01 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>bdReportesModeler</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<domain>FA13040C-0567-B89B-EE7C-C54F1AEFE6F6</domain>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cfname" id="ECC5397F-DBA4-29CC-1937-A0F48097036C">
+<sourceDDLFile>baseMP-0817mssql.sql</sourceDDLFile>
+<createdBy>eavila</createdBy>
+<createdTime>2014-08-18 02:40:01 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>bdReportesModeler</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<domain>FA13040C-0567-B89B-EE7C-C54F1AEFE6F6</domain>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ctaxstate" id="D9CEE09B-2FE6-1C2E-AA33-2D9C7BA2C3AC">
+<sourceDDLFile>baseMP-0817mssql.sql</sourceDDLFile>
+<createdBy>eavila</createdBy>
+<createdTime>2014-08-18 02:40:01 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>bdReportesModeler</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<domain>EE6E03A9-CBD8-BEBC-E72E-01079031279E</domain>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cdeptno" id="AF7D6F8D-82EC-63E5-817D-5DE36D23C19D">
+<sourceDDLFile>baseMP-0817mssql.sql</sourceDDLFile>
+<createdBy>eavila</createdBy>
+<createdTime>2014-08-18 02:40:01 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>bdReportesModeler</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<domain>2639BFAF-369D-CA5A-C730-5489E56B2AB7</domain>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cpaytype" id="036B6AC6-3B7E-9099-C5CC-5DDF8D3349C0">
+<sourceDDLFile>baseMP-0817mssql.sql</sourceDDLFile>
+<createdBy>eavila</createdBy>
+<createdTime>2014-08-18 02:40:01 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>bdReportesModeler</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<domain>EE6E03A9-CBD8-BEBC-E72E-01079031279E</domain>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cref" id="D38E48CC-188A-B38E-EDF2-3431154CF6E5">
+<sourceDDLFile>baseMP-0817mssql.sql</sourceDDLFile>
+<createdBy>eavila</createdBy>
+<createdTime>2014-08-18 02:40:01 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>bdReportesModeler</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<domain>B77780AF-B6FA-2E3C-A27C-57FD6F0748B5</domain>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ctrsno" id="5FFF0672-EDC2-40BA-CFC5-19FB602A59FB">
+<sourceDDLFile>baseMP-0817mssql.sql</sourceDDLFile>
+<createdBy>eavila</createdBy>
+<createdTime>2014-08-18 02:40:01 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>bdReportesModeler</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<domain>2639BFAF-369D-CA5A-C730-5489E56B2AB7</domain>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cbankno" id="4EE36AAE-DB9D-772D-4B74-D12BD5770107">
+<sourceDDLFile>baseMP-0817mssql.sql</sourceDDLFile>
+<createdBy>eavila</createdBy>
+<createdTime>2014-08-18 02:40:01 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>bdReportesModeler</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<domain>2639BFAF-369D-CA5A-C730-5489E56B2AB7</domain>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cchkno" id="C2116812-7797-67F5-59D9-B380E7359B4C">
+<sourceDDLFile>baseMP-0817mssql.sql</sourceDDLFile>
+<createdBy>eavila</createdBy>
+<createdTime>2014-08-18 02:40:01 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>bdReportesModeler</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<domain>2639BFAF-369D-CA5A-C730-5489E56B2AB7</domain>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="dtrs" id="4AF29DBE-EBBE-6740-C1C9-199D6CAC956C">
+<sourceDDLFile>baseMP-0817mssql.sql</sourceDDLFile>
+<createdBy>eavila</createdBy>
+<createdTime>2014-08-18 02:40:01 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>bdReportesModeler</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<domain>CCFC8448-611D-0564-7867-68A140CD8BE0</domain>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="dcheck" id="3D187A29-E365-3978-2114-07B0FAD78AF3">
+<sourceDDLFile>baseMP-0817mssql.sql</sourceDDLFile>
+<createdBy>eavila</createdBy>
+<createdTime>2014-08-18 02:40:01 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>bdReportesModeler</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<domain>CCFC8448-611D-0564-7867-68A140CD8BE0</domain>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ltaxable" id="08E89913-E844-52F2-BC91-ED5AD31416D6">
+<sourceDDLFile>baseMP-0817mssql.sql</sourceDDLFile>
+<createdBy>eavila</createdBy>
+<createdTime>2014-08-18 02:40:01 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>bdReportesModeler</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT018</logicalDatatype>
+<domain>6B2A6799-4104-6392-8D78-1541B337B4CF</domain>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nothtax" id="6EA79C38-51E4-8463-AC1F-0344C9EA978F">
+<sourceDDLFile>baseMP-0817mssql.sql</sourceDDLFile>
+<createdBy>eavila</createdBy>
+<createdTime>2014-08-18 02:40:01 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>bdReportesModeler</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>7AF8D9DB-7054-D84F-4CF6-AE74AB7E099F</domain>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nothntax" id="E1C2BB71-08A0-8E25-F769-9817FA78AF60">
+<sourceDDLFile>baseMP-0817mssql.sql</sourceDDLFile>
+<createdBy>eavila</createdBy>
+<createdTime>2014-08-18 02:40:01 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>bdReportesModeler</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>7AF8D9DB-7054-D84F-4CF6-AE74AB7E099F</domain>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="csegid1" id="2FC23A74-F3DA-76C3-06FB-D879F96EEEFC">
+<sourceDDLFile>baseMP-0817mssql.sql</sourceDDLFile>
+<createdBy>eavila</createdBy>
+<createdTime>2014-08-18 02:40:01 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>bdReportesModeler</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<domain>2639BFAF-369D-CA5A-C730-5489E56B2AB7</domain>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="csegid2" id="624EEA71-D8F3-E70C-288B-FE95E9D71297">
+<sourceDDLFile>baseMP-0817mssql.sql</sourceDDLFile>
+<createdBy>eavila</createdBy>
+<createdTime>2014-08-18 02:40:01 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>bdReportesModeler</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<domain>2639BFAF-369D-CA5A-C730-5489E56B2AB7</domain>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="csegid3" id="B39576FF-8659-5A75-6A2C-4DA36B4B8093">
+<sourceDDLFile>baseMP-0817mssql.sql</sourceDDLFile>
+<createdBy>eavila</createdBy>
+<createdTime>2014-08-18 02:40:01 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>bdReportesModeler</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<domain>2639BFAF-369D-CA5A-C730-5489E56B2AB7</domain>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="csegid4" id="279C4874-DE94-9148-9A08-E08D7982975B">
+<sourceDDLFile>baseMP-0817mssql.sql</sourceDDLFile>
+<createdBy>eavila</createdBy>
+<createdTime>2014-08-18 02:40:01 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>bdReportesModeler</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<domain>2639BFAF-369D-CA5A-C730-5489E56B2AB7</domain>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="csegid5" id="2A30D9A2-CF9E-6603-8D49-F672FF533875">
+<sourceDDLFile>baseMP-0817mssql.sql</sourceDDLFile>
+<createdBy>eavila</createdBy>
+<createdTime>2014-08-18 02:40:01 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>bdReportesModeler</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<domain>2639BFAF-369D-CA5A-C730-5489E56B2AB7</domain>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="csegmid" id="7B7F3A7C-77A5-5C7C-1C04-827C7103F6D9">
+<sourceDDLFile>baseMP-0817mssql.sql</sourceDDLFile>
+<createdBy>eavila</createdBy>
+<createdTime>2014-08-18 02:40:01 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>bdReportesModeler</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<domain>2639BFAF-369D-CA5A-C730-5489E56B2AB7</domain>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ccycle" id="D3C9A155-D635-3342-B01F-3EDBEE362BED">
+<sourceDDLFile>baseMP-0817mssql.sql</sourceDDLFile>
+<createdBy>eavila</createdBy>
+<createdTime>2014-08-18 02:40:01 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>bdReportesModeler</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<domain>2639BFAF-369D-CA5A-C730-5489E56B2AB7</domain>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cpayno" id="1889DDFB-E2FE-F8DF-C044-2F89AE3835D9">
+<sourceDDLFile>baseMP-0817mssql.sql</sourceDDLFile>
+<createdBy>eavila</createdBy>
+<createdTime>2014-08-18 02:40:01 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>bdReportesModeler</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<domain>2639BFAF-369D-CA5A-C730-5489E56B2AB7</domain>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cpaycode" id="63FA1748-1802-DB34-2744-D06D47CF6F77">
+<sourceDDLFile>baseMP-0817mssql.sql</sourceDDLFile>
+<createdBy>eavila</createdBy>
+<createdTime>2014-08-18 02:40:01 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>bdReportesModeler</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<domain>2639BFAF-369D-CA5A-C730-5489E56B2AB7</domain>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nqty" id="80E7584F-FBD6-AA91-D47C-4876CC4AE581">
+<sourceDDLFile>baseMP-0817mssql.sql</sourceDDLFile>
+<createdBy>eavila</createdBy>
+<createdTime>2014-08-18 02:40:01 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>bdReportesModeler</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>44C8449D-548F-553F-C713-10EE75271424</domain>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nrate" id="C4D7E334-866A-CBA2-AC44-03590702A267">
+<sourceDDLFile>baseMP-0817mssql.sql</sourceDDLFile>
+<createdBy>eavila</createdBy>
+<createdTime>2014-08-18 02:40:01 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>bdReportesModeler</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>44C8449D-548F-553F-C713-10EE75271424</domain>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="lsystem" id="4F883C96-E16F-0746-E442-88FBF99A7395">
+<sourceDDLFile>baseMP-0817mssql.sql</sourceDDLFile>
+<createdBy>eavila</createdBy>
+<createdTime>2014-08-18 02:40:01 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>bdReportesModeler</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT018</logicalDatatype>
+<domain>6B2A6799-4104-6392-8D78-1541B337B4CF</domain>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nothertax" id="CC73A7E8-2F34-1999-27E5-B23EC3464A35">
+<sourceDDLFile>baseMP-0817mssql.sql</sourceDDLFile>
+<createdBy>eavila</createdBy>
+<createdTime>2014-08-18 02:40:01 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>bdReportesModeler</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>7AF8D9DB-7054-D84F-4CF6-AE74AB7E099F</domain>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nBaseGrTax" id="0D51C64A-F4C2-3E8D-C75B-E4CC96FCDEBF">
+<sourceDDLFile>baseMP-0817mssql.sql</sourceDDLFile>
+<createdBy>eavila</createdBy>
+<createdTime>2014-08-18 02:40:01 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>bdReportesModeler</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>7AF8D9DB-7054-D84F-4CF6-AE74AB7E099F</domain>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cdocno" id="E2F6D302-53F8-62FD-41B1-A9A310C045FE">
+<sourceDDLFile>baseMP-0817mssql.sql</sourceDDLFile>
+<createdBy>eavila</createdBy>
+<createdTime>2014-08-18 02:40:01 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>bdReportesModeler</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<domain>2639BFAF-369D-CA5A-C730-5489E56B2AB7</domain>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cdoctyp" id="215E7A7E-A8DB-A583-94C1-A6546CAFFBC4">
+<sourceDDLFile>baseMP-0817mssql.sql</sourceDDLFile>
+<createdBy>eavila</createdBy>
+<createdTime>2014-08-18 02:40:01 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>bdReportesModeler</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<domain>EE6E03A9-CBD8-BEBC-E72E-01079031279E</domain>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+</Table>
