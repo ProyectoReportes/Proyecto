@@ -1,0 +1,65 @@
+para cuentas empleado
+=====================
+campo:
+prempg.cwageacc 
+
+where:
+prdept.cdeptno= prempy.cdeptno and  prempy.cempno=prempg.cempno
+
+CREATE TABLE [prempg] (
+	[cuid] [char] (15) COLLATE SQL_Latin1_General_CP1_CI_AS NOT NULL CONSTRAINT [DF__prempg__cuid__0C91969C] DEFAULT (''),
+	[cempno] [char] (10) COLLATE SQL_Latin1_General_CP1_CI_AS NOT NULL CONSTRAINT [DF__prempg__cempno__0D85BAD5] DEFAULT (''),
+	[cwageacc] [char] (30) COLLATE SQL_Latin1_General_CP1_CI_AS NOT NULL CONSTRAINT [DF__prempg__cwageacc__0E79DF0E] DEFAULT (''),
+	[ctaxacc] [char] (30) COLLATE SQL_Latin1_General_CP1_CI_AS NOT NULL CONSTRAINT [DF__prempg__ctaxacc__0F6E0347] DEFAULT (''),
+	[ndistpct] [numeric](6, 2) NOT NULL CONSTRAINT [DF__prempg__ndistpct__10622780] DEFAULT (0),
+	[cfwtacc] [char] (30) COLLATE SQL_Latin1_General_CP1_CI_AS NOT NULL CONSTRAINT [DF__prempg__cfwtacc__4FBF2934] DEFAULT (''),
+	[cficaacc] [char] (30) COLLATE SQL_Latin1_General_CP1_CI_AS NOT NULL CONSTRAINT [DF__prempg__cficaacc__50B34D6D] DEFAULT (''),
+	[cmediacc] [char] (30) COLLATE SQL_Latin1_General_CP1_CI_AS NOT NULL CONSTRAINT [DF__prempg__cmediacc__51A771A6] DEFAULT (''),
+	[cfutaacc] [char] (30) COLLATE SQL_Latin1_General_CP1_CI_AS NOT NULL CONSTRAINT [DF__prempg__cfutaacc__529B95DF] DEFAULT (''),
+	[csutaacc] [char] (30) COLLATE SQL_Latin1_General_CP1_CI_AS NOT NULL CONSTRAINT [DF__prempg__csutaacc__538FBA18] DEFAULT (''),
+	[cficaeracc] [char] (30) COLLATE SQL_Latin1_General_CP1_CI_AS NOT NULL CONSTRAINT [DF__prempg__cficaera__5483DE51] DEFAULT (''),
+	[cmedieracc] [char] (30) COLLATE SQL_Latin1_General_CP1_CI_AS NOT NULL CONSTRAINT [DF__prempg__cmediera__5578028A] DEFAULT (''),
+	[cfutaeracc] [char] (30) COLLATE SQL_Latin1_General_CP1_CI_AS NOT NULL CONSTRAINT [DF__prempg__cfutaera__566C26C3] DEFAULT (''),
+	[csutaeracc] [char] (30) COLLATE SQL_Latin1_General_CP1_CI_AS NOT NULL CONSTRAINT [DF__prempg__csutaera__57604AFC] DEFAULT (''),
+	 PRIMARY KEY  CLUSTERED 
+	(
+		[cuid]
+	) WITH  FILLFACTOR = 90  ON [vam_user_data] 
+) ON [vam_user_data]
+GO
+
+-----------------------------------------
+
+para ajustes:
+CREATE TABLE [bgadjm] (
+	[cadjno] [char] (10) COLLATE SQL_Latin1_General_CP1_CI_AS NOT NULL CONSTRAINT [DF__bgadjm__cadjno__13402AD9] DEFAULT (''),
+	[cbudid] [char] (10) COLLATE SQL_Latin1_General_CP1_CI_AS NOT NULL CONSTRAINT [DF__bgadjm__cbudid__14344F12] DEFAULT (''),
+	[cbudno] [char] (30) COLLATE SQL_Latin1_General_CP1_CI_AS NOT NULL CONSTRAINT [DF__bgadjm__cbudno__1528734B] DEFAULT (''),
+	[cappcode] [char] (20) COLLATE SQL_Latin1_General_CP1_CI_AS NOT NULL CONSTRAINT [DF__bgadjm__cappcode__161C9784] DEFAULT (''),
+	[cdesc] [char] (54) COLLATE SQL_Latin1_General_CP1_CI_AS NOT NULL CONSTRAINT [DF__bgadjm__cdesc__1710BBBD] DEFAULT (''),
+	[dtrs] [datetime] NULL ,
+	[cuser] [char] (20) COLLATE SQL_Latin1_General_CP1_CI_AS NOT NULL CONSTRAINT [DF__bgadjm__cuser__1804DFF6] DEFAULT (''),
+	[nadjamt] [numeric](16, 2) NOT NULL CONSTRAINT [DF__bgadjm__nadjamt__18F9042F] DEFAULT (0),
+	[nadjqty] [numeric](16, 4) NOT NULL CONSTRAINT [DF__bgadjm__nadjqty__19ED2868] DEFAULT (0),
+	[mnotepad] [text] COLLATE SQL_Latin1_General_CP1_CI_AS NOT NULL CONSTRAINT [DF__bgadjm__mnotepad__1AE14CA1] DEFAULT (''),
+	[tmodrec] [datetime] NOT NULL CONSTRAINT [DF__bgadjm__tmodrec__1BD570DA] DEFAULT (getdate()),
+	[lvoid] [smallint] NOT NULL CONSTRAINT [DF__bgadjm__lvoid__1CC99513] DEFAULT (0),
+	[dvoid] [datetime] NULL ,
+	 PRIMARY KEY  CLUSTERED 
+	(
+		[cadjno]
+	) WITH  FILLFACTOR = 90  ON [vam_user_data] ,
+	 CHECK ([lvoid] = 0 or [lvoid] = 1)
+) ON [vam_user_data] TEXTIMAGE_ON [vam_user_data]
+GO
+
+donde:
+cdesc es una sinopsis de la transaccion, el por que, etc
+cuser es el nombre del usr que realizo el ajuste
+nadjamt el monto del ajuste
+tmoderec fecha de modificacion
+lvoid si es cero es que no se ha anulado la transaccion, 1 es que esta anulada
+si esta anulado no se muestra
+dvoid la fecha de la anulacion
+
+ojo en el where se muestran los lvoid= 0
