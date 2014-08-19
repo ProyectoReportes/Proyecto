@@ -243,3 +243,38 @@ CREATE TABLE prmisc (
 	cdoctyp char(2) NULL
 ) 
 GO
+
+CREATE TABLE prempg (
+	cuid char (15)  NOT NULL ,
+	cempno char (10)  NOT NULL ,
+	cwageacc char (30)  NOT NULL ,
+	ctaxacc char (30)  NOT NULL ,
+	ndistpct numeric(6, 2) NOT NULL,
+	cfwtacc char (30)  NOT NULL,
+	cficaacc char (30)  NOT NULL,
+	cmediacc char (30)  NOT NULL,
+	cfutaacc char (30)  NOT NULL,
+	csutaacc char (30)  NOT NULL,
+	cficaeracc char (30)  NOT NULL,
+	cmedieracc char (30)  NOT NULL,
+	cfutaeracc char (30)  NOT NULL,
+	csutaeracc char (30)  NOT NULL,	 
+)
+GO
+
+CREATE TABLE bgadjm (
+	cadjno char (10)  NOT NULL ,
+	cbudid char (10)  NOT NULL ,
+	cbudno char (30)  NOT NULL ,
+	cappcode char (20)  NOT NULL,
+	cdesc char (54)  NOT NULL ,
+	dtrs datetime NULL ,
+	cuser char (20)  NOT NULL ,
+	nadjamt numeric(16, 2) NOT NULL ,
+	nadjqty numeric(16, 4) NOT NULL ,
+	mnotepad text  NOT NULL,
+	tmodrec datetime NOT NULL,
+	lvoid smallint NOT NULL ,
+	dvoid datetime NULL ,
+)
+GO

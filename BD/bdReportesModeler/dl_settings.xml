@@ -8,11 +8,11 @@
 	<substitution_patterns>
 	</substitution_patterns>
 	<classification_types>
-		<type name="Fact" color="-7482" prefix="" id="1" />
-		<type name="Dimension" color="-1781507" prefix="" id="2" />
-		<type name="Logging" color="-1776412" prefix="" id="3" />
-		<type name="Summary" color="-3148598" prefix="" id="4" />
-		<type name="Temporary" color="-1" prefix="" id="5" />
+		<type name="Hecho" color="-7482" prefix="" id="1" />
+		<type name="Dimensión" color="-1781507" prefix="" id="2" />
+		<type name="Registro" color="-1776412" prefix="" id="3" />
+		<type name="Resumen" color="-3148598" prefix="" id="4" />
+		<type name="Temporal" color="-1" prefix="" id="5" />
 	</classification_types>
 	<default_fonts_and_colors>
 		<fc_object classname="Entity" background="-5971457" foreground="-16776961">
