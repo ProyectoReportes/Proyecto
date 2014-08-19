@@ -1,9 +1,9 @@
 CREATE TABLE HRJobs (
-	cJobTitlNO 	VARCHAR (10)  NOT NULL ,
-	cDesc		VARCHAR (40)  NOT NULL ,
-	nSalary		DECIMAL(5, 2) NOT NULL ,
-	nPorPlus	DECIMAL(5, 2) NOT NULL ,
-	mnotepad	VARCHAR(250)  NULL ,
+	cJobTitlNO 	CHAR (10)  NOT NULL ,
+	cDesc		CHAR (40)  NOT NULL ,
+	nSalary		NUMERIC(5, 2) NOT NULL ,
+	nPorPlus	NUMERIC(5, 2) NOT NULL ,
+	mnotepad	CHAR(250)  NULL ,
 	tmodrec		datetime NOT NULL 
 )
 GO
