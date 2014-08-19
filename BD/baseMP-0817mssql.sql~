@@ -1,4 +1,4 @@
-CREATE TABLE HRJobs (
+CREATE TABLE tbl_HRJobs (
 	cJobTitlNO varchar(10) NOT NULL,
 	cDesc varchar(40) NOT NULL,
 	nSalary decimal(5, 2) NOT NULL,
@@ -8,7 +8,7 @@ CREATE TABLE HRJobs (
 ) 
 GO
 
-CREATE TABLE prdept (
+CREATE TABLE tbl_prdept (
 	cdeptno char(10) NOT NULL,
 	cdeptname char(30) NOT NULL,
 	cwageacc char(30) NOT NULL,
@@ -31,7 +31,7 @@ CREATE TABLE prdept (
 ) 
 GO
 
-CREATE TABLE prempy (
+CREATE TABLE tbl_prempy (
 	cempno char(10) NOT NULL,
 	cfname char(20) NOT NULL,
 	clname char(20) NOT NULL,
@@ -124,7 +124,7 @@ CREATE TABLE prempy (
 ) 
 GO
 
-CREATE TABLE bgbudp (
+CREATE TABLE tbl_bgbudp (
 	cuid char(15) NOT NULL,
 	cbudid char(10) NOT NULL,
 	cbudno char(30) NOT NULL,
@@ -142,7 +142,7 @@ CREATE TABLE bgbudp (
 ) 
 GO
 
-CREATE TABLE apchck (
+CREATE TABLE tbl_apchck (
 	cvendno char(10) NOT NULL,
 	cpayto char(40) NOT NULL,
 	cchktype char(1) NOT NULL,
@@ -160,7 +160,7 @@ CREATE TABLE apchck (
 ) 
 GO
 
-CREATE TABLE bgbudt (
+CREATE TABLE tbl_bgbudt (
 	cuid char(15) NOT NULL,
 	cbudid char(10) NOT NULL,
 	cbudno char(30) NOT NULL,
@@ -182,7 +182,7 @@ CREATE TABLE bgbudt (
 ) 
 GO
 
-CREATE TABLE prmisd (
+CREATE TABLE tbl_prmisd (
 	cuid char(15) NOT NULL,
 	cempno char(10) NOT NULL,
 	cdedno char(10) NOT NULL,
@@ -196,7 +196,7 @@ CREATE TABLE prmisd (
 ) 
 GO
 
-CREATE TABLE prmisc (
+CREATE TABLE tbl_prmisc (
 	cuid char(15) NOT NULL,
 	cempno char(10) NULL,
 	clname char(20) NULL,
