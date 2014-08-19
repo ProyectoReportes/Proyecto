@@ -1,3 +1,8 @@
+CREATE DATABASE mpsiafi;
+GO
+USE mpsiafi;
+GO
+
 CREATE TABLE HRJobs (
 	cJobTitlNO char(10) NOT NULL,
 	cDesc char(40) NOT NULL,

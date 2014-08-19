@@ -1,9 +1,14 @@
+CREATE DATABASE mpsiafi;
+GO
+USE mpsiafi;
+GO
+
 CREATE TABLE HRJobs (
-	cJobTitlNO varchar(10) NOT NULL,
-	cDesc varchar(40) NOT NULL,
-	nSalary decimal(5, 2) NOT NULL,
-	nPorPlus decimal(5, 2) NOT NULL,
-	mnotepad varchar(250) NULL,
+	cJobTitlNO char(10) NOT NULL,
+	cDesc char(40) NOT NULL,
+	nSalary numeric(5, 2) NOT NULL,
+	nPorPlus numeric(5, 2) NOT NULL,
+	mnotepad char(250) NULL,
 	tmodrec datetime NOT NULL
 ) 
 GO
