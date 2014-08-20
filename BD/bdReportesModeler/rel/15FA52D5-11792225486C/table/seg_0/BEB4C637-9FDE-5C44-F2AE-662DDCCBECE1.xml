@@ -79,9 +79,8 @@
 <ownerDesignName>bdReportesModeler</ownerDesignName>
 <importedID>45B187C5-36DA-1CFC-BA15-8BF29BE47163</importedID>
 <useDomainConstraints>false</useDomainConstraints>
-<use>0</use>
-<logicalDatatype>LOGDT033</logicalDatatype>
-<domain>C240435B-F99F-3059-3974-8A43C10C2F96</domain>
+<use>1</use>
+<logicalDatatype>LOGDT041</logicalDatatype>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 <Column name="fecha_creacion" id="D086121E-F719-8FE3-A754-D624D41910F6">
@@ -132,9 +131,6 @@
 <logicalDatatype>LOGDT011</logicalDatatype>
 <delegate>61EB8C83-3DC6-40A7-9B3E-F83993068CC4</delegate>
 <autoIncrementCycle>false</autoIncrementCycle>
-<associations>
-<colAssociation fkAssociation="3F9D5E2F-2701-4F6A-D101-7142658CCAC6" referredColumn="61EB8C83-3DC6-40A7-9B3E-F83993068CC4"/>
-</associations>
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
@@ -149,30 +145,6 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="6D1E7E0E-EB60-3B6B-86E9-264BAAA6FFDA"/>
-</indexColumnUsage>
-</ind_PK_UK>
-<ind_PK_UK id="FB21B056-CF34-0858-97EA-E5F67F2B5B9F" name="tbl_usuarios_UK0">
-<sourceDDLFile>bdReportesMSSQL.sql</sourceDDLFile>
-<createdBy>eavila</createdBy>
-<createdTime>2014-08-05 22:06:37 UTC</createdTime>
-<generatorID>Generado por el Usuario</generatorID>
-<ownerDesignName>bdReportesModeler</ownerDesignName>
-<importedID>A65B801F-A941-E665-477A-98451F5E07EC</importedID>
-<indexState>Unique Constraint</indexState>
-<isSurrogateKey>false</isSurrogateKey>
-<indexColumnUsage>
-<colUsage columnID="6D1E7E0E-EB60-3B6B-86E9-264BAAA6FFDA"/>
-</indexColumnUsage>
-</ind_PK_UK>
-<ind_PK_UK id="124E9588-183E-B310-4724-36EF9732AAED" name="tbl_usuarios_tbl_departamento_FK">
-<createdBy>eavila</createdBy>
-<createdTime>2014-08-05 22:06:37 UTC</createdTime>
-<generatorID>Generado por el Usuario</generatorID>
-<ownerDesignName>bdReportesModeler</ownerDesignName>
-<indexState>Foreign Key</indexState>
-<isSurrogateKey>false</isSurrogateKey>
-<indexColumnUsage>
-<colUsage columnID="85C28C2E-4E3C-B505-85B8-8C094E4E7C09"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>
