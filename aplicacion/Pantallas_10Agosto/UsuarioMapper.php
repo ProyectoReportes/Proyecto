@@ -5,7 +5,7 @@ class UsuarioMapper extends MapperBD{
         parent::__construct(); 
          
         $this->selectStmt = $this->PDO->prepare(
-			"SELECT * FROM tbl_usuarios INNER JOIN tbl_rol_usuario USING(id_usuario) WHERE email = :email and clave = :password"); 
+			"SELECT * FROM tbl_usuarios AS u INNER JOIN tbl_rol_usuario AS r ON r.id_usuario = u.id_usuario WHERE u.email = :email and PWDCOMPARE(:password,u.clave)=1"); 
      
     }
 	
