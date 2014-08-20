@@ -1,0 +1,9 @@
+<?php
+echo "Hola Mundo";
+?>
+
+<h1>Titulo</h1>
+
+<p>
+	Parrafo
+</p>

@@ -3,7 +3,6 @@ abstract class MapperBD {
 
     protected $PDO;
    
-    protected $errorDesc;
     protected $selectStmt;
     protected $insertStmt;
     protected $updateStmt;
@@ -13,7 +12,6 @@ abstract class MapperBD {
     function __construct(){
         if(!isset($PDO)){
             $this->PDO = Registro::$PDO;
-	    $this->errorDesc = Registro::$errorDesc;
         }
     }
   
