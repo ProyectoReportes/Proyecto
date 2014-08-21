@@ -1,33 +1,27 @@
 <?php
+
 class UsuarioMapper extends MapperBD{
     
     function __construct(){
         parent::__construct(); 
-         
-        $this->selectStmt = $this->PDO->prepare(
-			"SELECT * FROM tbl_usuarios INNER JOIN tbl_rol_usuario USING(id_usuario) WHERE email = :email and clave = :password"); 
-     
+              
     }
 	
-		public function buscarporemail($login){
-		$this->selectStmt->execute(array(
-		'email'=>$login->getemail(),
-		'password'=>$login->getpassword()));
-		if($row= $this->selectStmt->fetch()){
-		return true;
-		}else{
-		return false;
+	public function buscarporemail($login)
+	{
+			
+		$result = mssql_query("exec sp_login '".$login->getemail()."', '".$login->getpassword()."'", $this->conexion);
+
+		if($fila = mssql_fetch_assoc($result))
+		{
+			return $fila;
+		}
+		else
+		{
+			return null;
+		}	
 	}
-	}
-		
-		public function getUsuario($login){
-		$this->selectStmt->execute(array(
-		'email'=>$login->getemail(),
-		'password'=>$login->getpassword()));
-		if($obj = $this->selectStmt->fetch(PDO::FETCH_OBJ))
-		return $obj;
-		else return null;
-   }
+
     
 	function buscarPorId($id){
 		throw new Exception("Error metodo no implementado");

@@ -4,6 +4,7 @@ class CargadorClases {
 
     static public function cargarClase($nombre) {
         require("$nombre.php");
+	
     }
     
 }

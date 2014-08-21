@@ -1,6 +1,6 @@
 <?php
 require('CargadorClases.php');
-$registro=new registro();
+
 session_start();
 if(isset($_GET['logout'])){
     // Destruir todas las variables de sesión.
@@ -24,13 +24,15 @@ $intentoFallido = false;
   ){
 	$login = new usuario($_POST['email'],$_POST['password']);
 	$usuariomapper=new UsuarioMapper();
+
 	
-	if($user = $usuariomapper->buscarporemail($login)){
-	$user = $usuariomapper->getUsuario($login);
-			
+	$user = $usuariomapper->buscarporemail($login);
+					
 			if($user !== null){
-			    $user_name = $user->prnombre;
-			    $user_rol = $user->id_rol;
+
+			    $user_name = $user["NOMBRE"];
+				
+			    $user_rol = $user["ROL"];
 			    
 			    switch($user_rol){
 				case 1:
@@ -45,13 +47,9 @@ $intentoFallido = false;
 				default:
 				    $user_rol = " ";
 			    }
-			    $_SESSION["user_name"]= "{$user_name} -- {$user_rol}";
+			    $_SESSION["user_name"]= "{$user_name}";
 			    $_SESSION["user_rol"]= $user->id_rol;
 			}
-	
-	}else{
-        $intentoFallido = true;
-    }
     
 }
 ?>
