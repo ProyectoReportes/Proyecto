@@ -1,9 +1,13 @@
 <?php 
+session_start();
 require('CargadorClases.php');
 if(!isset($_SESSION["user_name"]))
 {
 	header("Location:index.php");
+	exit;
 }
+$reporte = new ReporteMapper();
+$result = $reporte->reporteIngresoEmpleados();
 
 ?>
 
@@ -21,13 +25,35 @@ if(!isset($_SESSION["user_name"]))
 </head>
 
 <body>
-      <div class="login"> 
-      <form class="form-signin" role="form">
-        <input type="email" class="form-control" placeholder="Email" required>
-        <input type="password" class="form-control" placeholder="Password" required>
+      <?php
+		    if(!isset($_SESSION['user_name'])){
+			
+	echo<<<"EOT"
+			
+	 <div class="login"> 
+      <form class="form-signin" role="form" action="index.php" method="post">
+        <input type="email" class="form-control"  name="email" id="email" placeholder="Email" required>
+        <input type="password" class="form-control"  name="password" id="password" placeholder="Password" required>
         <button class="btn btn-primary btn-block" type="submit">Ingresar</button>  
       </form>
 </div>
+EOT;
+
+		}		
+			if(isset($_SESSION['user_name'])){
+		echo<<<"EL"
+           <div class="welcome">   
+	   <ul class="nav nav-pills">
+	   <li><a class="btn btn-default disabled" href="#">Conectado como {$_SESSION["user_name"]} </a></li>
+	   <li class="active"><a href="index.php?logout=true"><span class="glyphicon glyphicon-log-out"></span> Salir</a></li>
+	   </ul>
+	   </div>
+			
+EL;
+
+}
+?>	 
+
   
   <h1 class="logo"><a href="index.html"></a></h1>
   <h1 class="text-muted">Sistema de Reportes</h1>
@@ -81,71 +107,16 @@ if(!isset($_SESSION["user_name"]))
 <div class="table-responsive">
     <table id="tabla" class="table table-striped"  >
         <thead>
-        <tr>
-            <th>Codigo</th>
-            <th>No. Identidad</th>
-            <th>Nombres</th>
-            <th>Apellidos</th>
-            <th>Cargo</th>
-            <th>Codigo Departamento</th>
-            <th>Departamento</th>
-            <th>Referencia</th>
-            <th>Banco</th>
-            <th>Cheque</th>
-            <th>Planilla</th>
-            <th>Codigo Ingreso</th>
-            <th>Valor Ingreso</th> 
-        </tr>
+        
         </thead>
         <tbody>
-        <tr>
-            <td>Hola</td>
-            <td>Hola</td>
-            <td>Hola</td>
-            <td>Hola</td>
-            <td>Hola</td>
-            <td>Hola</td>
-            <td>Hola</td>
-            <td>Hola</td>
-            <td>Hola</td>
-            <td>Hola</td>
-            <td>Hola</td>
-            <td>Hola</td>
-            <td>Hola</td>
-
-        </tr>
-        <tr>
-            <td>Hola</td>
-            <td>Hola</td>
-            <td>Hola</td>
-            <td>Hola</td>
-            <td>Hola</td>
-            <td>Hola</td>
-            <td>Hola</td>
-            <td>Hola</td>
-            <td>Hola</td>
-            <td>Hola</td>
-            <td>Hola</td>
-            <td>Hola</td>
-            <td>Hola</td>
-
-        </tr>
-        <tr>
-            <td>Hola</td>
-            <td>Hola</td>
-            <td>Hola</td>
-            <td>Hola</td>
-            <td>Hola</td>
-            <td>Hola</td>
-            <td>Hola</td>
-            <td>Hola</td>
-            <td>Hola</td>
-            <td>Hola</td>
-            <td>Hola</td>
-            <td>Hola</td>
-            <td>Hola</td>
-
-        </tr>
+	<?php while($row = mssql_fetch_assoc($result)) { ?>
+		<tr>
+		<?php foreach ($row as $indice => $valor) {  ?>
+			<td><?php echo $valor ?></td>
+		<?php } ?>
+		</tr>	
+	<?php } ?>	
         </tbody>
     </table>
 
