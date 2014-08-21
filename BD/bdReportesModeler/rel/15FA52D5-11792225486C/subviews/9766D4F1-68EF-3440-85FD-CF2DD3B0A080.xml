@@ -1,0 +1,46 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Diagram class="oracle.dbtools.crest.swingui.relational.DPVRelational" name="bd_reportes" id="9766D4F1-68EF-3440-85FD-CF2DD3B0A080">
+<createdBy>eavila</createdBy>
+<createdTime>2014-08-05 22:06:36 UTC</createdTime>
+<autoRoute>false</autoRoute>
+<boxInbox>true</boxInbox>
+<showLegend>false</showLegend>
+<showLabels>false</showLabels>
+<showRelAttributes>false</showRelAttributes>
+<showGrid>false</showGrid>
+<diagramColor>-1</diagramColor>
+<display>false</display>
+<notation>1</notation>
+<objectViews>
+<OView class="oracle.dbtools.crest.swingui.relational.TVTable" oid="1D85D1F1-2515-DF76-36A7-B2466965DE97" otype="Table" vid="3E2BBE1B-AE31-7B91-7C74-C984DAAB7C9B">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<bounds x="231" y="335" width="238" height="110"/>
+</OView>
+<OView class="oracle.dbtools.crest.swingui.relational.TVTable" oid="9DF91884-89F3-43A6-1461-4F270EB2DCE3" otype="Table" vid="B44DEA87-F05A-5C87-8D8C-1AA4F3A21004">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<bounds x="555" y="222" width="218" height="82"/>
+</OView>
+<OView class="oracle.dbtools.crest.swingui.relational.TVTable" oid="BEB4C637-9FDE-5C44-F2AE-662DDCCBECE1" otype="Table" vid="00D39E6D-036A-8411-F60E-8E7723C52CC5">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<bounds x="226" y="76" width="267" height="196"/>
+</OView>
+</objectViews>
+<connectors>
+<Connector class="oracle.dbtools.crest.swingui.relational.TVFKRelation" oid="63CBCEB8-F4F6-2A97-1E66-A0109707C297" otype="FKIndexAssociation" vid_source="00D39E6D-036A-8411-F60E-8E7723C52CC5" vid_target="B44DEA87-F05A-5C87-8D8C-1AA4F3A21004">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<lineWidth>1</lineWidth>
+<points>
+<point x="493" y="247"/>
+<point x="555" y="247"/>
+</points>
+</Connector>
+<Connector class="oracle.dbtools.crest.swingui.relational.TVFKRelation" oid="9E7E8B50-685E-5137-400C-CBE7BE5B23C1" otype="FKIndexAssociation" vid_source="3E2BBE1B-AE31-7B91-7C74-C984DAAB7C9B" vid_target="B44DEA87-F05A-5C87-8D8C-1AA4F3A21004">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<lineWidth>1</lineWidth>
+<points>
+<point x="469" y="390"/>
+<point x="664" y="304"/>
+</points>
+</Connector>
+</connectors>
+</Diagram>

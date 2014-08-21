@@ -1,0 +1,10 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<StorageDesignSqlServerv2k class="oracle.dbtools.crest.model.design.storage.sqlserver.v2k.StorageDesignSqlServerv2k" name="SQL Server 2000" id="0DA7AB54-6B02-3E48-2CD3-44711CDC7522">
+<createdBy>eavila</createdBy>
+<createdTime>2014-08-05 22:28:36 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>bdReportesModeler</ownerDesignName>
+<siteID>3424E3DB-6FE1-14EB-9311-F76EF3096E76</siteID>
+<siteName>SQL Server 2000</siteName>
+<siteType>4</siteType>
+</StorageDesignSqlServerv2k>

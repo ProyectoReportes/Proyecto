@@ -1,0 +1,10 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<StorageDesignDB2v80 class="oracle.dbtools.crest.model.design.storage.db2.v80.StorageDesignDB2v80" name="DB2/390 8" id="B0E888DC-92FB-F500-3231-6571F8D70E8D">
+<createdBy>eavila</createdBy>
+<createdTime>2014-08-05 22:30:55 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>bdReportesModeler</ownerDesignName>
+<siteID>CC7FDCE5-F5A5-F2C0-C9A7-0C07C92C898D</siteID>
+<siteName>DB2/390 8</siteName>
+<siteType>1</siteType>
+</StorageDesignDB2v80>

@@ -1,0 +1,52 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="1D85D1F1-2515-DF76-36A7-B2466965DE97" name="tbl_rol">
+<sourceDDLFile>bdReportesMSSQL.sql</sourceDDLFile>
+<createdBy>eavila</createdBy>
+<createdTime>2014-08-05 22:06:37 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>bdReportesModeler</ownerDesignName>
+<importedID>22709483-BBC6-808C-E617-A177C885081E</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_rol" id="B8F91483-BC1E-42B9-29F0-61534DBD408D">
+<createdBy>eavila</createdBy>
+<createdTime>2014-08-05 22:06:37 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>bdReportesModeler</ownerDesignName>
+<importedID>AD7A718A-1CC1-2DE3-29DA-7984F53A2BAD</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT018</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="descripcion" id="3594BC63-A6A9-C407-933C-4A560D56FBAF">
+<createdBy>eavila</createdBy>
+<createdTime>2014-08-05 22:06:37 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>bdReportesModeler</ownerDesignName>
+<importedID>E660B077-131D-6BD4-D5C1-6F4605F5DEB2</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>45</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="8EACC2DD-4A3C-8630-248A-DA56AAA1CACF" name="tbl_rol_PK">
+<createdBy>eavila</createdBy>
+<createdTime>2014-08-05 22:06:37 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>bdReportesModeler</ownerDesignName>
+<importedID>2F73161B-2C6E-9443-3210-BD24784767B1</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B8F91483-BC1E-42B9-29F0-61534DBD408D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

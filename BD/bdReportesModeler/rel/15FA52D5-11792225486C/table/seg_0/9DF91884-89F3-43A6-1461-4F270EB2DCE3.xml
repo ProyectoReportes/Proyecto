@@ -1,0 +1,85 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="9DF91884-89F3-43A6-1461-4F270EB2DCE3" name="tbl_rol_usuario">
+<sourceDDLFile>bdReportesMSSQL.sql</sourceDDLFile>
+<createdBy>eavila</createdBy>
+<createdTime>2014-08-05 22:06:37 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>bdReportesModeler</ownerDesignName>
+<importedID>B5A74796-46C7-9565-8040-46CFE71E062D</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_usuario" id="79D70F85-416C-5C7E-338B-4379B6CBAE09">
+<sourceDDLFile>bdReportesMSSQL.sql</sourceDDLFile>
+<createdBy>eavila</createdBy>
+<createdTime>2014-08-05 22:06:37 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>bdReportesModeler</ownerDesignName>
+<importedID>112B0FC2-63DE-CD82-BEE9-C9A836B9F722</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>45</dataTypeSize>
+<delegate>6D1E7E0E-EB60-3B6B-86E9-264BAAA6FFDA</delegate>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="63CBCEB8-F4F6-2A97-1E66-A0109707C297" referredColumn="6D1E7E0E-EB60-3B6B-86E9-264BAAA6FFDA"/>
+</associations>
+</Column>
+<Column name="id_rol" id="927E676D-95EC-C0C5-4258-5096CADAE16A">
+<sourceDDLFile>bdReportesMSSQL.sql</sourceDDLFile>
+<createdBy>eavila</createdBy>
+<createdTime>2014-08-05 22:06:37 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>bdReportesModeler</ownerDesignName>
+<importedID>221B67E0-8B52-FD62-0AB6-329698469E22</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT018</logicalDatatype>
+<delegate>B8F91483-BC1E-42B9-29F0-61534DBD408D</delegate>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="9E7E8B50-685E-5137-400C-CBE7BE5B23C1" referredColumn="B8F91483-BC1E-42B9-29F0-61534DBD408D"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="8B91E5F1-F538-26EC-2BAE-269AFBCF9EEB" name="tbl_rol_usuario_PK">
+<sourceDDLFile>bdReportesMSSQL.sql</sourceDDLFile>
+<createdBy>eavila</createdBy>
+<createdTime>2014-08-05 22:06:37 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>bdReportesModeler</ownerDesignName>
+<importedID>54ABCD94-0B1D-7512-8C6F-6CA61B65D21B</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="79D70F85-416C-5C7E-338B-4379B6CBAE09"/>
+<colUsage columnID="927E676D-95EC-C0C5-4258-5096CADAE16A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="6E7F69EA-0FA5-7C76-1B0D-05F53823EDFC" name="tbl_rol_usuario_tbl_usuarios_FK">
+<createdBy>eavila</createdBy>
+<createdTime>2014-08-05 22:06:37 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>bdReportesModeler</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="79D70F85-416C-5C7E-338B-4379B6CBAE09"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="CB43E83E-62A1-EEE1-4553-B6BC74FA23BB" name="tbl_rol_usuario_tbl_rol_FK">
+<createdBy>eavila</createdBy>
+<createdTime>2014-08-05 22:06:37 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>bdReportesModeler</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="927E676D-95EC-C0C5-4258-5096CADAE16A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

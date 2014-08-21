@@ -1,0 +1,151 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="BEB4C637-9FDE-5C44-F2AE-662DDCCBECE1" name="tbl_usuarios">
+<sourceDDLFile>bdReportesMSSQL.sql</sourceDDLFile>
+<createdBy>eavila</createdBy>
+<createdTime>2014-08-05 22:06:37 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>bdReportesModeler</ownerDesignName>
+<importedID>1A3B8F62-84CF-DB19-B337-1ABF8DC0621A</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_usuario" id="6D1E7E0E-EB60-3B6B-86E9-264BAAA6FFDA">
+<createdBy>eavila</createdBy>
+<createdTime>2014-08-05 22:06:37 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>bdReportesModeler</ownerDesignName>
+<importedID>5EB7BF3D-3DA1-1C5D-81AA-2547AB5FD3A2</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>45</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="prnombre" id="4AFC6481-03A7-E689-CCDF-7BFDD6C61710">
+<createdBy>eavila</createdBy>
+<createdTime>2014-08-05 22:06:37 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>bdReportesModeler</ownerDesignName>
+<importedID>33CFB390-80CC-4501-E1CD-356E04702652</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="sgnombre" id="14F91949-BD9A-5E00-BD23-A4F5743E9E21">
+<createdBy>eavila</createdBy>
+<createdTime>2014-08-05 22:06:37 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>bdReportesModeler</ownerDesignName>
+<importedID>F714F571-1A78-F65E-4005-DEC5DD9212D7</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="prapellido" id="DDF3F4D4-4D82-067B-E975-21F1E92CFB8C">
+<createdBy>eavila</createdBy>
+<createdTime>2014-08-05 22:06:37 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>bdReportesModeler</ownerDesignName>
+<importedID>EE57F5FE-BA7B-D182-AF4C-15C067296C03</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="sgapellido" id="36286ED9-7E21-9F55-4731-DE893AFF31B0">
+<createdBy>eavila</createdBy>
+<createdTime>2014-08-05 22:06:37 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>bdReportesModeler</ownerDesignName>
+<importedID>2304841D-6CC8-9706-9EB4-037B2BC4C94B</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="clave" id="7A2CBC56-748C-1F21-4B16-18936DFAB33C">
+<sourceDDLFile>bdReportesMSSQL.sql</sourceDDLFile>
+<createdBy>eavila</createdBy>
+<createdTime>2014-08-05 22:06:37 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>bdReportesModeler</ownerDesignName>
+<importedID>45B187C5-36DA-1CFC-BA15-8BF29BE47163</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT041</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="fecha_creacion" id="D086121E-F719-8FE3-A754-D624D41910F6">
+<createdBy>eavila</createdBy>
+<createdTime>2014-08-05 22:06:37 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>bdReportesModeler</ownerDesignName>
+<importedID>A31C9B24-341E-5FDE-A9AC-62AC2B96F113</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="fecha_ultimo_ingreso" id="109691C9-6596-E5B0-F944-355774CE4CDB">
+<createdBy>eavila</createdBy>
+<createdTime>2014-08-05 22:06:37 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>bdReportesModeler</ownerDesignName>
+<importedID>064EB39F-5F71-1285-88A5-EE56E1FE4F19</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="email" id="21C11EB9-201D-8C0C-A79E-E1B5C480D22D">
+<createdBy>eavila</createdBy>
+<createdTime>2014-08-05 22:06:37 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>bdReportesModeler</ownerDesignName>
+<importedID>2CA4A40A-F7FD-AA34-6ABD-DC7718EF145F</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="id_departamento" id="85C28C2E-4E3C-B505-85B8-8C094E4E7C09">
+<createdBy>eavila</createdBy>
+<createdTime>2014-08-05 22:06:37 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>bdReportesModeler</ownerDesignName>
+<importedID>65197AAD-BC49-9700-AD04-1541FABE3765</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<delegate>61EB8C83-3DC6-40A7-9B3E-F83993068CC4</delegate>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="72207254-3EC8-4902-3375-FF1A2A8522B2" name="tbl_usuarios_PK">
+<createdBy>eavila</createdBy>
+<createdTime>2014-08-05 22:06:37 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>bdReportesModeler</ownerDesignName>
+<importedID>D6C50A9A-54B3-5C22-006B-5858E89DA526</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6D1E7E0E-EB60-3B6B-86E9-264BAAA6FFDA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
