@@ -2,7 +2,8 @@
 
 class UsuarioMapper extends MapperBD{
     
-    function __construct(){
+    function __construct()
+    {
         parent::__construct(); 
               
     }

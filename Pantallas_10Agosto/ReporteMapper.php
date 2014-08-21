@@ -1,27 +1,19 @@
 <?php
 
-class UsuarioMapper extends MapperBD{
+class ReporteMapper extends MapperBD{
     
-    function __construct(){
+    function __construct()
+    {
         parent::__construct(); 
               
     }
-	
-	public function buscarporemail($login)
+
+	function reporteIngresoEmpleados()
 	{
-			
-		$result = mssql_query("exec sp_login '".$login->getemail()."', '".$login->getpassword()."'", $this->conexion);
+		$result = mssql_query("exec sp_reporte_ingreso_empleados", $this->conexion);
+		return $result;
 
-		if($fila = mssql_fetch_assoc($result))
-		{
-			return $fila;
-		}
-		else
-		{
-			return null;
-		}	
 	}
-
     
 	function buscarPorId($id){
 		throw new Exception("Error metodo no implementado");

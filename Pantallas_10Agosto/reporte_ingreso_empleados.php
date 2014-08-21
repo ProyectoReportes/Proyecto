@@ -1,4 +1,12 @@
+<?php 
+require('CargadorClases.php');
+if(!isset($_SESSION["user_name"]))
+{
+	header("Location:index.php");
+	exit;
+}
 
+?>
 
 <!DOCTYPE html>
 <html lang="es">
