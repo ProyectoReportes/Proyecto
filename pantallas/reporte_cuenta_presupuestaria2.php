@@ -30,18 +30,21 @@ require('Site_body.php');
 	<fieldset>
 		<legend>Filtros</legend>
 		<label>Cargo:&nbsp<input type="text" name="carg" id="carg" class="form-control" value="" ></label>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
-		<label>Departamento:&nbsp<input type="text" name="depto" id="depto" class="form-control"  value=""></label>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
-		<label>Codigo Presupuestario:&nbsp<input type="text" name="cod_pre" id="cod_pre" class="form-control" value=""></label>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+		<label>Departamento:&nbsp<input type="text" name="depto" id="depto" class="form-control" value=""></label>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+		<label>Codigo Presupuestario:&nbsp<input type="text" class="form-control" name="cod_pre" id="cod_pre"  value=""></label>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
 		<label>Estado:&nbsp<input type="text" name="est" id="est" class="form-control" value=""></label><br/><br/>
 		<label>Fecha de Acuerdo</label><br>
-		<label>Desde:&nbsp<input type="date" name="ac_in" id="ac_in" class="form-control" value="" placeholder="aaaa-mm-dd"></label>
-		<label>Hasta:&nbsp<input type="date" name="ac_fin" id="ac_fin" class="form-control" value=""  placeholder="aaaa-mm-dd"></label><br/><br/>
+		<label>Desde:&nbsp<input type="date" name="ac_in" id="ac_in" class="form-control" value=""></label>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+		<label>Hasta:&nbsp<input type="date" name="ac_fin" id="ac_fin" class="form-control" value=""></label><br/><br/>
 		<label>Fecha de Contrato</label><br>
-		<label>Desde:&nbsp<input type="date" name="cont_in" id="cont_in" class="form-control" value=""  placeholder="aaaa-mm-dd"></label>
-		<label>Hasta:&nbsp<input type="date" name="cont_fin" id="cont_fin" class="form-control" value=""  placeholder="aaaa-mm-dd"></label><br/>
-                <input type="submit" id="bt_Generar" class="btn btn-primary" value="Generar Reporte" onclick="consultaReporte();"/>
+		<label>Desde:&nbsp<input type="date" name="cont_in" id="cont_in" class="form-control" value=""></label>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+		<label>Hasta:&nbsp<input type="date" name="cont_fin" id="cont_fin" class="form-control" value=""></label><br/>
+        
+        <div class="import_button"><a href="#" onClick="consultaReporte();" class="btn btn-primary" role="button" >
+			<span class="glyphicon glyphicon-ok-sign"></span> Generar Reporte</a>
+        </div>
                 <br>
-                <div class="col-xs-offset-8 col-xs-6">
+                <div class="col-xs-offset-4 col-xs-2">
                     <div class="import_button"><a href="#" class="btn btn-primary" 
                                                   role="button" onclick="guardaReporte(this);">
                             <span class="glyphicon glyphicon-export">
@@ -88,6 +91,7 @@ require('Site_footer.php');
     }
     
     function consultaReporte(){
+
         var cargo = document.getElementById("carg").value;
         var depto = document.getElementById("depto").value;
         var codpre = document.getElementById("cod_pre").value;
