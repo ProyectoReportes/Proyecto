@@ -26,11 +26,9 @@ class UsuarioMapper extends MapperBD{
 
 	public function insertarUsuario($usuario)
 	{
-	/*mssql_query("exec sp_nuevousuario '".$usuario->getcodUsuario()."', '".$usuario->getemail()."', '".$usuario->getprimerNombre()."', '".$usuario->getprimerApellido()."', '".$usuario->getpassword()."', 		'".$usuario->getrol()."'" , $this->conexion);
-*/
-	return "llego hasta aca";
-	
-	$consulta = mssql_init("sp_nuevo_usuario", $this->conexion);
+
+	try{
+	$consulta = mssql_init("sp_nuevousuario", $this->conexion);
 	mssql_bind($consulta,"@idusuario",$usuario->getcodUsuario(),SQLVARCHAR);
 	mssql_bind($consulta,"@correo",$usuario->getemail(),SQLVARCHAR);
 	mssql_bind($consulta,"@prnombre",$usuario->getprimerNombre(),SQLVARCHAR);
@@ -40,9 +38,52 @@ class UsuarioMapper extends MapperBD{
 	
 	mssql_execute($consulta);
 	mssql_free_statement($consulta);
+        return "Proceso de Insercion: Correcto";
+        }catch(Exception $ex){
+            
+            return "Proceso de Insercion: Incorrecto";
+            
+        }
+        
 	}
 
+        public function eliminarUsuario($usuario)
+	{
 
+	try{
+	$consulta = mssql_init("sp_eliminausuario", $this->conexion);
+	mssql_bind($consulta,"@correo",$usuario->getemail(),SQLVARCHAR);
+	
+	mssql_execute($consulta);
+	mssql_free_statement($consulta);
+        return "Proceso de Eliminacion: Correcto";
+        }catch(Exception $ex){
+            
+            return "Proceso de Eliminacion: Incorrecto";
+            
+        }
+        
+	}
+        
+        public function cambiarClaveUsuario($usuario)
+	{
+
+	try{
+	$consulta = mssql_init("sp_reiniciaclave", $this->conexion);
+	mssql_bind($consulta,"@correo",$usuario->getemail(),SQLVARCHAR);
+	mssql_bind($consulta,"@clave",$usuario->getpassword(),SQLVARCHAR);
+        
+	mssql_execute($consulta);
+	mssql_free_statement($consulta);
+            return "Proceso de Actualizacion de Clave: Correcto";
+        }catch(Exception $ex){
+            
+            return "Proceso de Actualizacion de Clave: Incorrecto";
+            
+        }
+        
+	}
+        
   	 public function cargarRoles() {
          
 		$result = mssql_query("exec sp_getroles", $this->conexion);
@@ -61,7 +102,7 @@ class UsuarioMapper extends MapperBD{
 
 		    echo " <option value= '' selected disabled>Usuarios</option>";
         while ($row = mssql_fetch_assoc($result)) {
-              echo "<option value='".$row['ID']."' >".$row['CORREO']."</option>";
+              echo "<option value='".$row['CORREO']."' >".$row['CORREO']."</option>";
         }
        
 

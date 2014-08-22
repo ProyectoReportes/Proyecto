@@ -17,15 +17,32 @@ if($_POST
 			
   ){
     
-echo $_POST['inputId']. $_POST['correo']. $_POST['primerNombre']. $_POST['primerApellido'].$_POST['password']. "3";
 $user= new usuario($_POST['inputId'], $_POST['correo'], $_POST['primerNombre'], $_POST['primerApellido'], $_POST['password'], "3");
 
-$userMapper= new usuarioMapper();
+$userMapper= new UsuarioMapper();
  
 echo $userMapper->insertarUsuario($user);
 
-echo "pase por aqui";
 
+  }elseif($_POST  //CAMBIAR CLAVE
+                        && isset($_POST['usuarioCorreo']) && trim($_POST['usuarioCorreo']) !== ''
+			&& isset($_POST['nuevaclave']) && trim($_POST['nuevaclave']) !== ''){
+    //CAMBIAR CLAVE  
+    
+    $user= new usuario("", $_POST['usuarioCorreo'],"", "",$_POST['nuevaclave'], "");
+
+    $userMapper= new UsuarioMapper();
+ 
+    echo $userMapper->cambiarClaveUsuario($user);  
+      
+  }elseif($_POST && isset($_POST['usuario_eliminar']) && trim($_POST['usuario_eliminar']) !== ''){ //ELIMINAR
+    //ELIMINAR
+    
+    $user= new usuario("", $_POST['usuario_eliminar'],"", "","", "");
+
+    $userMapper= new UsuarioMapper();
+ 
+    echo $userMapper->eliminarUsuario($user);
   }
 
 require('Site_header.php');
@@ -148,6 +165,17 @@ require('Site_body.php');
        <br>
       <br>
        <form class="form-horizontal" name="cambiarclave" id="cambiarclave" action="usuarios.php" method="POST">
+        <div class="form-group">
+        <label class="control-label col-xs-4" for="rol">Usuarios:</label>
+        <div class="col-xs-6">
+            <select class="form-control" name="usuarioCorreo" id="usuarioCorreo">
+                <?php
+                 $usuarioMapp->cargarUsuarios();
+                ?>
+                
+            </select>
+        </div>
+        </div>
            
         <div class="form-group">
         <label class="control-label col-xs-4" for="inputId">Nuevo Password:</label>
