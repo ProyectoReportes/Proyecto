@@ -1,10 +1,21 @@
 <?php
 
+function alertas($ind,$val){
+	if($ind === '% UTILIZADO')
+	{	$fecha = getdate();
+		if(is_numeric((double)$val)){
+			if($val > ((int)$fecha['mon']/12)){
+				return " class='alerta' ";		
+			}	
+		}
+	}
+}
+
 echo<<<"EL"
 
 
 <div class="table-responsive">
-    <table id="tabla" class="table table-striped">
+    <table id="tabla" class="table">
         <thead>
         <tr>
 
@@ -24,7 +35,7 @@ EL;
 	while($row = mssql_fetch_assoc($result)) { 
 	   echo " <tr>\n ";
 		  foreach ($row as $indice => $valor) {  
-	   echo " <td>{$valor}</td>\n ";
+	   echo " <td". alertas($indice,$valor) .">{$valor}</td>\n ";
 		} 
 	   echo " </tr>\n ";
     } 
@@ -34,5 +45,7 @@ EL;
 </div>
 
 ELO;
+
+
 
 ?>

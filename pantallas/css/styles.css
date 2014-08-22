@@ -7,6 +7,12 @@
     float: right;
     
  }
+
+.alerta{
+	background: #A62121;
+        color: white;
+        
+}
  
 .form-signin {
   float: right  ;  

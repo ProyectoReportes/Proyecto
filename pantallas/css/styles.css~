@@ -7,10 +7,6 @@
     float: right;
     
  }
-
-.import_button{
-  float: right;
-}
  
 .form-signin {
   float: right  ;  

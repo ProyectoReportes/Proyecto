@@ -4,7 +4,7 @@
 	echo<<<"EOT"
 			
 	 <div class="login"> 
-      <form class="form-signin" role="form" action="index.php" method="post">
+      <form class="form-signin" role="form" id="login" name="login" action="index.php" method="post">
         <input type="email" class="form-control"  name="email" id="email" placeholder="Email" required>
         <input type="password" class="form-control"  name="password" id="password" placeholder="Password" required>
         <button class="btn btn-primary btn-block" type="submit">Ingresar</button>  

@@ -1,0 +1,5 @@
+$( "#login" ).submit(function( event) {
+		event.preventDefault();
+			
+	$.post( "jsonlogin.php", 
+            $( "#login" ).serialize());

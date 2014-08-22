@@ -34,7 +34,7 @@ require
 
 <?php
 
-require('Site_table.php');
+require('Site_table_alerta.php');
 
 require('Site_footer.php');
 

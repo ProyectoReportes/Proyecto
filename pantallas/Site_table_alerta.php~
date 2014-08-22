@@ -24,7 +24,7 @@ EL;
 	while($row = mssql_fetch_assoc($result)) { 
 	   echo " <tr>\n ";
 		  foreach ($row as $indice => $valor) {  
-	   echo " <td>{$valor}</td>\n ";
+	   echo " <td". alertas() .">{$valor}</td>\n ";
 		} 
 	   echo " </tr>\n ";
     } 
@@ -34,5 +34,16 @@ EL;
 </div>
 
 ELO;
+
+function alertas(){
+	if($indice == '% UTILIZADO')
+	{	$fecha = getdate();
+		if(is_numeric($valor)){
+			if($valor > ($fecha['mon']/12)){
+				echo " class='alerta' ";		
+			}	
+		}
+	}
+}
 
 ?>

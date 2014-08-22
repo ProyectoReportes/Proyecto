@@ -20,9 +20,8 @@ if(isset($_GET['logout'])){
     session_destroy();
 }
 
-   if($_POST && isset($_POST['email']) && trim($_POST['email']) !== '' && isset($_POST['password']) && trim($_POST['password']) !== ''
-  ){
-	$login = new usuario($_POST['email'],$_POST['password']);
+if($_POST && isset($_POST['email']) && trim($_POST['email']) !== '' && isset($_POST['password']) && trim($_POST['password']) !== ''  ){
+	$login = new login($_POST['email'],$_POST['password']);
 	$usuariomapper=new UsuarioMapper();
 
 	
@@ -34,24 +33,13 @@ if(isset($_GET['logout'])){
 				
 			    $user_rol = $user["ROL"];
 			    
-			    switch($user_rol){
-				case 1:
-				    $user_rol = "Administrador";
-				    break;
-				case 2:
-				    $user_rol = "Tecnologias de Informacion";
-				    break;
-				case 3:
-				    $user_rol = "Contabilidad";
-				    break;
-				default:
-				    $user_rol = " ";
-			    }
 			    $_SESSION["user_name"]= "{$user_name}";
-			    $_SESSION["user_rol"]= $user->id_rol;
+			    $_SESSION["user_rol"]= $user_rol;
 			}
+                           
     
 }
+  
 require('Site_header.php');
 
 require('Site_login.php');
