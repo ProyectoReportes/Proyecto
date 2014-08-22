@@ -32,6 +32,17 @@ if(isset($_GET['reporte']))
             case 'detalle_transacciones':
                   $result = $reporte->reporteDetalleTransacciones();
                   break;
+            case 'cuentas_presupuesto':
+                  $cargo=$_GET['c'];
+                  $depto=$_GET['d'];
+                  $codpres=$_GET['cp'];
+                  $est=$_GET['e'];
+                  $fcIn=$_GET['fci'];
+                  $fcFn=$_GET['fcf'];
+                  $faIn=$_GET['fai'];
+                  $faFn=$_GET['faf'];
+                  $result = $reporte->reporteCuentasPresExec($cargo,$depto,$codpres,$est,$fcIn,$fcFn,$faIn,$faFn);
+                  break;
             default:
                   break;
 }

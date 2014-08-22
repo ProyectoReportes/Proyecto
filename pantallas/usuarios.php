@@ -14,10 +14,10 @@ if($_POST
 			&& isset($_POST['primerNombre']) && trim($_POST['primerNombre']) !== ''
 			&& isset($_POST['primerApellido']) && trim($_POST['primerApellido']) !== ''
 			&& isset($_POST['password']) && trim($_POST['password']) !== ''    
-			
+			&& isset($_POST['rol']) && trim($_POST['rol']) !== '' 
   ){
     
-$user= new usuario($_POST['inputId'], $_POST['correo'], $_POST['primerNombre'], $_POST['primerApellido'], $_POST['password'], "3");
+$user= new usuario($_POST['inputId'], $_POST['correo'], $_POST['primerNombre'], $_POST['primerApellido'], $_POST['password'], $_POST['rol']);
 
 $userMapper= new UsuarioMapper();
  
@@ -180,20 +180,20 @@ require('Site_body.php');
         <div class="form-group">
         <label class="control-label col-xs-4" for="inputId">Nuevo Password:</label>
          <div class="col-xs-6">
-            <input type="text" class="form-control" name="nuevaclave" id="nuevaclave" placeholder="******" required>
+             <input type="password" class="form-control" name="nuevaclave" id="nuevaclave" placeholder="******" required>
         </div>
     </div>
            
            <div class="form-group">
         <label class="control-label col-xs-4" for="inputId">Confirmar Password:</label>
          <div class="col-xs-6">
-            <input type="text" class="form-control" name="confirmclave" id="confirmclave" placeholder="******" required>
+             <input type="password" class="form-control" name="confirmclave" id="confirmclave" placeholder="******" required>
         </div>
     </div>
            
            <div class="form-group">
         <div class="col-xs-offset-7 col-xs-2">
-            <input type="submit" id="cambiarclavesubmit" class="btn btn-primary" value="Cambiar Password">		
+            <input type="submit" id="cambiarclavesubmit" class="btn btn-primary" value="Cambiar Password" onclick="return validaClaves();">		
 	</div>
     </div>
            
@@ -213,3 +213,18 @@ require('Site_footer.php');
 
 ?>   
 
+<script type="text/javascript">
+    function validaClaves(){
+        var cl1 = document.getElementById("nuevaclave").value;
+        var cl2 = document.getElementById("confirmclave").value;
+        
+        var soniguales=(cl1===cl2);
+        
+        if(!soniguales){
+            alert("Las contraseñas deben ser iguales");
+        }
+        
+        return soniguales;
+    }
+    
+</script>

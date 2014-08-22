@@ -1,151 +1,112 @@
-<!DOCTYPE html>
-<html lang="es">
-<head>
-    <meta charset="utf-8">
-    <meta name="author" content="">
-    <link rel="icon" href="mp_ico.ico">
-    <title>Sistema de Reportes MP</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
-    <link rel="stylesheet" type="text/css" href="css/bootstrap-theme.min.css">
-    <link rel="stylesheet" type="text/css" href="css/styles.css">  
-    <style type="text/css">
-		
-		.textb{ 
-		    background: white; 
-		    border: 1px solid #DDD; 
-		    border-radius: 5px; 
-		    box-shadow: 0 0 5px #DDD inset; 
-		    color: #666; 
-		    outline: none; 
-		    height:25px; 
-		    width: 105px; 
-		   }
+<?php 
+session_start();
+require('CargadorClases.php');
 
-		.textb1{ 
-		    background: white; 
-		    border: 1px solid #DDD; 
-		    border-radius: 5px; 
-		    box-shadow: 0 0 5px #DDD inset; 
-		    color: #666; 
-		    outline: none; 
-		    height:25px; 
-		    width: 140px; 
-		   }
-    </style>
-</head>
+if(!isset($_SESSION["user_name"]))
+{
+	header("Location:index.php");
+	exit;
+}
 
-<body>
-  
-  <h1 class="logo"><a href="index.php"></a></h1>
-  <h1 class="text-muted">Sistema de Reportes</h1>
-  <br>
-  
-  
-  <nav role="navigation" class="navbar navbar-default">
-    <!-- Brand and toggle get grouped for better mobile display -->
-    <div class="navbar-header">
-        <button type="button" data-target="#navbarCollapse" data-toggle="collapse" class="navbar-toggle">
-            <span class="sr-only">Toggle navigation</span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-        </button>
-       <!-- <a href="#" class="navbar-brand">Inventario</a> -->
+require('Site_header.php');
+
+require('Site_login.php');
+
+require('Site_body.php');
+
+?>
+
+    <div class="page-header">
+     
+        <div class="row">
+            <div class="col-xs-6">
+                <h2>Reporte de Empleados con Cuenta Presupuestaria:</h2>
+            </div> 
+            
+        </div>
     </div>
-    <!-- Collection of nav links, forms, and other content for toggling -->
-   
-</nav>
-
-<div class="page-header">
-  <h2>Reportes de Cuentas Presupuestarias</h2>
-</div>
-<div>
+    <div>
+        
 	<fieldset>
 		<legend>Filtros</legend>
-		<label>Cargo:&nbsp<input type="text" name="txt_cargo" id="txt_cargo" class="textb" value="" ></label>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
-		<label>Departamento:&nbsp<input type="text" name="txt_dpto" id="txt_dpto" class="textb" value=""></label>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
-		<label>Codigo Presupuestario:&nbsp<input type="text" name="txt_codPre" id="txt_codPre" class="textb" value=""></label>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
-		<label>Estado:&nbsp<input type="text" name="txt_estado" id="txt_estado" class="textb" value=""></label><br/><br/>
+		<label>Cargo:&nbsp<input type="text" name="carg" id="carg" class="textb" value="" ></label>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+		<label>Departamento:&nbsp<input type="text" name="depto" id="depto" class="textb" value=""></label>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+		<label>Codigo Presupuestario:&nbsp<input type="text" name="cod_pre" id="cod_pre" class="textb" value=""></label>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+		<label>Estado:&nbsp<input type="text" name="est" id="est" class="textb" value=""></label><br/><br/>
 		<label>Fecha de Acuerdo</label><br>
-		<label>Desde:&nbsp<input type="date" name="d_fAcuerdo" id="fAcuerdoIn" class="textb1" value=""></label>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
-		<label>Hasta:&nbsp<input type="date" name="d_fContrado" id="fAcuerdoFin" class="textb1" value=""></label><br/><br/>
+		<label>Desde:&nbsp<input type="date" name="ac_in" id="ac_in" class="textb1" value=""></label>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+		<label>Hasta:&nbsp<input type="date" name="ac_fin" id="ac_fin" class="textb1" value=""></label><br/><br/>
 		<label>Fecha de Contrato</label><br>
-		<label>Desde:&nbsp<input type="date" name="d_fContrado" id="fContratoIn" class="textb1" value=""></label>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
-		<label>Hasta:&nbsp<input type="date" name="d_fContrado" id="fContratoFin" class="textb1" value=""></label><br/>
-		<input type="submit" id="bt_Generar" value="Generar Reporte" onclick="GenerarReporte();"/>
+		<label>Desde:&nbsp<input type="date" name="cont_in" id="cont_in" class="textb1" value=""></label>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+		<label>Hasta:&nbsp<input type="date" name="cont_fin" id="cont_fin" class="textb1" value=""></label><br/>
+                <input type="submit" id="bt_Generar" value="Generar Reporte" onclick="consultaReporte();"/>
+                <br>
+                <div class="col-xs-offset-4 col-xs-2">
+                    <div class="import_button"><a href="#" class="btn btn-primary" 
+                                                  role="button" onclick="guardaReporte(this);">
+                            <span class="glyphicon glyphicon-export">
+                            </span> Exportar a Excel</a>
+                        <br>
+                    </div>
+                </div>
 	</fieldset>
-</div>
+        
+    </div>
+    <div id="datos" class="table-responsive">
+    
+    </div>
+<?php    
 
-<div>
-	<table cellspacing="10" cellpadding="10" id="tbl_Reporte">
-	</table>
-</div>
- 
-<div class="footer">
-    <h5><strong>Ingenieria del Software UNAH 2014</strong></h5>
-</div> 
-<br>
-  
+require('Site_footer.php');
+
+?>
+<script type="text/javascript" src="js/ajax.js"></script>
 <script type="text/javascript">
-	
- var xmlAjax;
-    if(window.XMLHttpRequest) 
-      {
-        xmlAjax = new XMLHttpRequest();
-      } 
-      else 
-      {
-        xmlAjax = new ActiveXObject("Microsoft.XMLHTTP");
-      }
+    
+    function guardaReporte(enlace){
+        var cargo = document.getElementById("carg").value;
+        var depto = document.getElementById("depto").value;
+        var codpre = document.getElementById("cod_pre").value;
+        var est = document.getElementById("est").value;
+        var fcin = document.getElementById("cont_in").value;
+        var fcfn = document.getElementById("cont_fin").value;
+        var fain = document.getElementById("ac_in").value;
+        var fafn = document.getElementById("ac_fin").value;
+        
+        var cadena = "guardar_excel.php?reporte=cuentas_presupuesto" + 
+                    "&c=" + encodeURIComponent(cargo)+
+                    "&d=" + encodeURIComponent(depto) +
+                    "&cp=" + encodeURIComponent(codpre) +
+                    "&e=" + encodeURIComponent(est) +
+                    "&fci=" + encodeURIComponent(fcin) +
+                    "&fcf=" + encodeURIComponent(fcfn) +
+                    "&fai=" + encodeURIComponent(fain) +
+                    "&faf=" + encodeURIComponent(fafn);
 
-  function GenerarReporte() 
-  { 
-        xmlAjax.onreadystatechange = function()
-        {
-        if(xmlAjax.readyState == 4) 
-        {
-          if(xmlAjax.status == 200) 
-          {//satisfactorio
-
-            var tblRep = document.getElementById("tbl_Reporte");
-          
-
-            if(xmlAjax.responseText != "")
-            {
-              tblRep.innerHTML = xmlAjax.responseText;
-            }
-            else
-            {
-              document.getElementById('tbl_Reporte').style.display = 'none'; 
-              
-            }
-            
-          }
-          else 
-          {//error
-            alert("error");
-          }
-        }
-      }
-        var carg = document.getElementById("txt_cargo").value;
-        var est = document.getElementById("txt_estado").value;
-        var depto = document.getElementById("txt_dpto").value;
-        var cod_pre = document.getElementById("txt_codPre").value;
-        var ac_in = document.getElementById("fAcuerdoIn").value;
-        var ac_fin = document.getElementById("fAcuerdoFin").value;
-        var cont_in = document.getElementById("fContratoIn").value;
-        var cont_fin = document.getElementById("fContratoFin").value;
-
-        xmlAjax.open("GET","cuenta_presupuestaria.php?carg=" + carg +"&est="+ est +"&depto="+ depto +"&cod_pre="+ cod_pre +"&ac_in="+ ac_in +"&ac_fin="+ ac_fin +"&cont_in="+ cont_in +"&cont_fin="+ cont_fin, true);
-        xmlAjax.send();
+        enlace.href=cadena;
+        enlace.click;               
     }
-</script>   
-
-
-<!-- Bootstrap core JavaScript
-================================================== --><!-- Placed at the end of the document so the pages load faster -->
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-<script src="js/bootstrap.min.js"></script> 
-</body>
-</html>
+    
+    function consultaReporte(){
+        var cargo = document.getElementById("carg").value;
+        var depto = document.getElementById("depto").value;
+        var codpre = document.getElementById("cod_pre").value;
+        var est = document.getElementById("est").value;
+        var fcin = document.getElementById("cont_in").value;
+        var fcfn = document.getElementById("cont_fin").value;
+        var fain = document.getElementById("ac_in").value;
+        var fafn = document.getElementById("ac_fin").value;
+        
+        var cadena = "cuenta_presupuestaria.php?" + 
+                    "c=" + encodeURIComponent(cargo)+
+                    "&d=" + encodeURIComponent(depto) +
+                    "&cp=" + encodeURIComponent(codpre) +
+                    "&e=" + encodeURIComponent(est) +
+                    "&fci=" + encodeURIComponent(fcin) +
+                    "&fcf=" + encodeURIComponent(fcfn) +
+                    "&fai=" + encodeURIComponent(fain) +
+                    "&faf=" + encodeURIComponent(fafn);
+        consulta(cadena);
+    }
+    
+</script>
