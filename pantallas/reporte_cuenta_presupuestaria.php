@@ -29,24 +29,55 @@ require('Site_body.php');
             
         </div>
     </div>
-    <div>
+    <div class="row">
         
-	<fieldset>
-		<legend>Filtros</legend>
-		<label>Cargo:&nbsp<input type="text" name="carg" id="carg" class="form-control" value="" ></label>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
-		<label>Departamento:&nbsp<input type="text" name="depto" id="depto" class="form-control"  value=""></label>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
-		<label>Codigo Presupuestario:&nbsp<input type="text" name="cod_pre" id="cod_pre" class="form-control" value=""></label>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
-		<label>Estado:&nbsp<input type="text" name="est" id="est" class="form-control" value=""></label><br/><br/>
-		<label>Fecha de Acuerdo</label><br>
-		<label>Desde:&nbsp<input type="date" name="ac_in" id="ac_in" class="form-control" value="" placeholder="aaaa-mm-dd"></label>
-		<label>Hasta:&nbsp<input type="date" name="ac_fin" id="ac_fin" class="form-control" value=""  placeholder="aaaa-mm-dd"></label><br/><br/>
-		<label>Fecha de Contrato</label><br>
-		<label>Desde:&nbsp<input type="date" name="cont_in" id="cont_in" class="form-control" value=""  placeholder="aaaa-mm-dd"></label>
-		<label>Hasta:&nbsp<input type="date" name="cont_fin" id="cont_fin" class="form-control" value=""  placeholder="aaaa-mm-dd"></label><br/>
+	<fieldset><legend>Filtros</legend>
+            
+            
+            <div class="row">
+                <div class="col-md-3">
+                    <label>Cargo:<input type="text" name="carg" id="carg" class="form-control" value="" ></label>
+                </div>
+                <div class="col-md-3">
+                    <label>Departamento:<input type="text" name="depto" id="depto" class="form-control"  value=""></label>
+                </div>
+                <div class="col-md-3">
+                    <label>Codigo Presupuestario:<input type="text" name="cod_pre" id="cod_pre" class="form-control" value=""></label>
+                </div>
+                <div class="col-md-3">
+                    <label>Estado:<input type="text" name="est" id="est" class="form-control" value=""></label><br/><br/>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6">
+                    <fieldset><legend>Fecha de Acuerdo:</legend>
+                    <div class="col-md-6">
+                        <label>Desde:<input type="date" name="ac_in" id="ac_in" class="form-control" 
+                                            value="" placeholder="aaaa-mm-dd"></label>
+                    </div>
+                    <div class="col-md-6">
+                        <label>Hasta:<input type="date" name="ac_fin" id="ac_fin" class="form-control"
+                                                 value=""  placeholder="aaaa-mm-dd"></label>
+                    </div>
+                    </fieldset>
+                </div>
+                <div class="col-md-6">
+                    <fieldset><legend>Fecha de Contrato:</legend>
+                    <div class="col-md-6">
+                        <label>Desde:<input type="date" name="cont_in" id="cont_in" class="form-control" 
+                                                 value=""  placeholder="aaaa-mm-dd"></label>
+                    </div>
+                    <div class="col-md-6">
+                        <label>Hasta:<input type="date" name="cont_fin" id="cont_fin" class="form-control" 
+                                                 value=""  placeholder="aaaa-mm-dd"></label>
+                    </div>
+                    </fieldset>
+                </div>
+            </div>
+            <div class="center-block">
+                <input type="submit" id="bt_Generar" class="btn btn-primary center-block" value="Generar Reporte" onclick="consultaReporte();"/>
+            </div>
         
-
-        <input type="submit" id="bt_Generar" class="btn btn-primary" value="Generar Reporte" onclick="consultaReporte();"/>
-        <br>
         <div class="col-xs-offset-8 col-xs-6">
             <div class="import_button"><a href="#" class="btn btn-primary" 
                                           role="button" onclick="guardaReporte(this);">
