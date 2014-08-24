@@ -23,7 +23,20 @@ function consulta(cadena)
 
 function entregarCheque(element)
 {
+
   var id = $(element).attr('value');
+  var tr = $("#tabla .registro");
+  var fila;
+  $.each(tr, function( index, value ) {
+    if($(value).attr('value') == id)
+    {
+      fila = value;
+      
+    }
+  });
+
+  console.log($(fila).children()[9]);
+  
   if($(element).hasClass("btn-success"))
   {
     $.ajax({
@@ -35,6 +48,7 @@ function entregarCheque(element)
         $(element).html("Revertir entrega");
         $(element).removeClass("btn-success");
         $(element).addClass("btn-warning");
+        $(fila).children()[9].html("NO");
       }
   });  
   }
@@ -49,6 +63,7 @@ function entregarCheque(element)
         $(element).html("Entregar");
         $(element).removeClass("btn-warning");
         $(element).addClass("btn-success");
+        $(fila).children()[9].html("SI");
       }
   });
   }
