@@ -8,6 +8,10 @@ if(!isset($_SESSION["user_name"]))
 	exit;
 }
 
+$reporte = new  ReporteMapper();
+
+$result = $reporte->reporteCuentasPresExec($cargo,$depto,$codpres,$est,$fcIn,$fcFn,$faIn,$faFn);
+
 require('Site_header.php');
 
 require('Site_login.php');
@@ -39,21 +43,23 @@ require('Site_body.php');
 		<label>Fecha de Contrato</label><br>
 		<label>Desde:&nbsp<input type="date" name="cont_in" id="cont_in" class="form-control" value=""  placeholder="aaaa-mm-dd"></label>
 		<label>Hasta:&nbsp<input type="date" name="cont_fin" id="cont_fin" class="form-control" value=""  placeholder="aaaa-mm-dd"></label><br/>
-                <input type="submit" id="bt_Generar" class="btn btn-primary" value="Generar Reporte" onclick="consultaReporte();"/>
+        
+
+        <input type="submit" id="bt_Generar" class="btn btn-primary" value="Generar Reporte" onclick="consultaReporte();"/>
+        <br>
+        <div class="col-xs-offset-8 col-xs-6">
+            <div class="import_button"><a href="#" class="btn btn-primary" 
+                                          role="button" onclick="guardaReporte(this);">
+                    <span class="glyphicon glyphicon-export">
+                    </span> Exportar a Excel</a>
                 <br>
-                <div class="col-xs-offset-8 col-xs-6">
-                    <div class="import_button"><a href="#" class="btn btn-primary" 
-                                                  role="button" onclick="guardaReporte(this);">
-                            <span class="glyphicon glyphicon-export">
-                            </span> Exportar a Excel</a>
-                        <br>
-                    </div>
-                </div>
+            </div>
+        </div>
 	</fieldset>
         
     </div>
     <div id="datos" class="table-responsive">
-    
+        
     </div>
 <?php    
 
@@ -110,3 +116,4 @@ require('Site_footer.php');
     }
     
 </script>
+

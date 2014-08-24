@@ -224,7 +224,7 @@ $estiloInformacion->applyFromArray( array(
 
 
       header('Content-Type: application/vnd.ms-excel');
-      header('Content-Disposition: attachment;filename='.$nombre_reporte.'.odt');
+      header('Content-Disposition: attachment;filename='.$nombre_reporte.'.xls');
       header('Cache-Control: max-age=0');
 
       $objWriter = PHPExcel_IOFactory::createWriter($objPHPExcel, 'Excel5');

@@ -34,17 +34,29 @@ if(isset($_SESSION['user_name'])){
     echo<<<"ELL"
     
             <li class="dropdown">
-                <a data-toggle="dropdown" class="dropdown-toggle" href="#">Reportes <b class="caret"></b></a>
+                <a data-toggle="dropdown" class="dropdown-toggle" href="#">Reportes de Empleados<b class="caret"></b></a>
                 <ul role="menu" class="dropdown-menu">
                     <li><a href="reporte_cuenta_presupuestaria.php">Empleados Cuenta Presupuestaria</a></li>
                     <li><a href="reporte_ingreso_empleados.php">Ingresos de Empleados</a></li>
                     <li><a href="reporte_deduccion_empleados.php">Deducciones de Empleados</a></li>
+                </ul>
+            </li>
+            <li class="dropdown">
+                <a data-toggle="dropdown" class="dropdown-toggle" href="#">Reportes Presupuestarios<b class="caret"></b></a>
+                <ul role="menu" class="dropdown-menu">
                     <li><a href="reporte_presupuestario_programa.php">Presupuestario por Programa</a></li>
                     <li><a href="reporte_presupuestario_grupo.php">Presupuestario por Grupo</a></li>
                     <li><a href="reporte_presupuestario_subgrupo.php">Presupuestario por Sub-Grupo</a></li>
                     <li class="divider"></li>
                     <li><a href="reporte_presupuesto_original.php">Presupuesto Original</a></li>
                     <li><a href="reporte_detalle_transacciones.php">Detalle de Transacciones</a></li>
+                </ul>
+            </li>
+
+            <li class="dropdown">
+                <a data-toggle="dropdown" class="dropdown-toggle" href="#">Cheques<b class="caret"></b></a>
+                <ul role="menu" class="dropdown-menu">
+                    <li><a href="cheque.php">Control de cuentas de cheques</a></li>
                 </ul>
             </li>
                   

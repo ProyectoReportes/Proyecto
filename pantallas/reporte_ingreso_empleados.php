@@ -17,6 +17,7 @@ require('Site_login.php');
 
 require('Site_body.php');
 
+
 ?>
 
     <div class="page-header">
@@ -35,7 +36,10 @@ require('Site_body.php');
 
 require('Site_table.php');
 
+
 require('Site_footer.php');
 
-?>	 
+?>
+
+
 

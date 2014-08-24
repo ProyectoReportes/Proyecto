@@ -21,7 +21,7 @@ $user= new usuario($_POST['inputId'], $_POST['correo'], $_POST['primerNombre'], 
 
 $userMapper= new UsuarioMapper();
  
-echo $userMapper->insertarUsuario($user);
+$mensaje = $userMapper->insertarUsuario($user);
 
 
   }elseif($_POST  //CAMBIAR CLAVE
@@ -33,7 +33,7 @@ echo $userMapper->insertarUsuario($user);
 
     $userMapper= new UsuarioMapper();
  
-    echo $userMapper->cambiarClaveUsuario($user);  
+    $mensaje = $userMapper->cambiarClaveUsuario($user);  
       
   }elseif($_POST && isset($_POST['usuario_eliminar']) && trim($_POST['usuario_eliminar']) !== ''){ //ELIMINAR
     //ELIMINAR
@@ -42,7 +42,16 @@ echo $userMapper->insertarUsuario($user);
 
     $userMapper= new UsuarioMapper();
  
-    echo $userMapper->eliminarUsuario($user);
+    $mensaje = $userMapper->eliminarUsuario($user);
+  }
+
+  if(isset($mensaje))
+  {
+    require("modal.php");
+  ?>
+      <script type="text/javascript">cambiarTextoMensaje("<?php echo $mensaje ?>"); </script>
+  <?php 
+
   }
 
 require('Site_header.php');
