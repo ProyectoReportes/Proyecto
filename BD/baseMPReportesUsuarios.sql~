@@ -2,6 +2,34 @@
 -- Estructura de tabla para la tabla tbl_rol
 --
 
+
+CREATE TABLE dbo.tbl_accchk  ( 
+	namt     	numeric(16,2) NOT NULL,
+	dfechamod	datetime NULL,
+	cdesc    	varchar(200) NULL 
+	)
+GO
+
+CREATE TABLE dbo.tbl_apchck  ( 
+	cvendno   	char(10) NOT NULL,
+	cpayto    	char(40) NOT NULL,
+	cchktype  	char(1) NOT NULL,
+	cbankno   	char(10) NOT NULL,
+	cchkno    	char(10) NOT NULL,
+	ctogl     	char(1) NOT NULL,
+	dcheck    	datetime NOT NULL,
+	dcreate   	datetime NOT NULL,
+	lcancel   	smallint NOT NULL,
+	lhold     	smallint NOT NULL,
+	nchkamt   	numeric(16,2) NOT NULL,
+	nfchkamt  	numeric(16,2) NOT NULL,
+	nxchgrate 	numeric(16,6) NOT NULL,
+	nbchkamt  	numeric(16,2) NOT NULL,
+	centregado	char(1) NULL CONSTRAINT DF__tbl_apchc__centr__5EBF139D  DEFAULT ('0'),
+	CONSTRAINT tbl_apchck_PK PRIMARY KEY CLUSTERED(cchkno)
+)
+GO
+
 CREATE
   TABLE tbl_rol
   (

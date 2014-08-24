@@ -129,7 +129,6 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT011</logicalDatatype>
-<delegate>61EB8C83-3DC6-40A7-9B3E-F83993068CC4</delegate>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 </columns>

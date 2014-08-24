@@ -1,0 +1,284 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyDB2v80 class="oracle.dbtools.crest.model.design.storage.db2.v80.TableProxyDB2v80" name="bgtrfm" directorySegmentName="seg_0" id="F1D4913A-FC59-5DEC-AB1D-D2811A12B3CD">
+<createdTime>2014-08-24 21:24:07 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>bdReportesModeler</ownerDesignName>
+<numberOfRows>0</numberOfRows>
+<owner>OWNER_IMPLICIT</owner>
+<materializedQuery>NO</materializedQuery>
+<mqColumnDefaults>EXCLUDING</mqColumnDefaults>
+<mqIdentityColumnAttr>EXCLUDE</mqIdentityColumnAttr>
+<mqmaintenance>BY SYSTEM</mqmaintenance>
+<mqQueryOptimization>ENABLE</mqQueryOptimization>
+<mqStatus>MATERIALIZED QUERY</mqStatus>
+<partitioned>NO</partitioned>
+<tableAccess>NOT VOLATILE</tableAccess>
+<columnProxies>
+<ColumnProxy class="oracle.dbtools.crest.model.design.storage.db2.v80.ColumnProxyDB2v80" name="ctbudno" id="066550A9-5F1E-6461-D37E-DA78BDA78CC1">
+<createdBy>eavila</createdBy>
+<createdTime>2014-08-24 21:24:07 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>bdReportesModeler</ownerDesignName>
+<columnIdentity class="oracle.dbtools.crest.model.design.storage.db2.v80.ColumnIdentityDB2v80" name="CI205" id="BA0260BF-1FF2-0201-3A9E-41798E988FF2">
+<createdBy>eavila</createdBy>
+<createdTime>2014-08-24 21:24:07 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>bdReportesModeler</ownerDesignName>
+<cache>0</cache>
+<column>066550A9-5F1E-6461-D37E-DA78BDA78CC1</column>
+<cycle>false</cycle>
+<generate>BY DEFAULT</generate>
+<incrementBy>1</incrementBy>
+<startWith>1</startWith>
+<order>YES</order>
+</columnIdentity>
+</ColumnProxy>
+<ColumnProxy class="oracle.dbtools.crest.model.design.storage.db2.v80.ColumnProxyDB2v80" name="ntrfqty" id="0A03E67E-4927-4824-8FBC-909F14BECE39">
+<createdBy>eavila</createdBy>
+<createdTime>2014-08-24 21:24:07 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>bdReportesModeler</ownerDesignName>
+<columnIdentity class="oracle.dbtools.crest.model.design.storage.db2.v80.ColumnIdentityDB2v80" name="CI211" id="C3F6EAE2-3E6F-2CF8-A417-9D27062BD08A">
+<createdBy>eavila</createdBy>
+<createdTime>2014-08-24 21:24:07 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>bdReportesModeler</ownerDesignName>
+<cache>0</cache>
+<column>0A03E67E-4927-4824-8FBC-909F14BECE39</column>
+<cycle>false</cycle>
+<generate>BY DEFAULT</generate>
+<incrementBy>1</incrementBy>
+<startWith>1</startWith>
+<order>YES</order>
+</columnIdentity>
+</ColumnProxy>
+<ColumnProxy class="oracle.dbtools.crest.model.design.storage.db2.v80.ColumnProxyDB2v80" name="ntrfamt" id="1034B275-5747-1065-5472-4F0FBDB451F2">
+<createdBy>eavila</createdBy>
+<createdTime>2014-08-24 21:24:07 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>bdReportesModeler</ownerDesignName>
+<columnIdentity class="oracle.dbtools.crest.model.design.storage.db2.v80.ColumnIdentityDB2v80" name="CI210" id="522C8A94-C85C-B1C9-2E85-5183E7295477">
+<createdBy>eavila</createdBy>
+<createdTime>2014-08-24 21:24:07 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>bdReportesModeler</ownerDesignName>
+<cache>0</cache>
+<column>1034B275-5747-1065-5472-4F0FBDB451F2</column>
+<cycle>false</cycle>
+<generate>BY DEFAULT</generate>
+<incrementBy>1</incrementBy>
+<startWith>1</startWith>
+<order>YES</order>
+</columnIdentity>
+</ColumnProxy>
+<ColumnProxy class="oracle.dbtools.crest.model.design.storage.db2.v80.ColumnProxyDB2v80" name="cfbudno" id="29117796-3FED-ECEC-CAC1-A7C974FD53A4">
+<createdBy>eavila</createdBy>
+<createdTime>2014-08-24 21:24:07 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>bdReportesModeler</ownerDesignName>
+<columnIdentity class="oracle.dbtools.crest.model.design.storage.db2.v80.ColumnIdentityDB2v80" name="CI204" id="6C34F876-0AA2-DD05-27AB-42BD491871D2">
+<createdBy>eavila</createdBy>
+<createdTime>2014-08-24 21:24:07 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>bdReportesModeler</ownerDesignName>
+<cache>0</cache>
+<column>29117796-3FED-ECEC-CAC1-A7C974FD53A4</column>
+<cycle>false</cycle>
+<generate>BY DEFAULT</generate>
+<incrementBy>1</incrementBy>
+<startWith>1</startWith>
+<order>YES</order>
+</columnIdentity>
+</ColumnProxy>
+<ColumnProxy class="oracle.dbtools.crest.model.design.storage.db2.v80.ColumnProxyDB2v80" name="cappcode" id="574A0B4D-BF17-8FF2-D8E2-1F22E0FC6996">
+<createdBy>eavila</createdBy>
+<createdTime>2014-08-24 21:24:07 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>bdReportesModeler</ownerDesignName>
+<columnIdentity class="oracle.dbtools.crest.model.design.storage.db2.v80.ColumnIdentityDB2v80" name="CI206" id="D327AE73-5D8D-E194-6B39-7F3E356B1422">
+<createdBy>eavila</createdBy>
+<createdTime>2014-08-24 21:24:07 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>bdReportesModeler</ownerDesignName>
+<cache>0</cache>
+<column>574A0B4D-BF17-8FF2-D8E2-1F22E0FC6996</column>
+<cycle>false</cycle>
+<generate>BY DEFAULT</generate>
+<incrementBy>1</incrementBy>
+<startWith>1</startWith>
+<order>YES</order>
+</columnIdentity>
+</ColumnProxy>
+<ColumnProxy class="oracle.dbtools.crest.model.design.storage.db2.v80.ColumnProxyDB2v80" name="tmodrec" id="6A27C870-270C-4496-A0BB-EE6743AEC9BE">
+<createdBy>eavila</createdBy>
+<createdTime>2014-08-24 21:24:07 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>bdReportesModeler</ownerDesignName>
+<columnIdentity class="oracle.dbtools.crest.model.design.storage.db2.v80.ColumnIdentityDB2v80" name="CI213" id="C0C60D94-8089-C4ED-15DF-C2086AFA5E37">
+<createdBy>eavila</createdBy>
+<createdTime>2014-08-24 21:24:07 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>bdReportesModeler</ownerDesignName>
+<cache>0</cache>
+<column>6A27C870-270C-4496-A0BB-EE6743AEC9BE</column>
+<cycle>false</cycle>
+<generate>BY DEFAULT</generate>
+<incrementBy>1</incrementBy>
+<startWith>1</startWith>
+<order>YES</order>
+</columnIdentity>
+</ColumnProxy>
+<ColumnProxy class="oracle.dbtools.crest.model.design.storage.db2.v80.ColumnProxyDB2v80" name="cuser" id="792ECB7E-36C5-DDB7-2A01-106A523C8E95">
+<createdBy>eavila</createdBy>
+<createdTime>2014-08-24 21:24:07 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>bdReportesModeler</ownerDesignName>
+<columnIdentity class="oracle.dbtools.crest.model.design.storage.db2.v80.ColumnIdentityDB2v80" name="CI209" id="5F53372E-F99E-A51E-51DB-4661FCFFDB34">
+<createdBy>eavila</createdBy>
+<createdTime>2014-08-24 21:24:07 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>bdReportesModeler</ownerDesignName>
+<cache>0</cache>
+<column>792ECB7E-36C5-DDB7-2A01-106A523C8E95</column>
+<cycle>false</cycle>
+<generate>BY DEFAULT</generate>
+<incrementBy>1</incrementBy>
+<startWith>1</startWith>
+<order>YES</order>
+</columnIdentity>
+</ColumnProxy>
+<ColumnProxy class="oracle.dbtools.crest.model.design.storage.db2.v80.ColumnProxyDB2v80" name="cbudid" id="81CDEA05-C018-3FFE-891D-38A33D803C4F">
+<createdBy>eavila</createdBy>
+<createdTime>2014-08-24 21:24:07 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>bdReportesModeler</ownerDesignName>
+<columnIdentity class="oracle.dbtools.crest.model.design.storage.db2.v80.ColumnIdentityDB2v80" name="CI203" id="EBC59F58-8F00-BD20-2AC5-CC3D9184AE96">
+<createdBy>eavila</createdBy>
+<createdTime>2014-08-24 21:24:07 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>bdReportesModeler</ownerDesignName>
+<cache>0</cache>
+<column>81CDEA05-C018-3FFE-891D-38A33D803C4F</column>
+<cycle>false</cycle>
+<generate>BY DEFAULT</generate>
+<incrementBy>1</incrementBy>
+<startWith>1</startWith>
+<order>YES</order>
+</columnIdentity>
+</ColumnProxy>
+<ColumnProxy class="oracle.dbtools.crest.model.design.storage.db2.v80.ColumnProxyDB2v80" name="dtrs" id="A2B82981-AC63-C5D5-4C8E-EA465FE78DF7">
+<createdBy>eavila</createdBy>
+<createdTime>2014-08-24 21:24:07 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>bdReportesModeler</ownerDesignName>
+<columnIdentity class="oracle.dbtools.crest.model.design.storage.db2.v80.ColumnIdentityDB2v80" name="CI208" id="0732555E-2E10-39B5-76DF-CD6B6F8C7E14">
+<createdBy>eavila</createdBy>
+<createdTime>2014-08-24 21:24:07 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>bdReportesModeler</ownerDesignName>
+<cache>0</cache>
+<column>A2B82981-AC63-C5D5-4C8E-EA465FE78DF7</column>
+<cycle>false</cycle>
+<generate>BY DEFAULT</generate>
+<incrementBy>1</incrementBy>
+<startWith>1</startWith>
+<order>YES</order>
+</columnIdentity>
+</ColumnProxy>
+<ColumnProxy class="oracle.dbtools.crest.model.design.storage.db2.v80.ColumnProxyDB2v80" name="dvoid" id="A41D8D99-960A-0BAA-926D-E1ED78D29295">
+<createdBy>eavila</createdBy>
+<createdTime>2014-08-24 21:24:07 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>bdReportesModeler</ownerDesignName>
+<columnIdentity class="oracle.dbtools.crest.model.design.storage.db2.v80.ColumnIdentityDB2v80" name="CI215" id="8EA27A09-CF70-BC40-DC9A-4FB7C8BD1A53">
+<createdBy>eavila</createdBy>
+<createdTime>2014-08-24 21:24:07 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>bdReportesModeler</ownerDesignName>
+<cache>0</cache>
+<column>A41D8D99-960A-0BAA-926D-E1ED78D29295</column>
+<cycle>false</cycle>
+<generate>BY DEFAULT</generate>
+<incrementBy>1</incrementBy>
+<startWith>1</startWith>
+<order>YES</order>
+</columnIdentity>
+</ColumnProxy>
+<ColumnProxy class="oracle.dbtools.crest.model.design.storage.db2.v80.ColumnProxyDB2v80" name="mnotepad" id="B1C7F1C8-B9BD-23C9-49E6-E9B102DE32E5">
+<createdBy>eavila</createdBy>
+<createdTime>2014-08-24 21:24:07 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>bdReportesModeler</ownerDesignName>
+<columnIdentity class="oracle.dbtools.crest.model.design.storage.db2.v80.ColumnIdentityDB2v80" name="CI212" id="0CFFCC77-8D36-AA65-C384-32CE45066FF5">
+<createdBy>eavila</createdBy>
+<createdTime>2014-08-24 21:24:07 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>bdReportesModeler</ownerDesignName>
+<cache>0</cache>
+<column>B1C7F1C8-B9BD-23C9-49E6-E9B102DE32E5</column>
+<cycle>false</cycle>
+<generate>BY DEFAULT</generate>
+<incrementBy>1</incrementBy>
+<startWith>1</startWith>
+<order>YES</order>
+</columnIdentity>
+</ColumnProxy>
+<ColumnProxy class="oracle.dbtools.crest.model.design.storage.db2.v80.ColumnProxyDB2v80" name="lvoid" id="B5453C99-C77A-7AC9-CBC5-349465A302E3">
+<createdBy>eavila</createdBy>
+<createdTime>2014-08-24 21:24:07 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>bdReportesModeler</ownerDesignName>
+<columnIdentity class="oracle.dbtools.crest.model.design.storage.db2.v80.ColumnIdentityDB2v80" name="CI214" id="80EC80B7-1AFA-8824-A1DF-9D99AD8C2DEC">
+<createdBy>eavila</createdBy>
+<createdTime>2014-08-24 21:24:07 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>bdReportesModeler</ownerDesignName>
+<cache>0</cache>
+<column>B5453C99-C77A-7AC9-CBC5-349465A302E3</column>
+<cycle>false</cycle>
+<generate>BY DEFAULT</generate>
+<incrementBy>1</incrementBy>
+<startWith>1</startWith>
+<order>YES</order>
+</columnIdentity>
+</ColumnProxy>
+<ColumnProxy class="oracle.dbtools.crest.model.design.storage.db2.v80.ColumnProxyDB2v80" name="ctrfno" id="C74E4DC0-D8ED-8800-1D21-AFFC0A28A752">
+<createdBy>eavila</createdBy>
+<createdTime>2014-08-24 21:24:07 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>bdReportesModeler</ownerDesignName>
+<columnIdentity class="oracle.dbtools.crest.model.design.storage.db2.v80.ColumnIdentityDB2v80" name="CI202" id="B100F888-6239-A706-5F40-D657B60958F0">
+<createdBy>eavila</createdBy>
+<createdTime>2014-08-24 21:24:07 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>bdReportesModeler</ownerDesignName>
+<cache>0</cache>
+<column>C74E4DC0-D8ED-8800-1D21-AFFC0A28A752</column>
+<cycle>false</cycle>
+<generate>BY DEFAULT</generate>
+<incrementBy>1</incrementBy>
+<startWith>1</startWith>
+<order>YES</order>
+</columnIdentity>
+</ColumnProxy>
+<ColumnProxy class="oracle.dbtools.crest.model.design.storage.db2.v80.ColumnProxyDB2v80" name="cdesc" id="F937322D-9B11-4736-9F77-C348855A89EB">
+<createdBy>eavila</createdBy>
+<createdTime>2014-08-24 21:24:07 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>bdReportesModeler</ownerDesignName>
+<columnIdentity class="oracle.dbtools.crest.model.design.storage.db2.v80.ColumnIdentityDB2v80" name="CI207" id="F6014B9F-15B6-15E9-3E9F-CAEEC22EBC79">
+<createdBy>eavila</createdBy>
+<createdTime>2014-08-24 21:24:07 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>bdReportesModeler</ownerDesignName>
+<cache>0</cache>
+<column>F937322D-9B11-4736-9F77-C348855A89EB</column>
+<cycle>false</cycle>
+<generate>BY DEFAULT</generate>
+<incrementBy>1</incrementBy>
+<startWith>1</startWith>
+<order>YES</order>
+</columnIdentity>
+</ColumnProxy>
+</columnProxies>
+</TableProxyDB2v80>

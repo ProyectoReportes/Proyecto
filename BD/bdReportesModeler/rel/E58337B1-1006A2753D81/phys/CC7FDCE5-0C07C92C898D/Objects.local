@@ -7,7 +7,10 @@
    <object objectType="Table" objectID="B4A48AA8-F905-B098-D42E-1488EAB07AB5" name="tbl_prmisc" seqName="seg_0"/>
    <object objectType="Table" objectID="BCF411CD-FDF1-9775-5E8C-2A515A6F35B7" name="tbl_prdept" seqName="seg_0"/>
    <object objectType="Table" objectID="C7383BF1-3D0D-9D64-C08F-F6BAF862F5EC" name="tbl_bgbudt" seqName="seg_0"/>
+   <object objectType="Table" objectID="E0B9113A-EEB9-3D42-19DB-500A2B9FA15F" name="bgadjm" seqName="seg_0"/>
+   <object objectType="Table" objectID="E1BE6377-FECF-85B2-5EFB-31847BDF80BA" name="prempg" seqName="seg_0"/>
    <object objectType="Table" objectID="E4AEE5EA-0B2D-DF08-217F-270DC1B8F17C" name="tbl_prempy" seqName="seg_0"/>
+   <object objectType="Table" objectID="F1D4913A-FC59-5DEC-AB1D-D2811A12B3CD" name="bgtrfm" seqName="seg_0"/>
    <object objectType="BufPool" objectID="BP0" name="BP0" seqName="seg_0"/>
    <object objectType="BufPool" objectID="BP1" name="BP1" seqName="seg_0"/>
    <object objectType="BufPool" objectID="BP10" name="BP10" seqName="seg_0"/>

@@ -14,9 +14,9 @@
 <createdTime>2014-08-18 02:40:00 UTC</createdTime>
 <generatorID>Generado por el Usuario</generatorID>
 <ownerDesignName>bdReportesModeler</ownerDesignName>
-<use>0</use>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
 <logicalDatatype>LOGDT025</logicalDatatype>
-<domain>2639BFAF-369D-CA5A-C730-5489E56B2AB7</domain>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 <Column name="cdeptname" id="7A24EC7B-4B12-ACB0-6362-68122B6B49F1">
@@ -25,9 +25,9 @@
 <createdTime>2014-08-18 02:40:00 UTC</createdTime>
 <generatorID>Generado por el Usuario</generatorID>
 <ownerDesignName>bdReportesModeler</ownerDesignName>
-<use>0</use>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
 <logicalDatatype>LOGDT025</logicalDatatype>
-<domain>A28F606E-EF64-1B0E-6A72-21EA0C7D07CD</domain>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 <Column name="cwageacc" id="672B7547-A1A2-588B-D993-CA5B6D9AEC5C">
@@ -36,9 +36,9 @@
 <createdTime>2014-08-18 02:40:00 UTC</createdTime>
 <generatorID>Generado por el Usuario</generatorID>
 <ownerDesignName>bdReportesModeler</ownerDesignName>
-<use>0</use>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
 <logicalDatatype>LOGDT025</logicalDatatype>
-<domain>A28F606E-EF64-1B0E-6A72-21EA0C7D07CD</domain>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 <Column name="ctaxacc" id="35440F29-76AC-FE7B-4867-5395B5406D63">
@@ -47,9 +47,9 @@
 <createdTime>2014-08-18 02:40:00 UTC</createdTime>
 <generatorID>Generado por el Usuario</generatorID>
 <ownerDesignName>bdReportesModeler</ownerDesignName>
-<use>0</use>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
 <logicalDatatype>LOGDT025</logicalDatatype>
-<domain>A28F606E-EF64-1B0E-6A72-21EA0C7D07CD</domain>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 <Column name="cpaytype" id="210B7CA9-2C26-EA7C-F5B3-BC3188B40F13">
@@ -58,9 +58,9 @@
 <createdTime>2014-08-18 02:40:00 UTC</createdTime>
 <generatorID>Generado por el Usuario</generatorID>
 <ownerDesignName>bdReportesModeler</ownerDesignName>
-<use>0</use>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
 <logicalDatatype>LOGDT025</logicalDatatype>
-<domain>EE6E03A9-CBD8-BEBC-E72E-01079031279E</domain>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 <Column name="cpayperiod" id="32C3EC1C-48AC-5D6D-2DE1-149BBB83A15F">
@@ -69,9 +69,9 @@
 <createdTime>2014-08-18 02:40:00 UTC</createdTime>
 <generatorID>Generado por el Usuario</generatorID>
 <ownerDesignName>bdReportesModeler</ownerDesignName>
-<use>0</use>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
 <logicalDatatype>LOGDT025</logicalDatatype>
-<domain>EE6E03A9-CBD8-BEBC-E72E-01079031279E</domain>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 <Column name="lallowot" id="1E660213-AFF2-1E7B-C80E-9B4DBAB68600">
@@ -81,9 +81,9 @@
 <generatorID>Generado por el Usuario</generatorID>
 <ownerDesignName>bdReportesModeler</ownerDesignName>
 <nullsAllowed>true</nullsAllowed>
-<use>0</use>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
 <logicalDatatype>LOGDT018</logicalDatatype>
-<domain>6B2A6799-4104-6392-8D78-1541B337B4CF</domain>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 <Column name="lepayment" id="6932666E-61AD-9809-0E6C-96C0AC9564EF">
@@ -93,9 +93,9 @@
 <generatorID>Generado por el Usuario</generatorID>
 <ownerDesignName>bdReportesModeler</ownerDesignName>
 <nullsAllowed>true</nullsAllowed>
-<use>0</use>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
 <logicalDatatype>LOGDT018</logicalDatatype>
-<domain>6B2A6799-4104-6392-8D78-1541B337B4CF</domain>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 <Column name="lusetips" id="5CF52E68-94AD-EAD9-1110-CF7E903BD57D">
@@ -105,9 +105,9 @@
 <generatorID>Generado por el Usuario</generatorID>
 <ownerDesignName>bdReportesModeler</ownerDesignName>
 <nullsAllowed>true</nullsAllowed>
-<use>0</use>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
 <logicalDatatype>LOGDT018</logicalDatatype>
-<domain>6B2A6799-4104-6392-8D78-1541B337B4CF</domain>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 <Column name="nrhr" id="398340F2-470C-1DB0-6170-F225145B1C1E">
@@ -116,9 +116,9 @@
 <createdTime>2014-08-18 02:40:01 UTC</createdTime>
 <generatorID>Generado por el Usuario</generatorID>
 <ownerDesignName>bdReportesModeler</ownerDesignName>
-<use>0</use>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
-<domain>BB914181-E39F-3C3D-5FD1-FDBADF5A9C97</domain>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 <Column name="cficaeracc" id="E1668818-E842-DAA1-A070-8CE56600CE2E">
@@ -127,9 +127,9 @@
 <createdTime>2014-08-18 02:40:01 UTC</createdTime>
 <generatorID>Generado por el Usuario</generatorID>
 <ownerDesignName>bdReportesModeler</ownerDesignName>
-<use>0</use>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
 <logicalDatatype>LOGDT025</logicalDatatype>
-<domain>A28F606E-EF64-1B0E-6A72-21EA0C7D07CD</domain>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 <Column name="cmedieracc" id="8A536823-3417-F5DD-DFCC-960D06EDF56F">
@@ -138,9 +138,9 @@
 <createdTime>2014-08-18 02:40:01 UTC</createdTime>
 <generatorID>Generado por el Usuario</generatorID>
 <ownerDesignName>bdReportesModeler</ownerDesignName>
-<use>0</use>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
 <logicalDatatype>LOGDT025</logicalDatatype>
-<domain>A28F606E-EF64-1B0E-6A72-21EA0C7D07CD</domain>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 <Column name="cfutaeracc" id="70D80CE5-AF3B-1620-77E1-2443B5633457">
@@ -149,9 +149,9 @@
 <createdTime>2014-08-18 02:40:01 UTC</createdTime>
 <generatorID>Generado por el Usuario</generatorID>
 <ownerDesignName>bdReportesModeler</ownerDesignName>
-<use>0</use>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
 <logicalDatatype>LOGDT025</logicalDatatype>
-<domain>A28F606E-EF64-1B0E-6A72-21EA0C7D07CD</domain>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 <Column name="csutaeracc" id="03146D70-09B8-E073-9F93-72A833ECA21A">
@@ -160,9 +160,9 @@
 <createdTime>2014-08-18 02:40:01 UTC</createdTime>
 <generatorID>Generado por el Usuario</generatorID>
 <ownerDesignName>bdReportesModeler</ownerDesignName>
-<use>0</use>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
 <logicalDatatype>LOGDT025</logicalDatatype>
-<domain>A28F606E-EF64-1B0E-6A72-21EA0C7D07CD</domain>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 <Column name="cficaacc" id="7B0338FB-009C-707D-193A-F43BE62DD09A">
@@ -171,9 +171,9 @@
 <createdTime>2014-08-18 02:40:01 UTC</createdTime>
 <generatorID>Generado por el Usuario</generatorID>
 <ownerDesignName>bdReportesModeler</ownerDesignName>
-<use>0</use>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
 <logicalDatatype>LOGDT025</logicalDatatype>
-<domain>A28F606E-EF64-1B0E-6A72-21EA0C7D07CD</domain>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 <Column name="cmediacc" id="8CE7B751-DC4F-6865-4BC8-CBAAE82A9469">
@@ -182,9 +182,9 @@
 <createdTime>2014-08-18 02:40:01 UTC</createdTime>
 <generatorID>Generado por el Usuario</generatorID>
 <ownerDesignName>bdReportesModeler</ownerDesignName>
-<use>0</use>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
 <logicalDatatype>LOGDT025</logicalDatatype>
-<domain>A28F606E-EF64-1B0E-6A72-21EA0C7D07CD</domain>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 <Column name="cfutaacc" id="6B4B01A6-997A-8DCE-240D-02E6250E0B6F">
@@ -193,9 +193,9 @@
 <createdTime>2014-08-18 02:40:01 UTC</createdTime>
 <generatorID>Generado por el Usuario</generatorID>
 <ownerDesignName>bdReportesModeler</ownerDesignName>
-<use>0</use>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
 <logicalDatatype>LOGDT025</logicalDatatype>
-<domain>A28F606E-EF64-1B0E-6A72-21EA0C7D07CD</domain>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 <Column name="csutaacc" id="1EAF8695-7968-7E12-594B-FC4079D475A2">
@@ -204,9 +204,9 @@
 <createdTime>2014-08-18 02:40:01 UTC</createdTime>
 <generatorID>Generado por el Usuario</generatorID>
 <ownerDesignName>bdReportesModeler</ownerDesignName>
-<use>0</use>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
 <logicalDatatype>LOGDT025</logicalDatatype>
-<domain>A28F606E-EF64-1B0E-6A72-21EA0C7D07CD</domain>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 <Column name="cdeptglseg" id="BC9CDF9A-78FC-EEB9-5E81-AEC2FDA38DE7">
@@ -215,9 +215,9 @@
 <createdTime>2014-08-18 02:40:01 UTC</createdTime>
 <generatorID>Generado por el Usuario</generatorID>
 <ownerDesignName>bdReportesModeler</ownerDesignName>
-<use>0</use>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
 <logicalDatatype>LOGDT025</logicalDatatype>
-<domain>A28F606E-EF64-1B0E-6A72-21EA0C7D07CD</domain>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 </columns>

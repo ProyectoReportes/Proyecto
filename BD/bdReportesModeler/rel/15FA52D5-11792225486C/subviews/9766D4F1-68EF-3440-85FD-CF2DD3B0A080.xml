@@ -14,15 +14,23 @@
 <objectViews>
 <OView class="oracle.dbtools.crest.swingui.relational.TVTable" oid="1D85D1F1-2515-DF76-36A7-B2466965DE97" otype="Table" vid="3E2BBE1B-AE31-7B91-7C74-C984DAAB7C9B">
 <hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
-<bounds x="231" y="335" width="238" height="110"/>
+<bounds x="478" y="175" width="238" height="110"/>
+</OView>
+<OView class="oracle.dbtools.crest.swingui.relational.TVTable" oid="5ACAEDD4-CB99-F6DB-6628-1671F6864533" otype="Table" vid="5D3EC4EE-CEDC-86C7-404F-1E3A2F852DC4">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<bounds x="96" y="293" width="197" height="278"/>
+</OView>
+<OView class="oracle.dbtools.crest.swingui.relational.TVTable" oid="75BEECE1-ED7A-8831-F079-4A3F6A0C88D3" otype="Table" vid="30B1B040-33E1-0A16-AE24-D30009507797">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<bounds x="366" y="424" width="213" height="88"/>
 </OView>
 <OView class="oracle.dbtools.crest.swingui.relational.TVTable" oid="9DF91884-89F3-43A6-1461-4F270EB2DCE3" otype="Table" vid="B44DEA87-F05A-5C87-8D8C-1AA4F3A21004">
 <hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
-<bounds x="555" y="222" width="218" height="82"/>
+<bounds x="491" y="41" width="218" height="82"/>
 </OView>
 <OView class="oracle.dbtools.crest.swingui.relational.TVTable" oid="BEB4C637-9FDE-5C44-F2AE-662DDCCBECE1" otype="Table" vid="00D39E6D-036A-8411-F60E-8E7723C52CC5">
 <hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
-<bounds x="226" y="76" width="267" height="196"/>
+<bounds x="81" y="35" width="267" height="196"/>
 </OView>
 </objectViews>
 <connectors>
@@ -30,16 +38,16 @@
 <hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
 <lineWidth>1</lineWidth>
 <points>
-<point x="493" y="247"/>
-<point x="555" y="247"/>
+<point x="348" y="82"/>
+<point x="491" y="82"/>
 </points>
 </Connector>
 <Connector class="oracle.dbtools.crest.swingui.relational.TVFKRelation" oid="9E7E8B50-685E-5137-400C-CBE7BE5B23C1" otype="FKIndexAssociation" vid_source="3E2BBE1B-AE31-7B91-7C74-C984DAAB7C9B" vid_target="B44DEA87-F05A-5C87-8D8C-1AA4F3A21004">
 <hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
 <lineWidth>1</lineWidth>
 <points>
-<point x="469" y="390"/>
-<point x="664" y="304"/>
+<point x="600" y="175"/>
+<point x="600" y="123"/>
 </points>
 </Connector>
 </connectors>

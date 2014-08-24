@@ -1,0 +1,196 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="5ACAEDD4-CB99-F6DB-6628-1671F6864533" name="tbl_apchck">
+<sourceDDLFile>baseMPReportesUsuarios.sql</sourceDDLFile>
+<createdBy>eavila</createdBy>
+<createdTime>2014-08-24 21:25:07 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>bdReportesModeler</ownerDesignName>
+<schemaObject>6943A5CA-AF5A-A063-5E17-9603A6B856C0</schemaObject>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="cvendno" id="CF235FAF-0D2E-5ADF-C3C4-74333D8143AF">
+<sourceDDLFile>baseMPReportesUsuarios.sql</sourceDDLFile>
+<createdBy>eavila</createdBy>
+<createdTime>2014-08-24 21:25:07 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>bdReportesModeler</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<domain>4E3C1032-F9E0-DBBA-C20D-9E84E8FD92F0</domain>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cpayto" id="2BA4D988-DD39-4CE7-6C65-1C34A7BF05A2">
+<sourceDDLFile>baseMPReportesUsuarios.sql</sourceDDLFile>
+<createdBy>eavila</createdBy>
+<createdTime>2014-08-24 21:25:07 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>bdReportesModeler</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<domain>6F64B051-E733-5705-D14A-41FDD63C17E9</domain>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cchktype" id="7E60A2D6-8276-4242-8DCC-17480A12B3AE">
+<sourceDDLFile>baseMPReportesUsuarios.sql</sourceDDLFile>
+<createdBy>eavila</createdBy>
+<createdTime>2014-08-24 21:25:07 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>bdReportesModeler</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<domain>110D32CA-C9A1-D0B6-8469-B2858CA26CC9</domain>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cbankno" id="1255B038-789A-B683-34C9-CEC519EB636F">
+<sourceDDLFile>baseMPReportesUsuarios.sql</sourceDDLFile>
+<createdBy>eavila</createdBy>
+<createdTime>2014-08-24 21:25:07 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>bdReportesModeler</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<domain>4E3C1032-F9E0-DBBA-C20D-9E84E8FD92F0</domain>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cchkno" id="031B25A0-366E-A156-B369-BEA31FA3C647">
+<sourceDDLFile>baseMPReportesUsuarios.sql</sourceDDLFile>
+<createdBy>eavila</createdBy>
+<createdTime>2014-08-24 21:25:07 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>bdReportesModeler</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<domain>4E3C1032-F9E0-DBBA-C20D-9E84E8FD92F0</domain>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ctogl" id="94656184-E601-3A4D-F757-F24AF5D7D4F8">
+<sourceDDLFile>baseMPReportesUsuarios.sql</sourceDDLFile>
+<createdBy>eavila</createdBy>
+<createdTime>2014-08-24 21:25:07 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>bdReportesModeler</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<domain>110D32CA-C9A1-D0B6-8469-B2858CA26CC9</domain>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="dcheck" id="67D5C589-1932-3906-536D-A3DB5A23D75D">
+<sourceDDLFile>baseMPReportesUsuarios.sql</sourceDDLFile>
+<createdBy>eavila</createdBy>
+<createdTime>2014-08-24 21:25:07 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>bdReportesModeler</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<domain>EFC1AC78-B1B0-4FDB-A7A5-C3E95ECD30CA</domain>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="dcreate" id="8A47C0D7-6B5F-BDFB-3043-74D6A586781C">
+<sourceDDLFile>baseMPReportesUsuarios.sql</sourceDDLFile>
+<createdBy>eavila</createdBy>
+<createdTime>2014-08-24 21:25:07 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>bdReportesModeler</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<domain>EFC1AC78-B1B0-4FDB-A7A5-C3E95ECD30CA</domain>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="lcancel" id="19D40B6B-FA1C-0714-465C-FA57D7FC6693">
+<sourceDDLFile>baseMPReportesUsuarios.sql</sourceDDLFile>
+<createdBy>eavila</createdBy>
+<createdTime>2014-08-24 21:25:07 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>bdReportesModeler</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT018</logicalDatatype>
+<domain>E5D3503E-76FA-A19B-B070-3AAF3223B684</domain>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="lhold" id="CEA80674-E9F0-14E9-F7F0-1FFA6E637D5C">
+<sourceDDLFile>baseMPReportesUsuarios.sql</sourceDDLFile>
+<createdBy>eavila</createdBy>
+<createdTime>2014-08-24 21:25:07 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>bdReportesModeler</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT018</logicalDatatype>
+<domain>E5D3503E-76FA-A19B-B070-3AAF3223B684</domain>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nchkamt" id="652AD753-3CF5-8478-00FE-225F4BFA5FEE">
+<sourceDDLFile>baseMPReportesUsuarios.sql</sourceDDLFile>
+<createdBy>eavila</createdBy>
+<createdTime>2014-08-24 21:25:07 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>bdReportesModeler</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>DBD4FF88-121E-9196-B77F-6E82EC49DB8A</domain>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nfchkamt" id="2BD80A2B-F333-A2C7-5186-DA580DE1B79B">
+<sourceDDLFile>baseMPReportesUsuarios.sql</sourceDDLFile>
+<createdBy>eavila</createdBy>
+<createdTime>2014-08-24 21:25:07 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>bdReportesModeler</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>DBD4FF88-121E-9196-B77F-6E82EC49DB8A</domain>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nxchgrate" id="91026F9B-E72C-84B7-FA19-5236BAE4982C">
+<sourceDDLFile>baseMPReportesUsuarios.sql</sourceDDLFile>
+<createdBy>eavila</createdBy>
+<createdTime>2014-08-24 21:25:07 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>bdReportesModeler</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>36A8E11E-57C0-C96C-C464-FD4DF1C8B03D</domain>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nbchkamt" id="794FE198-3BA2-8206-D604-61E4F9123440">
+<sourceDDLFile>baseMPReportesUsuarios.sql</sourceDDLFile>
+<createdBy>eavila</createdBy>
+<createdTime>2014-08-24 21:25:07 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>bdReportesModeler</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>DBD4FF88-121E-9196-B77F-6E82EC49DB8A</domain>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="centregado" id="7777EF2A-4E47-6174-D26E-310955616AD7">
+<sourceDDLFile>baseMPReportesUsuarios.sql</sourceDDLFile>
+<createdBy>eavila</createdBy>
+<createdTime>2014-08-24 21:25:07 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>bdReportesModeler</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<defaultValue>(</defaultValue>
+<use>0</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<domain>110D32CA-C9A1-D0B6-8469-B2858CA26CC9</domain>
+<usesDefaultValue>true</usesDefaultValue>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="51A61FEC-981A-44ED-3C2F-32289CB85A57" name="tbl_apchck_PK">
+<sourceDDLFile>baseMPReportesUsuarios.sql</sourceDDLFile>
+<createdBy>eavila</createdBy>
+<createdTime>2014-08-24 21:25:07 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>bdReportesModeler</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="031B25A0-366E-A156-B369-BEA31FA3C647"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

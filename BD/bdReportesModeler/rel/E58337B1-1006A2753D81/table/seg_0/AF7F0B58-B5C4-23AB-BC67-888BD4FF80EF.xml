@@ -14,9 +14,9 @@
 <createdTime>2014-08-18 02:40:01 UTC</createdTime>
 <generatorID>Generado por el Usuario</generatorID>
 <ownerDesignName>bdReportesModeler</ownerDesignName>
-<use>0</use>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
 <logicalDatatype>LOGDT025</logicalDatatype>
-<domain>F93A4156-ED12-C5D1-CE60-77295CBBBA6A</domain>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 <Column name="cempno" id="5ED46BFB-F481-38A8-B34C-A5CC68468DE4">
@@ -25,9 +25,9 @@
 <createdTime>2014-08-18 02:40:01 UTC</createdTime>
 <generatorID>Generado por el Usuario</generatorID>
 <ownerDesignName>bdReportesModeler</ownerDesignName>
-<use>0</use>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
 <logicalDatatype>LOGDT025</logicalDatatype>
-<domain>2639BFAF-369D-CA5A-C730-5489E56B2AB7</domain>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 <Column name="cdedno" id="CE343287-D361-A6DB-CB19-70C63115A401">
@@ -36,9 +36,9 @@
 <createdTime>2014-08-18 02:40:01 UTC</createdTime>
 <generatorID>Generado por el Usuario</generatorID>
 <ownerDesignName>bdReportesModeler</ownerDesignName>
-<use>0</use>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
 <logicalDatatype>LOGDT025</logicalDatatype>
-<domain>2639BFAF-369D-CA5A-C730-5489E56B2AB7</domain>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 <Column name="cdedcode" id="01CC1B0C-1354-46EC-11B7-62B886CB93BE">
@@ -47,9 +47,9 @@
 <createdTime>2014-08-18 02:40:01 UTC</createdTime>
 <generatorID>Generado por el Usuario</generatorID>
 <ownerDesignName>bdReportesModeler</ownerDesignName>
-<use>0</use>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
 <logicalDatatype>LOGDT025</logicalDatatype>
-<domain>2639BFAF-369D-CA5A-C730-5489E56B2AB7</domain>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 <Column name="cpayno" id="895346CD-DC40-C571-A02D-13900D29A5DB">
@@ -58,9 +58,9 @@
 <createdTime>2014-08-18 02:40:01 UTC</createdTime>
 <generatorID>Generado por el Usuario</generatorID>
 <ownerDesignName>bdReportesModeler</ownerDesignName>
-<use>0</use>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
 <logicalDatatype>LOGDT025</logicalDatatype>
-<domain>2639BFAF-369D-CA5A-C730-5489E56B2AB7</domain>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 <Column name="ndedamt" id="E7ACA416-6A6B-5BFC-C5B8-F8760FC943C8">
@@ -69,9 +69,9 @@
 <createdTime>2014-08-18 02:40:01 UTC</createdTime>
 <generatorID>Generado por el Usuario</generatorID>
 <ownerDesignName>bdReportesModeler</ownerDesignName>
-<use>0</use>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
-<domain>7AF8D9DB-7054-D84F-4CF6-AE74AB7E099F</domain>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 <Column name="tmodrec" id="ABEB31EB-0DB7-D2EC-F75A-D86CA164C9AE">
@@ -80,9 +80,9 @@
 <createdTime>2014-08-18 02:40:01 UTC</createdTime>
 <generatorID>Generado por el Usuario</generatorID>
 <ownerDesignName>bdReportesModeler</ownerDesignName>
-<use>0</use>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
 <logicalDatatype>LOGDT008</logicalDatatype>
-<domain>CCFC8448-611D-0564-7867-68A140CD8BE0</domain>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 <Column name="lsystem" id="FA0D2CCC-B358-DD2A-9644-E1B9B983B708">
@@ -91,9 +91,9 @@
 <createdTime>2014-08-18 02:40:01 UTC</createdTime>
 <generatorID>Generado por el Usuario</generatorID>
 <ownerDesignName>bdReportesModeler</ownerDesignName>
-<use>0</use>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
 <logicalDatatype>LOGDT018</logicalDatatype>
-<domain>6B2A6799-4104-6392-8D78-1541B337B4CF</domain>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 <Column name="cdesc" id="06BF45B6-D66B-B768-523D-3531BB159357">
@@ -102,9 +102,9 @@
 <createdTime>2014-08-18 02:40:01 UTC</createdTime>
 <generatorID>Generado por el Usuario</generatorID>
 <ownerDesignName>bdReportesModeler</ownerDesignName>
-<use>0</use>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
 <logicalDatatype>LOGDT025</logicalDatatype>
-<domain>B77780AF-B6FA-2E3C-A27C-57FD6F0748B5</domain>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 <Column name="ctrsno" id="C86F8228-824F-7451-4B9C-7BAAC0D428AE">
@@ -113,9 +113,9 @@
 <createdTime>2014-08-18 02:40:01 UTC</createdTime>
 <generatorID>Generado por el Usuario</generatorID>
 <ownerDesignName>bdReportesModeler</ownerDesignName>
-<use>0</use>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
 <logicalDatatype>LOGDT025</logicalDatatype>
-<domain>2639BFAF-369D-CA5A-C730-5489E56B2AB7</domain>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 </columns>

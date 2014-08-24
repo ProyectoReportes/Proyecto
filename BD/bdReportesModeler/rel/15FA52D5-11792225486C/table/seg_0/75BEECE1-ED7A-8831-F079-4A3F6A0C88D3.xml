@@ -1,0 +1,48 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="75BEECE1-ED7A-8831-F079-4A3F6A0C88D3" name="tbl_accchk">
+<sourceDDLFile>baseMPReportesUsuarios.sql</sourceDDLFile>
+<createdBy>eavila</createdBy>
+<createdTime>2014-08-24 21:25:07 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>bdReportesModeler</ownerDesignName>
+<schemaObject>6943A5CA-AF5A-A063-5E17-9603A6B856C0</schemaObject>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="namt" id="C6588E78-4D18-BC2A-3C46-328CCE805C7E">
+<sourceDDLFile>baseMPReportesUsuarios.sql</sourceDDLFile>
+<createdBy>eavila</createdBy>
+<createdTime>2014-08-24 21:25:07 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>bdReportesModeler</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>DBD4FF88-121E-9196-B77F-6E82EC49DB8A</domain>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="dfechamod" id="FBD065B8-7230-2AF5-C236-53DB0B941A09">
+<sourceDDLFile>baseMPReportesUsuarios.sql</sourceDDLFile>
+<createdBy>eavila</createdBy>
+<createdTime>2014-08-24 21:25:07 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>bdReportesModeler</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<domain>EFC1AC78-B1B0-4FDB-A7A5-C3E95ECD30CA</domain>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cdesc" id="C5E13B9D-2978-92EB-EB16-BD98E0B5D257">
+<sourceDDLFile>baseMPReportesUsuarios.sql</sourceDDLFile>
+<createdBy>eavila</createdBy>
+<createdTime>2014-08-24 21:25:07 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>bdReportesModeler</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>FA81333A-2E71-6257-4C60-A606FCC2C051</domain>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+</Table>
