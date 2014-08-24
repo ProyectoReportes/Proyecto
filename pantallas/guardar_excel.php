@@ -26,7 +26,7 @@ if(isset($_GET['reporte']))
             case 'presupuestario_programa':
                   $result = $reporte->reportePresupuestarioPrograma();
                   break;
-          case 'presupuesto_original':
+            case 'presupuesto_original':
                   $result = $reporte->reportePresupuestoOriginal();
                   break;
             case 'detalle_transacciones':
@@ -43,9 +43,21 @@ if(isset($_GET['reporte']))
                   $faFn=$_GET['faf'];
                   $result = $reporte->reporteCuentasPresExec($cargo,$depto,$codpres,$est,$fcIn,$fcFn,$faIn,$faFn);
                   break;
+            case 'cheques':
+                    if(!isset($_GET['chknum'])){$chknum='';}else{$chknum=$_GET['chknum'];}
+                    if(!isset($_GET['prov'])){$prov='';}else{$prov=$_GET['prov'];}
+                    if(!isset($_GET['banco'])){$banco='';}else{$banco=$_GET['banco'];}
+                    if(!isset($_GET['conc'])){$conc=0;}else{$conc=$_GET['conc'];}
+                    if(!isset($_GET['rete'])){$rete=0;}else{$rete=$_GET['rete'];}
+                    if(!isset($_GET['entr'])){$entr='';}else{$entr=$_GET['entr'];}
+                    
+                    $reporte = new ChequeMapper();
+                    
+                    $result= $reporte->mostrarCheque($chknum,$prov,$banco,$conc,$rete,$entr);
+                  break;
             default:
                   break;
-}
+        }
       
       $i = 2;
 

@@ -9,8 +9,8 @@ echo<<<"EL"
         <tr>
 
 EL;
-
-	    $cabecera = mssql_fetch_assoc($result); 
+    
+      $cabecera = mssql_fetch_assoc($result); 
 		  
       foreach ($cabecera as $indice => $valor) 
       { 
@@ -20,7 +20,10 @@ EL;
           echo "<th>ESTADO</th>";
         }
      
-	   	} 
+      }
+      
+      $i=1;
+      
       mssql_data_seek($result, 0); 
 
        echo "</tr> "; 
@@ -28,38 +31,43 @@ EL;
        echo "<tbody> ";
  
 
-	while($row = mssql_fetch_assoc($result)) {
-     $num = $row["# CHEQUE"];
-     ?> <tr class='registro'  value="<?php echo $num ?>" /> 
-     <?php 
-	   
-		  foreach ($row as $indice => $valor) {  
-	   echo " <td>{$valor}</td>\n ";
-     if($indice == "ENTREGADO")
-     {
-      if($row["CONCILIADO"] == "NO" && $row["RETENIDO"] == "NO" && $row["ENTREGADO"] == "NO")
-      {
-        
-        ?> <td><button type="button" onClick="entregarCheque(this)" class="btn btn-success" value="<?php echo $num; ?>">Entregar</button></td> <?php
-      }
-      elseif ($row["CONCILIADO"] == "SI")
-      {
-        echo "<td>Conciliado</td>";
-      }
-      elseif($row["RETENIDO"] == "SI")
-      {
-       echo "<td>Retenido</td>"; 
-      }
-      elseif ($row["ENTREGADO"] == "SI") 
-      {
-       $num = $row["# CHEQUE"];
-        ?> <td><button type="button" onClick="entregarCheque(this)" class="btn btn-warning" value="<?php echo $num; ?>">Revertir entrega</button></td> <?php
-   
-      }
+    while($row = mssql_fetch_assoc($result)) {
 
-     }
-		} 
-	   echo " </tr>\n ";
+        ?> <tr class='registro'  id="<?php echo "fila".$i;?>" /> 
+        <?php 
+
+        foreach ($row as $indice => $valor) {  
+            echo " <td>{$valor}</td>\n ";
+            if($indice == "ENTREGADO")
+            {   $num = $row["# CHEQUE"];
+                if($row["CONCILIADO"] == "NO" && $row["RETENIDO"] == "NO" && $row["ENTREGADO"] == "NO")
+                {
+
+                    ?> <td><button type="button" 
+                                onClick="entregarCheque('<?php echo $num; ?>',1,'<?php echo "fila".$i; ?>')" 
+                                class="btn btn-success">Entregar</button></td> <?php
+                }
+                elseif ($row["CONCILIADO"] == "SI")
+                {
+                    echo "<td>Conciliado</td>";
+                }
+                elseif($row["RETENIDO"] == "SI")
+                {
+                    echo "<td>Retenido</td>"; 
+                }
+                elseif ($row["ENTREGADO"] == "SI") 
+                {
+                    
+                    ?> <td><button type="button" 
+                                onClick="entregarCheque('<?php echo $num; ?>',0,'<?php echo "fila".$i; ?>')"
+                                class="btn btn-warning" >Revertir Entrega</button></td> <?php
+                }
+
+            }
+
+        } 
+        $i=$i + 1;
+        echo " </tr>\n ";
     } 
        echo<<<"ELO"
         </tbody>

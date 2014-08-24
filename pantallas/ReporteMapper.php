@@ -66,25 +66,7 @@ class ReporteMapper extends MapperBD{
 	return $result;
     }
 
-    function actualizarCheque()
-    {
-    	$result = mssql_query("exec sp_chk_actualizar", $this->conexion);
-    }
-    function entregarCheque($noCheque, $estado)
-    {
-
-    	$consulta = mssql_init("sp_chk_entregar", $this->conexion);
-        mssql_bind($consulta,"@num",$noCheque,SQLVARCHAR);
-        mssql_bind($consulta,"@entr",$estado,SQLVARCHAR);	
-
-        mssql_execute($consulta);
-
-    }
-    function mostrarCheque()
-    {
-    	$result = mssql_query("exec sp_chk_mostrar", $this->conexion);
-    	return $result;
-    }
+    
 
         
 }

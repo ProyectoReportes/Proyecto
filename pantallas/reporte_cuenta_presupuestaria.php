@@ -10,7 +10,7 @@ if(!isset($_SESSION["user_name"]))
 
 $reporte = new  ReporteMapper();
 
-$result = $reporte->reporteCuentasPresExec($cargo,$depto,$codpres,$est,$fcIn,$fcFn,$faIn,$faFn);
+//$result = $reporte->reporteCuentasPresExec($cargo,$depto,$codpres,$est,$fcIn,$fcFn,$faIn,$faFn);
 
 require('Site_header.php');
 
