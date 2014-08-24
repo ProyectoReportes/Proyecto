@@ -57,10 +57,10 @@ class ReporteMapper extends MapperBD{
         mssql_bind($consulta,"@depto",$depto,SQLVARCHAR);
         mssql_bind($consulta,"@codpres",$codpres,SQLVARCHAR);
         mssql_bind($consulta,"@est",$est,SQLVARCHAR);
-        mssql_bind($consulta,"@facrdIn",$faIn,SQLFLT8);
-        mssql_bind($consulta,"@facrdFn",$faFn,SQLFLT8);
-        mssql_bind($consulta,"@fcontrIn",$fcIn,SQLFLT8);
-        mssql_bind($consulta,"@fcontrFn",$fcFn,SQLFLT8);
+        mssql_bind($consulta,"@facrdIn",$faIn,SQLVARCHAR);
+        mssql_bind($consulta,"@facrdFn",$faFn,SQLVARCHAR);
+        mssql_bind($consulta,"@fcontrIn",$fcIn,SQLVARCHAR);
+        mssql_bind($consulta,"@fcontrFn",$fcFn,SQLVARCHAR);
         $result=mssql_execute($consulta);
         mssql_free_statement($consulta);
 	return $result;
