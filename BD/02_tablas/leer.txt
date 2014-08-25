@@ -1,0 +1,1 @@
+cstatus<> 't' and cjobtitle= cjobtitlno and prdept.cdeptno= prempy.cdeptno
